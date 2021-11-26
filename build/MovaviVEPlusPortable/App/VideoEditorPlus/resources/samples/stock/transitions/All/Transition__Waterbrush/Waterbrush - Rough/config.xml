@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="13208" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="13210" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Transition::Object"/>
+                    <oid type="ObjectRef" value="13206"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="13212" type="Predeclare">
+                    <typeName type="String" value="Transition::Waterbrush"/>
+                    <oid type="ObjectRef" value="13205"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="13206" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId type="String" value="{d7fa479c-202c-4010-ab38-74cc9ae36662}"/>
+        <item type="ObjectRef" value="13205"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_artistic"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Transitions"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="13205" type="Transition::Waterbrush">
+        <BaseOfObject objectId="13205" type="Transition::Object">
+            <id type="String" value="4b3d0c45-135d-4fee-9d7b-d569e9a3ceee"/>
+            <tag type="String" value="Waterbrush - Rough"/>
+            <description type="String" value="Desc Waterbrush - Rough"/>
+            <strategy type="int32_t" value="0"/>
+            <type type="int32_t" value="0"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <angle type="int32_t" value="45"/>
+        <size type="int32_t" value="45"/>
+        <rough type="int32_t" value="30"/>
+        <type type="int32_t" value="1"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="13206"/>
+</Archive>

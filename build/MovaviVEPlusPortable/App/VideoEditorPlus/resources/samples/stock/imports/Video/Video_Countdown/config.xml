@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="13863">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="13865">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="13861"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="13867">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="13860"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="13861">
+        <uniqueId type="String" value="{0d306290-e182-43d0-82e7-3de8bc3fd0ef}"/>
+        <item type="ObjectRef" value="13860"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="sample_video"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Imports"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="13860">
+        <tag type="String" value="Video_Countdown"/>
+        <description type="String" value="Desc Countdown"/>
+        <location type="String" value="#DOWNLOADABLE_PATH#/Video/countdown.avi"/>
+        <remoteUrl type="String" value="http://files.movavi.com/dl/stock/video/countdown.avi"/>
+        <kind type="int32_t" value="2"/>
+        <category type="String" value=""/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="13861"/>
+</Archive>

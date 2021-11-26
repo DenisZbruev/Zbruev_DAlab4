@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="22822" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="22824" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="22820"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="22826" type="Predeclare">
+                    <typeName type="String" value="Effect::FilmStrip"/>
+                    <oid type="ObjectRef" value="22819"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="22820" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{eee37db2-4f69-4baa-af07-20bfeaf6aa0f}"/>
+        <item type="ObjectRef" value="22819"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_artistic"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="22819" type="Effect::FilmStrip">
+        <BaseOfObject objectId="22819" type="Effect::VideoEffect">
+            <BaseOfObject objectId="22819" type="Effect::Object">
+                <id type="String" value="23426fc3-a681-413a-a9fe-340503101431"/>
+                <tag type="String" value="FilmStripSpider"/>
+                <uniqueId type="String" value="23426fc3-a681-413a-a9fe-340503101431"/>
+                <description type="String" value="Desc FilmStripSpider"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <type type="int32_t" value="1"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="22820"/>
+</Archive>

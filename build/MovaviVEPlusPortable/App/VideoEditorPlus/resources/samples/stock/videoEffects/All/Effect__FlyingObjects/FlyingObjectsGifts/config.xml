@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="22952" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="22954" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="22950"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="22956" type="Predeclare">
+                    <typeName type="String" value="Effect::FlyingObjects"/>
+                    <oid type="ObjectRef" value="22949"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="22950" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{0fcf77ac-0eac-4585-b208-8e2090685b3f}"/>
+        <item type="ObjectRef" value="22949"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_flying_objects"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="22949" type="Effect::FlyingObjects">
+        <BaseOfObject objectId="22949" type="Effect::VideoEffect">
+            <BaseOfObject objectId="22949" type="Effect::Object">
+                <id type="String" value="d3d9f297-74da-41d6-a955-8109cbed0020"/>
+                <tag type="String" value="FlyingObjectsGifts"/>
+                <uniqueId type="String" value="d3d9f297-74da-41d6-a955-8109cbed0020"/>
+                <description type="String" value="Desc FlyingObjectsGifts"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <preset type="int32_t" value="4"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="22950"/>
+</Archive>

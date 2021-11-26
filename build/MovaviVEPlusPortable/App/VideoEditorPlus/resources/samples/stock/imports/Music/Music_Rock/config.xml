@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="13363">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="13365">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="13361"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="13367">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="13360"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="13361">
+        <uniqueId type="String" value="{4f3eab1e-d508-4131-b4fa-373fb863070d}"/>
+        <item type="ObjectRef" value="13360"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="sample_music"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Imports"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="13360">
+        <tag type="String" value="Music_Rock"/>
+        <description type="String" value="Desc Rock"/>
+        <location type="String" value="#DOWNLOADABLE_PATH#/Music Library/Rock.mp3"/>
+        <remoteUrl type="String" value="http://files.movavi.com/dl/stock/music_library/Rock.mp3"/>
+        <kind type="int32_t" value="1"/>
+        <category type="String" value=""/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="13361"/>
+</Archive>

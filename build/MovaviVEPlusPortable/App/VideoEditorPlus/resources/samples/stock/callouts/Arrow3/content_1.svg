@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 70" fill="#FC0C59" stroke="#FC0C59" stroke-width="0" stroke-opacity="1.0" fill-opacity="1.0" >
+	<g transform="translate(10 5)">
+		<path d="M 2,28 294,14 284,0 340,30 284,60 294,46 2,32 A1,1 0 0 1 2,28 z" >
+			<animate attributeName="transform" begin="0ms" dur="1000ms" from="translate(-360 0)" to="translate(0 0)" repeatCount="1"/>
+		</path>
+	</g>
+</svg>

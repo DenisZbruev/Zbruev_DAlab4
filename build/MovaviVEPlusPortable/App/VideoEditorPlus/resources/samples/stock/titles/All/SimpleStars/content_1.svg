@@ -1,0 +1,54 @@
+<svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 385 80" fill="#ffffff">
+ <defs>
+  <polygon points="272.8,194.5 252.9,205 256.7,182.8 240.6,167.1 262.8,163.9 272.8,143.7 282.7,163.9 305,167.1 288.9,182.8 292.7,205" id="star" transform="translate(-240.6,-143.7)" fill="#1D1D1B"/>
+ </defs>
+ <g transform="translate(-10,-150)">
+  <line stroke="#1D1D1B" y1="209.8" stroke-miterlimit="10" y2="209.8" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="4" x1="106">
+   <animate dur="1000ms" attributeName="x2" to="23.1" repeatCount="1" from="106" fill="freeze" begin="0ms"/>
+  </line>
+  <line stroke="#1D1D1B" y1="209.8" stroke-miterlimit="10" y2="209.8" stroke-linejoin="round" x2="297.9" stroke-linecap="round" fill="none" stroke-width="4" x1="380.9">
+   <animate dur="1000ms" id="line_expand" attributeName="x1" to="380.9" repeatCount="1" from="297.9" fill="freeze" begin="0ms"/>
+  </line>
+  <g transform="translate(159,173)">
+   <g>
+    <g>
+     <g visibility="hidden">
+      <use xlink:href="#star"/>
+      <animate dur="1000ms" id="star_rotate" attributeName="transform" to="rotate(216 32.2 30.65)" additive="replace" from="rotate(0 32.2 30.65)" repeatCount="1" fill="freeze" begin="line_expand.end"/>
+      <animate dur="1000ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="line_expand.end"/>
+     </g>
+     <animate dur="1000ms" attributeName="transform" to="scale(0.225)" additive="replace" from="scale(0)" repeatCount="1" fill="freeze" begin="line_expand.end"/>
+    </g>
+    <animate dur="1000ms" attributeName="transform" to="translate(-7.245 -6.89625)" additive="replace" from="translate(0 0)" repeatCount="1" fill="freeze" begin="line_expand.end"/>
+   </g>
+  </g>
+  <g transform="translate(201,174)">
+   <g>
+    <g>
+     <g visibility="hidden">
+      <use xlink:href="#star"/>
+      <animate dur="1000ms" attributeName="transform" to="rotate(216 32.2 30.65)" additive="replace" from="rotate(0 32.2 30.65)" repeatCount="1" fill="freeze" begin="line_expand.end"/>
+      <animate dur="1000ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="line_expand.end"/>
+     </g>
+     <animate dur="1000ms" attributeName="transform" to="scale(0.425)" additive="replace" from="scale(0)" repeatCount="1" fill="freeze" begin="line_expand.end"/>
+    </g>
+    <animate dur="1000ms" attributeName="transform" to="translate(-13.685 -13.02625)" additive="replace" from="translate(0 0)" repeatCount="1" fill="freeze" begin="line_expand.end"/>
+   </g>
+  </g>
+  <g transform="translate(244,173)">
+   <g>
+    <g>
+     <g visibility="hidden">
+      <use xlink:href="#star"/>
+      <animate dur="1000ms" attributeName="transform" to="rotate(216 32.2 30.65)" additive="replace" from="rotate(0 32.2 30.65)" repeatCount="1" fill="freeze" begin="line_expand.end"/>
+      <animate dur="1000ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="line_expand.end"/>
+     </g>
+     <animate dur="1000ms" attributeName="transform" to="scale(0.225)" additive="replace" from="scale(0)" repeatCount="1" fill="freeze" begin="line_expand.end"/>
+    </g>
+    <animate dur="1000ms" attributeName="transform" to="translate(-7.245 -6.89625)" additive="replace" from="translate(0 0)" repeatCount="1" fill="freeze" begin="line_expand.end"/>
+   </g>
+  </g>
+ </g>
+ <animate dur="1000ms" id="CONCLUSION" attributeName="stroke-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="star_rotate.end"/>
+ <animate dur="1000ms" attributeName="fill-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="CONCLUSION.begin"/>
+</svg>

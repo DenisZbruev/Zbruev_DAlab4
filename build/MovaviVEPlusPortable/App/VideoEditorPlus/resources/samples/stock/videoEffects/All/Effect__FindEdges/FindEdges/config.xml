@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="22832" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="22834" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="22830"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="22836" type="Predeclare">
+                    <typeName type="String" value="Effect::FindEdges"/>
+                    <oid type="ObjectRef" value="22829"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="22830" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{4fb7b49e-349f-4fa9-8cf2-46d169e91480}"/>
+        <item type="ObjectRef" value="22829"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_artistic"/>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="String" value="category_featured"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="22829" type="Effect::FindEdges">
+        <BaseOfObject objectId="22829" type="Effect::VideoEffect">
+            <BaseOfObject objectId="22829" type="Effect::Object">
+                <id type="String" value="333ac8ef-3fba-4491-b936-de0c3e9d1b16"/>
+                <tag type="String" value="FindEdges"/>
+                <uniqueId type="String" value="333ac8ef-3fba-4491-b936-de0c3e9d1b16"/>
+                <description type="String" value="Desc FindEdges"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <blend binaryData="P/AAAAAAAAA=" type="double" value="1"/>
+        <sensibility binaryData="QAAAAAAAAAA=" type="double" value="2"/>
+        <type type="int32_t" value="0"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="22830"/>
+</Archive>

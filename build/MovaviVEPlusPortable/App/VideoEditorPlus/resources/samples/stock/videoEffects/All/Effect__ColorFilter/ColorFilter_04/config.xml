@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="22362" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="22364" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="22360"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="22366" type="Predeclare">
+                    <typeName type="String" value="Effect::ColorFilter"/>
+                    <oid type="ObjectRef" value="22359"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="22360" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{179fe664-e09e-4dc4-a565-4a8e894491c3}"/>
+        <item type="ObjectRef" value="22359"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_color_filters"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="22359" type="Effect::ColorFilter">
+        <BaseOfObject objectId="22359" type="Effect::VideoEffect">
+            <BaseOfObject objectId="22359" type="Effect::Object">
+                <id type="String" value="5b9d1194-edb7-44fa-a01c-3f4ed2b160e8"/>
+                <tag type="String" value="ColorFilter_04"/>
+                <uniqueId type="String" value="5b9d1194-edb7-44fa-a01c-3f4ed2b160e8"/>
+                <description type="String" value="Desc ColorFilter_04"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <preset type="int32_t" value="3"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="22360"/>
+</Archive>

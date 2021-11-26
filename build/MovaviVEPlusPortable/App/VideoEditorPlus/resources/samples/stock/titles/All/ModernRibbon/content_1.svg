@@ -1,0 +1,19 @@
+<svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 170" fill="#ffffff">
+ <defs>
+  <path id="pattern" d="&#x9;M48,206&#x9;&#x9;L52,209.5&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M48,202&#x9;&#x9;L55,208&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M48,197&#x9;&#x9;L59,207&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M48,193&#x9;&#x9;L63,206&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M48,187&#x9;&#x9;L67,204&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M48,184&#x9;&#x9;L71,203&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M28,161&#x9;&#x9;L75,201&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M31,160&#x9;&#x9;L78,200&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M36,158&#x9;&#x9;L83,198&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M39,157&#x9;&#x9;L86,197&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M43,155&#x9;&#x9;L91,195&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M47,154&#x9;&#x9;L78,180&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M82,184&#x9;&#x9;L94,194&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M51,152&#x9;&#x9;L75,173&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M54,151&#x9;&#x9;L73,167&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M59,150&#x9;&#x9;L71,160&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M63,149&#x9;&#x9;L70,154&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M89,184&#x9;&#x9;L99,193&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M94,184&#x9;&#x9;L102,192&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M100,184&#x9;L107,190&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M105,184&#x9;L110,189&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M112,184&#x9;L115,187&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M117,184&#x9;L118,186  "/>
+  <clipPath id="clipMovavi">
+   <g transform="translate(0,-70)">
+    <polygon points="0,80 600,80 600,250 50,250">
+     <animate dur="2000ms" attributeName="transform" to="rotate(40 275 1000)" additive="replace" from="rotate(0 275 1000)" repeatCount="1" fill="freeze" begin="0ms"/>
+    </polygon>
+   </g>
+  </clipPath>
+ </defs>
+ <g transform="translate(0,-70)">
+  <use xlink:href="#pattern"/>
+  <use xlink:href="#pattern" transform="translate(550) scale(-1, 1)"/>
+  <path id="ribbon" d=" M70,130 C195,90 345,90 480,130  L468,178  C 338,143 212,143 82,178 Z"/>
+ </g>
+ <animate dur="1000ms" id="CONCLUSION" attributeName="stroke-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="2000ms"/>
+ <animate dur="1000ms" attributeName="fill-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="CONCLUSION.begin"/>
+</svg>

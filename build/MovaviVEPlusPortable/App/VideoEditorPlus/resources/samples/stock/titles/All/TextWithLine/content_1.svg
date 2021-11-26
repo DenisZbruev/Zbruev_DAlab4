@@ -1,0 +1,16 @@
+<svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 25" fill="#ffffff">
+ <defs>
+  <linearGradient id="white">
+   <stop stop-opacity="1" stop-color="#FFFFFF" offset="0"/>
+   <stop stop-opacity="0" stop-color="#FFFFFF" offset="1"/>
+  </linearGradient>
+  <g stroke="#FFF" id="arrow" fill="#FFF">
+   <rect x="0" y="10" height="5" width="750"/>
+   <path fill="url(#white)" d="M 749,10 850,12, 850,13 749,15 z"/>
+  </g>
+ </defs>
+ <use xlink:href="#arrow">
+  <animate dur="2000ms" id="appear" attributeName="transform" to="translate(0 0)" repeatCount="1" from="translate(-850 0)" fill="freeze" begin="0ms"/>
+  <animate dur="1000ms" id="CONCLUSION" attributeName="transform" to="translate(750 0)" from="translate(0 0)" repeatCount="1" fill="freeze" begin="appear.end"/>
+ </use>
+</svg>

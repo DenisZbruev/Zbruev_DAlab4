@@ -1,0 +1,84 @@
+<svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255 260" stroke-linejoin="round" stroke-linecap="round" fill="#ffffff">
+ <defs>
+  <line id="beam1" y1="82" y2="82" x2="127" fill="none" stroke-width="3" x1="127">
+   <animate dur="500ms" id="beam1_expansion" attributeName="x2" to="127" from="127" repeatCount="1" fill="freeze" begin="diamond_expansion.end"/>
+   <animate dur="500ms" attributeName="y2" to="70" from="82" repeatCount="1" fill="freeze" begin="diamond_expansion.end"/>
+  </line>
+  <line id="beam2" y1="82" y2="82" x2="127" fill="none" stroke-width="3" x1="127">
+   <animate dur="500ms" id="beam2_expansion" attributeName="x2" to="127" from="127" repeatCount="1" fill="freeze" begin="diamond_expansion.end"/>
+   <animate dur="500ms" attributeName="y2" to="65" from="82" repeatCount="1" fill="freeze" begin="diamond_expansion.end"/>
+  </line>
+  <path id="arrow_tail" fill="none" stroke-width="2" d="M223.3,77 l12,1 l4,-10"/>
+ </defs>
+ <path id="diamond" transform="translate(81,105)" fill="none" stroke-width="3">
+  <animate dur="500ms" id="diamond_expansion" attributeName="d" values="M46,21&#x9;L46,21&#x9;L46,21&#x9;L46,21&#x9;L46,21&#x9;L46,21&#x9;L46,21&#x9;L46,21&#x9;L46,21&#x9;L46,21&#x9;L46,21&#x9;L46,21&#x9;L46,21&#x9;L46,21&#x9;L46,21;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;M90,21&#x9;L75,2&#x9;L67,21&#x9;L46,2&#x9;L26,21&#x9;L19,2&#x9;L3,21&#x9;L46,61&#x9;L26,21&#x9;L67,21&#x9;L46,61&#x9;L90,21&#x9;L3,21&#x9;L19,2&#x9;L75,2&#x9;" repeatCount="1" fill="freeze" begin="0ms"/>
+ </path>
+ <g visibility="hidden" id="beams" fill="none">
+  <use xlink:href="#beam2"/>
+  <use xlink:href="#beam1" transform="rotate(45 127 132)"/>
+  <use xlink:href="#beam2" transform="rotate(90 127 132)"/>
+  <use xlink:href="#beam1" transform="rotate(135 127 132)"/>
+  <use xlink:href="#beam2" transform="rotate(180 127 132)"/>
+  <use xlink:href="#beam1" transform="rotate(225 127 132)"/>
+  <use xlink:href="#beam2" transform="rotate(270 127 132)"/>
+  <use xlink:href="#beam1" transform="rotate(315 127 132)"/>
+  <use xlink:href="#beam2" transform="rotate(360 127 132)"/>
+  <animate dur="1000ms" attributeName="visibility" values="hidden; visible" repeatCount="1" fill="freeze" begin="0ms"/>
+ </g>
+ <g id="arrow1" fill="none">
+  <circle cy="130" r="120" id="arrow1_part1" stroke-dasharray="0 700 0 800" cx="127" stroke-width="3">
+   <animate dur="100ms" id="arrow1_part1_expand" attributeName="stroke-dasharray" to="0 700 54 800" repeatCount="1" from="0 700 0 800" fill="freeze" begin="beam1_expansion.end"/>
+  </circle>
+  <circle cy="130" r="120" id="arrow1_part2" stroke-dasharray="0 800" cx="127" stroke-width="3">
+   <animate dur="1000ms" id="arrow1_part2_expand" attributeName="stroke-dasharray" to="430 800" repeatCount="1" from="0 800" fill="freeze" begin="arrow1_part1_expand.end"/>
+  </circle>
+  <path visibility="hidden" id="arrow1_head" fill="none" stroke-width="3" d="M222.5,73 l13,5 l2,-14">
+   <animate dur="1100ms" id="arrow1_head_move" attributeName="transform" to="rotate(232 127 130)" additive="replace" from="rotate(0 127 130)" repeatCount="1" fill="freeze" begin="beam1_expansion.end-10ms"/>
+   <animate dur="1100ms" id="arrow1_head_visibility" attributeName="visibility" values="visible; visible" repeatCount="1" fill="freeze" begin="beam1_expansion.end-10ms"/>
+  </path>
+  <g visibility="hidden" id="arrow1_tail_1">
+   <use xlink:href="#arrow_tail"/>
+   <animate dur="100ms" attributeName="transform" to="rotate(10 127 130)" additive="replace" from="rotate(2 127 130)" repeatCount="1" fill="freeze" begin="arrow1_head_move.end-100ms"/>
+   <animate dur="100ms" attributeName="visibility" values="visible; visible" repeatCount="1" fill="freeze" begin="arrow1_head_move.end-100ms"/>
+  </g>
+  <g visibility="hidden" id="arrow1_tail_2">
+   <use xlink:href="#arrow_tail"/>
+   <animate dur="75ms" attributeName="transform" to="rotate(7 127 130)" additive="replace" from="rotate(2 127 130)" repeatCount="1" fill="freeze" begin="arrow1_head_move.end-75ms"/>
+   <animate dur="75ms" attributeName="visibility" values="visible; visible" repeatCount="1" fill="freeze" begin="arrow1_head_move.end-75ms"/>
+  </g>
+  <g visibility="hidden" id="arrow1_tail_3">
+   <use xlink:href="#arrow_tail"/>
+   <animate dur="50ms" attributeName="transform" to="rotate(4 127 130)" additive="replace" from="rotate(2 127 130)" repeatCount="1" fill="freeze" begin="arrow1_head_move.end-50ms"/>
+   <animate dur="50ms" attributeName="visibility" values="visible; visible" repeatCount="1" fill="freeze" begin="arrow1_head_move.end-50ms"/>
+  </g>
+ </g>
+ <g id="arrow2" transform="translate(25,25) scale(0.8) rotate(180 127 130)" fill="none">
+  <circle cy="130" r="120" id="arrow2_part1" stroke-dasharray="0 700 0 800" cx="127" stroke-width="3">
+   <animate dur="100ms" id="arrow2_part1_expand" attributeName="stroke-dasharray" to="0 700 54 800" repeatCount="1" from="0 700 0 800" fill="freeze" begin="arrow1_part2_expand.end+1100ms"/>
+  </circle>
+  <circle cy="130" r="120" id="arrow2_part2" stroke-dasharray="0 800" cx="127" stroke-width="3">
+   <animate dur="1000ms" id="arrow2_part2_expand" attributeName="stroke-dasharray" to="430 800" repeatCount="1" from="0 800" fill="freeze" begin="arrow2_part1_expand.end"/>
+  </circle>
+  <path visibility="hidden" id="arrow2_head" fill="none" stroke-width="3" d="M222.5,73 l13,5 l2,-14">
+   <animate dur="1100ms" id="arrow2_head_move" attributeName="transform" to="rotate(231 127 130)" additive="replace" from="rotate(0 127 130)" repeatCount="1" fill="freeze" begin="arrow1_part2_expand.end+1090ms"/>
+   <animate dur="1100ms" id="arrow2_head_visibility" attributeName="visibility" values="visible; visible" repeatCount="1" fill="freeze" begin="arrow2_head_move.begin"/>
+  </path>
+  <g visibility="hidden" id="arrow2_tail_1">
+   <use xlink:href="#arrow_tail"/>
+   <animate dur="100ms" attributeName="transform" to="rotate(10 127 130)" additive="replace" from="rotate(2 127 130)" repeatCount="1" fill="freeze" begin="arrow2_head_move.end-100ms"/>
+   <animate dur="100ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="arrow2_head_move.end-100ms"/>
+  </g>
+  <g visibility="hidden" id="arrow2_tail_2">
+   <use xlink:href="#arrow_tail"/>
+   <animate dur="75ms" attributeName="transform" to="rotate(7 127 130)" additive="replace" from="rotate(2 127 130)" repeatCount="1" fill="freeze" begin="arrow2_head_move.end-75ms"/>
+   <animate dur="75ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="arrow2_head_move.end-75ms"/>
+  </g>
+  <g visibility="hidden" id="arrow2_tail_3">
+   <use xlink:href="#arrow_tail"/>
+   <animate dur="50ms" attributeName="transform" to="rotate(4 127 130)" additive="replace" from="rotate(2 127 130)" repeatCount="1" fill="freeze" begin="arrow2_head_move.end-50ms"/>
+   <animate dur="50ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="arrow2_head_move.end-50ms"/>
+  </g>
+ </g>
+ <animate dur="1000ms" id="CONCLUSION" attributeName="stroke-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="arrow2_head_move.end"/>
+ <animate dur="1000ms" attributeName="fill-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="CONCLUSION.begin"/>
+</svg>

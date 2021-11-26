@@ -1,0 +1,616 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="28254">
+        <predeclarations size="32" type="Array">
+            <Item index="1" type="Item">
+                <Data type="Predeclare" objectId="28256">
+                    <typeName value="Collection::PersistentItem::Overlay::Preset" type="String"/>
+                    <oid value="28252" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data type="Predeclare" objectId="28258">
+                    <typeName value="Overlay::Preset" type="String"/>
+                    <oid value="28188" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="5" type="Array">
+                        <Item index="1" type="Item">
+                            <Data value="28198" type="ObjectRef"/>
+                        </Item>
+                        <Item index="2" type="Item">
+                            <Data value="28210" type="ObjectRef"/>
+                        </Item>
+                        <Item index="3" type="Item">
+                            <Data value="28222" type="ObjectRef"/>
+                        </Item>
+                        <Item index="4" type="Item">
+                            <Data value="28234" type="ObjectRef"/>
+                        </Item>
+                        <Item index="5" type="Item">
+                            <Data value="28246" type="ObjectRef"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item index="3" type="Item">
+                <Data type="Predeclare" objectId="28260">
+                    <typeName value="Overlay::Item" type="String"/>
+                    <oid value="28198" type="ObjectRef"/>
+                    <poid value="28188" type="ObjectRef"/>
+                    <refs size="3" type="Array">
+                        <Item index="1" type="Item">
+                            <Data value="28199" type="ObjectRef"/>
+                        </Item>
+                        <Item index="2" type="Item">
+                            <Data value="28200" type="ObjectRef"/>
+                        </Item>
+                        <Item index="3" type="Item">
+                            <Data value="28203" type="ObjectRef"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item index="4" type="Item">
+                <Data type="Predeclare" objectId="28262">
+                    <typeName value="Types::Transform" type="String"/>
+                    <oid value="28199" type="ObjectRef"/>
+                    <poid value="28198" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="5" type="Item">
+                <Data type="Predeclare" objectId="28265">
+                    <typeName value="TransformationEnvelope" type="String"/>
+                    <oid value="28200" type="ObjectRef"/>
+                    <poid value="28198" type="ObjectRef"/>
+                    <refs size="1" type="Array">
+                        <Item index="1" type="Item">
+                            <Data value="28201" type="ObjectRef"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item index="6" type="Item">
+                <Data type="Predeclare" objectId="28267">
+                    <typeName value="Transformation::Object" type="String"/>
+                    <oid value="28201" type="ObjectRef"/>
+                    <poid value="28200" type="ObjectRef"/>
+                    <refs size="1" type="Array">
+                        <Item index="1" type="Item">
+                            <Data value="28202" type="ObjectRef"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item index="7" type="Item">
+                <Data type="Predeclare" objectId="28269">
+                    <typeName value="Types::Transform" type="String"/>
+                    <oid value="28202" type="ObjectRef"/>
+                    <poid value="28201" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="8" type="Item">
+                <Data type="Predeclare" objectId="28274">
+                    <typeName value="Types::Pen" type="String"/>
+                    <oid value="28203" type="ObjectRef"/>
+                    <poid value="28198" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="9" type="Item">
+                <Data type="Predeclare" objectId="28278">
+                    <typeName value="Overlay::Item" type="String"/>
+                    <oid value="28210" type="ObjectRef"/>
+                    <poid value="28188" type="ObjectRef"/>
+                    <refs size="3" type="Array">
+                        <Item index="1" type="Item">
+                            <Data value="28211" type="ObjectRef"/>
+                        </Item>
+                        <Item index="2" type="Item">
+                            <Data value="28212" type="ObjectRef"/>
+                        </Item>
+                        <Item index="3" type="Item">
+                            <Data value="28215" type="ObjectRef"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item index="10" type="Item">
+                <Data type="Predeclare" objectId="28280">
+                    <typeName value="Types::Transform" type="String"/>
+                    <oid value="28211" type="ObjectRef"/>
+                    <poid value="28210" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="11" type="Item">
+                <Data type="Predeclare" objectId="28283">
+                    <typeName value="TransformationEnvelope" type="String"/>
+                    <oid value="28212" type="ObjectRef"/>
+                    <poid value="28210" type="ObjectRef"/>
+                    <refs size="1" type="Array">
+                        <Item index="1" type="Item">
+                            <Data value="28213" type="ObjectRef"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item index="12" type="Item">
+                <Data type="Predeclare" objectId="28285">
+                    <typeName value="Transformation::Object" type="String"/>
+                    <oid value="28213" type="ObjectRef"/>
+                    <poid value="28212" type="ObjectRef"/>
+                    <refs size="1" type="Array">
+                        <Item index="1" type="Item">
+                            <Data value="28214" type="ObjectRef"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item index="13" type="Item">
+                <Data type="Predeclare" objectId="28287">
+                    <typeName value="Types::Transform" type="String"/>
+                    <oid value="28214" type="ObjectRef"/>
+                    <poid value="28213" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="14" type="Item">
+                <Data type="Predeclare" objectId="28292">
+                    <typeName value="Types::Pen" type="String"/>
+                    <oid value="28215" type="ObjectRef"/>
+                    <poid value="28210" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="15" type="Item">
+                <Data type="Predeclare" objectId="28296">
+                    <typeName value="Overlay::Item" type="String"/>
+                    <oid value="28222" type="ObjectRef"/>
+                    <poid value="28188" type="ObjectRef"/>
+                    <refs size="3" type="Array">
+                        <Item index="1" type="Item">
+                            <Data value="28223" type="ObjectRef"/>
+                        </Item>
+                        <Item index="2" type="Item">
+                            <Data value="28224" type="ObjectRef"/>
+                        </Item>
+                        <Item index="3" type="Item">
+                            <Data value="28227" type="ObjectRef"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item index="16" type="Item">
+                <Data type="Predeclare" objectId="28298">
+                    <typeName value="Types::Transform" type="String"/>
+                    <oid value="28223" type="ObjectRef"/>
+                    <poid value="28222" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="17" type="Item">
+                <Data type="Predeclare" objectId="28301">
+                    <typeName value="TransformationEnvelope" type="String"/>
+                    <oid value="28224" type="ObjectRef"/>
+                    <poid value="28222" type="ObjectRef"/>
+                    <refs size="1" type="Array">
+                        <Item index="1" type="Item">
+                            <Data value="28225" type="ObjectRef"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item index="18" type="Item">
+                <Data type="Predeclare" objectId="28303">
+                    <typeName value="Transformation::Object" type="String"/>
+                    <oid value="28225" type="ObjectRef"/>
+                    <poid value="28224" type="ObjectRef"/>
+                    <refs size="1" type="Array">
+                        <Item index="1" type="Item">
+                            <Data value="28226" type="ObjectRef"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item index="19" type="Item">
+                <Data type="Predeclare" objectId="28305">
+                    <typeName value="Types::Transform" type="String"/>
+                    <oid value="28226" type="ObjectRef"/>
+                    <poid value="28225" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="20" type="Item">
+                <Data type="Predeclare" objectId="28310">
+                    <typeName value="Types::Pen" type="String"/>
+                    <oid value="28227" type="ObjectRef"/>
+                    <poid value="28222" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="21" type="Item">
+                <Data type="Predeclare" objectId="28314">
+                    <typeName value="Overlay::Item" type="String"/>
+                    <oid value="28234" type="ObjectRef"/>
+                    <poid value="28188" type="ObjectRef"/>
+                    <refs size="3" type="Array">
+                        <Item index="1" type="Item">
+                            <Data value="28235" type="ObjectRef"/>
+                        </Item>
+                        <Item index="2" type="Item">
+                            <Data value="28236" type="ObjectRef"/>
+                        </Item>
+                        <Item index="3" type="Item">
+                            <Data value="28239" type="ObjectRef"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item index="22" type="Item">
+                <Data type="Predeclare" objectId="28316">
+                    <typeName value="Types::Transform" type="String"/>
+                    <oid value="28235" type="ObjectRef"/>
+                    <poid value="28234" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="23" type="Item">
+                <Data type="Predeclare" objectId="28319">
+                    <typeName value="TransformationEnvelope" type="String"/>
+                    <oid value="28236" type="ObjectRef"/>
+                    <poid value="28234" type="ObjectRef"/>
+                    <refs size="1" type="Array">
+                        <Item index="1" type="Item">
+                            <Data value="28237" type="ObjectRef"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item index="24" type="Item">
+                <Data type="Predeclare" objectId="28321">
+                    <typeName value="Transformation::Object" type="String"/>
+                    <oid value="28237" type="ObjectRef"/>
+                    <poid value="28236" type="ObjectRef"/>
+                    <refs size="1" type="Array">
+                        <Item index="1" type="Item">
+                            <Data value="28238" type="ObjectRef"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item index="25" type="Item">
+                <Data type="Predeclare" objectId="28323">
+                    <typeName value="Types::Transform" type="String"/>
+                    <oid value="28238" type="ObjectRef"/>
+                    <poid value="28237" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="26" type="Item">
+                <Data type="Predeclare" objectId="28328">
+                    <typeName value="Types::Pen" type="String"/>
+                    <oid value="28239" type="ObjectRef"/>
+                    <poid value="28234" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="27" type="Item">
+                <Data type="Predeclare" objectId="28332">
+                    <typeName value="Overlay::Item" type="String"/>
+                    <oid value="28246" type="ObjectRef"/>
+                    <poid value="28188" type="ObjectRef"/>
+                    <refs size="3" type="Array">
+                        <Item index="1" type="Item">
+                            <Data value="28247" type="ObjectRef"/>
+                        </Item>
+                        <Item index="2" type="Item">
+                            <Data value="28248" type="ObjectRef"/>
+                        </Item>
+                        <Item index="3" type="Item">
+                            <Data value="28251" type="ObjectRef"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item index="28" type="Item">
+                <Data type="Predeclare" objectId="28334">
+                    <typeName value="Types::Transform" type="String"/>
+                    <oid value="28247" type="ObjectRef"/>
+                    <poid value="28246" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="29" type="Item">
+                <Data type="Predeclare" objectId="28337">
+                    <typeName value="TransformationEnvelope" type="String"/>
+                    <oid value="28248" type="ObjectRef"/>
+                    <poid value="28246" type="ObjectRef"/>
+                    <refs size="1" type="Array">
+                        <Item index="1" type="Item">
+                            <Data value="28249" type="ObjectRef"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item index="30" type="Item">
+                <Data type="Predeclare" objectId="28339">
+                    <typeName value="Transformation::Object" type="String"/>
+                    <oid value="28249" type="ObjectRef"/>
+                    <poid value="28248" type="ObjectRef"/>
+                    <refs size="1" type="Array">
+                        <Item index="1" type="Item">
+                            <Data value="28250" type="ObjectRef"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item index="31" type="Item">
+                <Data type="Predeclare" objectId="28341">
+                    <typeName value="Types::Transform" type="String"/>
+                    <oid value="28250" type="ObjectRef"/>
+                    <poid value="28249" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="32" type="Item">
+                <Data type="Predeclare" objectId="28346">
+                    <typeName value="Types::Pen" type="String"/>
+                    <oid value="28251" type="ObjectRef"/>
+                    <poid value="28246" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Overlay::Preset" objectId="28252">
+        <uniqueId type="String" value="{19acd355-b76b-42e7-a62e-239fe49fa13d}"/>
+        <item value="28188" type="ObjectRef"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_artistic" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Title" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject type="Overlay::Preset" objectId="28188">
+        <type value="1" type="int32_t"/>
+        <scriptId value="Simple1" type="String"/>
+        <scriptSpeed binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+        <items size="5" type="Array">
+            <Item index="1" type="Item">
+                <Data type="Overlay::Item" objectId="28198">
+                    <type value="2" type="int32_t"/>
+                    <text value="content_1.svg" type="FileContent"/>
+                    <transform type="Types::Transform" objectId="28199">
+                        <m11 binaryData="P/zMzMAAAAA=" value="1.8" type="double"/>
+                        <m12 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m13 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m21 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m22 binaryData="P/zMzMAAAAA=" value="1.8" type="double"/>
+                        <m23 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m31 binaryData="QHfwAAAAAAA=" value="383" type="double"/>
+                        <m32 binaryData="QDsAAAAAAAA=" value="27" type="double"/>
+                        <m33 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                    </transform>
+                    <envelope type="TransformationEnvelope" objectId="28200">
+                        <defaultValue type="Transformation::Object" objectId="28201">
+                            <matrix type="Types::Transform" objectId="28202">
+                                <m11 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                                <m12 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m13 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m21 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m22 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                                <m23 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m31 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m32 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m33 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                            </matrix>
+                            <opacity value="100" type="int32_t"/>
+                        </defaultValue>
+                        <keyValues size="0" type="Array"/>
+                    </envelope>
+                    <scriptRole value="Fade Out" type="String"/>
+                    <editTime binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                    <outline type="Types::Pen" objectId="28203">
+                        <color value="0" type="uint32_t"/>
+                        <width value="0" type="int32_t"/>
+                        <enabled value="0" type="bool"/>
+                    </outline>
+                    <editable value="1" type="bool"/>
+                    <features value="0" type="int32_t"/>
+                    <textWidth binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                    <arcRadius binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data type="Overlay::Item" objectId="28210">
+                    <type value="2" type="int32_t"/>
+                    <text value="content_2.svg" type="FileContent"/>
+                    <transform type="Types::Transform" objectId="28211">
+                        <m11 binaryData="QAAAAAAAAAA=" value="2" type="double"/>
+                        <m12 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m13 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m21 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m22 binaryData="QAAAAAAAAAA=" value="2" type="double"/>
+                        <m23 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m31 binaryData="QGhgAAAAAAA=" value="195" type="double"/>
+                        <m32 binaryData="QHNgAAAAAAA=" value="310" type="double"/>
+                        <m33 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                    </transform>
+                    <envelope type="TransformationEnvelope" objectId="28212">
+                        <defaultValue type="Transformation::Object" objectId="28213">
+                            <matrix type="Types::Transform" objectId="28214">
+                                <m11 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                                <m12 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m13 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m21 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m22 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                                <m23 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m31 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m32 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m33 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                            </matrix>
+                            <opacity value="100" type="int32_t"/>
+                        </defaultValue>
+                        <keyValues size="0" type="Array"/>
+                    </envelope>
+                    <scriptRole value="Fade Out" type="String"/>
+                    <editTime binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                    <outline type="Types::Pen" objectId="28215">
+                        <color value="0" type="uint32_t"/>
+                        <width value="0" type="int32_t"/>
+                        <enabled value="0" type="bool"/>
+                    </outline>
+                    <editable value="1" type="bool"/>
+                    <features value="0" type="int32_t"/>
+                    <textWidth binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                    <arcRadius binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                </Data>
+            </Item>
+            <Item index="3" type="Item">
+                <Data type="Overlay::Item" objectId="28222">
+                    <type value="1" type="int32_t"/>
+                    <text value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>p, li { white-space: pre-wrap; }&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'BERNIER Shade'; font-size:120pt; color:#ffffffff; background-color:#00000000; &quot;>&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'BERNIER Shade'; font-size:120pt; color:#ffffffff; background-color:#00000000; &quot;>YOUR TEXT&lt;/span>&lt;/p>&lt;/body>&lt;/html>" type="String"/>
+                    <transform type="Types::Transform" objectId="28223">
+                        <m11 binaryData="P+QAAAAAAAA=" value="0.625" type="double"/>
+                        <m12 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m13 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m21 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m22 binaryData="P+QAAAAAAAA=" value="0.625" type="double"/>
+                        <m23 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m31 binaryData="QHRwAAAAAAA=" value="327" type="double"/>
+                        <m32 binaryData="QHIgAAAAAAA=" value="290" type="double"/>
+                        <m33 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                    </transform>
+                    <envelope type="TransformationEnvelope" objectId="28224">
+                        <defaultValue type="Transformation::Object" objectId="28225">
+                            <matrix type="Types::Transform" objectId="28226">
+                                <m11 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                                <m12 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m13 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m21 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m22 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                                <m23 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m31 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m32 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m33 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                            </matrix>
+                            <opacity value="100" type="int32_t"/>
+                        </defaultValue>
+                        <keyValues size="0" type="Array"/>
+                    </envelope>
+                    <scriptRole value="Fade Out" type="String"/>
+                    <editTime binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                    <outline type="Types::Pen" objectId="28227">
+                        <color value="4278190080" type="uint32_t"/>
+                        <width value="0" type="int32_t"/>
+                        <enabled value="0" type="bool"/>
+                    </outline>
+                    <editable value="1" type="bool"/>
+                    <features value="0" type="int32_t"/>
+                    <textWidth binaryData="QI9AAAAAAAA=" value="1000" type="double"/>
+                    <arcRadius binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                </Data>
+            </Item>
+            <Item index="4" type="Item">
+                <Data type="Overlay::Item" objectId="28234">
+                    <type value="1" type="int32_t"/>
+                    <text value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>p, li { white-space: pre-wrap; }&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'BERNIER Regular'; font-size:72pt; color:#ffffffff; background-color:#00000000; &quot;>&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'BERNIER Regular'; font-size:72pt; color:#ffffffff; background-color:#00000000; &quot;>Title text here&lt;/span>&lt;/p>&lt;/body>&lt;/html>" type="String"/>
+                    <transform type="Types::Transform" objectId="28235">
+                        <m11 binaryData="P+QAAAAAAAA=" value="0.625" type="double"/>
+                        <m12 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m13 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m21 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m22 binaryData="P+QAAAAAAAA=" value="0.625" type="double"/>
+                        <m23 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m31 binaryData="QHRwAAAAAAA=" value="327" type="double"/>
+                        <m32 binaryData="QFaAAAAAAAA=" value="90" type="double"/>
+                        <m33 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                    </transform>
+                    <envelope type="TransformationEnvelope" objectId="28236">
+                        <defaultValue type="Transformation::Object" objectId="28237">
+                            <matrix type="Types::Transform" objectId="28238">
+                                <m11 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                                <m12 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m13 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m21 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m22 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                                <m23 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m31 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m32 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m33 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                            </matrix>
+                            <opacity value="100" type="int32_t"/>
+                        </defaultValue>
+                        <keyValues size="0" type="Array"/>
+                    </envelope>
+                    <scriptRole value="Fade Out" type="String"/>
+                    <editTime binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                    <outline type="Types::Pen" objectId="28239">
+                        <color value="4278190080" type="uint32_t"/>
+                        <width value="0" type="int32_t"/>
+                        <enabled value="0" type="bool"/>
+                    </outline>
+                    <editable value="1" type="bool"/>
+                    <features value="0" type="int32_t"/>
+                    <textWidth binaryData="QI9AAAAAAAA=" value="1000" type="double"/>
+                    <arcRadius binaryData="P/BmZmAAAAA=" value="1.025" type="double"/>
+                </Data>
+            </Item>
+            <Item index="5" type="Item">
+                <Data type="Overlay::Item" objectId="28246">
+                    <type value="1" type="int32_t"/>
+                    <text value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>p, li { white-space: pre-wrap; }&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'BERNIER Regular'; font-size:72pt; color:#ffffffff; background-color:#00000000; &quot;>&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'BERNIER Regular'; font-size:72pt; color:#ffffffff; background-color:#00000000; &quot;>and title text here&lt;/span>&lt;/p>&lt;/body>&lt;/html>" type="String"/>
+                    <transform type="Types::Transform" objectId="28247">
+                        <m11 binaryData="P+QAAAAAAAA=" value="0.625" type="double"/>
+                        <m12 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m13 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m21 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m22 binaryData="P+QAAAAAAAA=" value="0.625" type="double"/>
+                        <m23 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                        <m31 binaryData="QHCQAAAAAAA=" value="265" type="double"/>
+                        <m32 binaryData="QHnwAAAAAAA=" value="415" type="double"/>
+                        <m33 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                    </transform>
+                    <envelope type="TransformationEnvelope" objectId="28248">
+                        <defaultValue type="Transformation::Object" objectId="28249">
+                            <matrix type="Types::Transform" objectId="28250">
+                                <m11 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                                <m12 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m13 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m21 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m22 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                                <m23 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m31 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m32 binaryData="AAAAAAAAAAA=" value="0" type="double"/>
+                                <m33 binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                            </matrix>
+                            <opacity value="100" type="int32_t"/>
+                        </defaultValue>
+                        <keyValues size="0" type="Array"/>
+                    </envelope>
+                    <scriptRole value="Fade Out" type="String"/>
+                    <editTime binaryData="P/AAAAAAAAA=" value="1" type="double"/>
+                    <outline type="Types::Pen" objectId="28251">
+                        <color value="4278190080" type="uint32_t"/>
+                        <width value="0" type="int32_t"/>
+                        <enabled value="0" type="bool"/>
+                    </outline>
+                    <editable value="1" type="bool"/>
+                    <features value="0" type="int32_t"/>
+                    <textWidth binaryData="QJLAAAAAAAA=" value="1200" type="double"/>
+                    <arcRadius binaryData="v/Ao9cAAAAA=" value="-1.01" type="double"/>
+                </Data>
+            </Item>
+        </items>
+        <tag value="Simple1" type="String"/>
+        <description value="Desc Simple1" type="String"/>
+    </RootObject>
+    <RootRef value="28252" type="ObjectRef"/>
+</Archive>

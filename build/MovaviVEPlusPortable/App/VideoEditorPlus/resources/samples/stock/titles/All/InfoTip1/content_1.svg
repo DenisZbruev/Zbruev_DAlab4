@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 420 280" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2" stroke-opacity="1.0" fill-opacity="1.0" >
+
+	<adjustablePoint id="left"  posX="300" posY="170" minX="40" maxX="340" minY="170" maxY="170"/>
+	<adjustablePoint id="mid"   posX="300" posY="250" minX="10" maxX="410" minY="170" maxY="270"/>
+	<adjustablePoint id="right" posX="350" posY="170" minX="80" maxX="380" minY="170" maxY="170"/>
+
+	<path 	d="	M40,10
+				L380,10
+				A30,30 0 0 1 410,40
+				L410,140
+				A30,30 0 0 1 380,170
+				L right.posX,right.posY mid.posX,mid.posY left.posX,left.posY L40,170
+				A30,30 0 0 1 10,140
+				L10,40
+				A30,30 0 0 1 40,10
+				Z" />
+
+</svg>

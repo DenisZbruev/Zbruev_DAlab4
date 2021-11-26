@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" baseProfile="tiny" id="&#x421;&#x43B;&#x43E;&#x439;_1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+	 overflow="scroll" xml:space="preserve" fill="#000000" stroke="#000000" stroke-width="0" stroke-opacity="1.0" fill-opacity="1.0">
+
+<defs>
+  <linearGradient id="retain_FFBC00">
+    <stop offset="0" stop-color="#FFBC00" stop-opacity="1"/>
+    <stop offset="1" stop-color="#FFBC00" stop-opacity="1"/>
+  </linearGradient>
+  <linearGradient id="retain_FFFFFF">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="1"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="1"/>
+  </linearGradient>
+  <linearGradient id="retain_FECE00">
+    <stop offset="0" stop-color="#FECE00" stop-opacity="1"/>
+    <stop offset="1" stop-color="#FECE00" stop-opacity="1"/>
+  </linearGradient>
+  <linearGradient id="retain_7FD0D6">
+    <stop offset="0" stop-color="#7FD0D6" stop-opacity="1"/>
+    <stop offset="1" stop-color="#7FD0D6" stop-opacity="1"/>
+  </linearGradient>
+  <linearGradient id="retain_8FE5F7">
+    <stop offset="0" stop-color="#8FE5F7" stop-opacity="1"/>
+    <stop offset="1" stop-color="#8FE5F7" stop-opacity="1"/>
+  </linearGradient>
+</defs>
+
+<g>
+	<path fill="url(#retain_FFBC00)" d="M450.671,160.07c0,42.45-36.201,76.868-80.85,76.868c-44.66,0-80.865-34.418-80.865-76.868
+		c0-42.46,36.204-76.882,80.865-76.882C414.47,83.188,450.671,117.609,450.671,160.07L450.671,160.07z"/>
+	<path fill="url(#retain_FFBC00)" d="M450.671,160.07"/>
+	<path fill="url(#retain_FFFFFF)" d="M439.936,159.837c0,36.372-31.32,65.846-69.949,65.846s-69.949-29.474-69.949-65.846
+		c0-36.383,31.321-65.857,69.949-65.857S439.936,123.454,439.936,159.837L439.936,159.837z"/>
+	<path fill="url(#retain_FFFFFF)" d="M439.936,159.837"/>
+	<path fill="url(#retain_FECE00)" d="M367.456,157.441v-56.953c-31.668,1.433-57.34,25.846-60.782,56.953H367.456z"/>
+	<path fill="url(#retain_FECE00)" d="M367.456,157.441"/>
+	<path fill="url(#retain_FECE00)" d="M432.664,156.605c-5.771-34.806-28.424-52.819-58.745-56.183v56.183H432.664z"/>
+	<path fill="url(#retain_FECE00)" d="M433.771,156.605"/>
+	<path fill="url(#retain_FECE00)" d="M432.664,162.5c-3.463,34.442-27.731,52.835-58.052,56.183V162.5H432.664z"/>
+</g>
+<path fill="url(#retain_7FD0D6)" d="M352.419,512H165.474l-27.888-355.762h242.721L352.419,512z M352.419,512"/>
+<path fill="url(#retain_8FE5F7)" d="M288.957,512H165.474l-27.888-355.762h151.371V512z M252.377,512"/>
+<path display="none" fill="url(#retain_8FE5F7)" d="M332.878,465.884H185.019l-27.908-309.647h203.671L332.878,465.884z M332.878,465.884"/>
+<path fill="url(#retain_FECE00)" d="M165.762,252.223l19.777,239.936h147.859l18.677-239.298L165.762,252.223z M160.888,252.86"/>
+<path fill="url(#retain_FFBC00)" d="M288.957,252.52v239.64H333.4l18.67-239.3L288.957,252.52z"/>
+<path fill="url(#retain_FFFFFF)" d="M189.462,297.223c-0.66-7.686,5.476-14.395,13.707-14.979c8.227-0.583,15.423,5.171,16.083,12.857
+	l12.419,144.668c0.66,7.682-5.475,14.375-13.685,14.959c-8.227,0.6-15.445-5.172-16.105-12.853L189.462,297.223z M201.881,441.874"
+	/>
+<path fill="url(#retain_FFBC00)" d="M157.111,0l16.437,156.238h29.259L186.386,0H157.111z M157.111,0"/>
+</svg>

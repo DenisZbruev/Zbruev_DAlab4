@@ -1,0 +1,54 @@
+Log file created at: 2018/11/25 17:12:18
+Running on machine: LAPTOP-N3R476DK
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1125 17:12:18.803467 15684 Application.cpp:613] Product Version: 17.4.0
+I1125 17:12:18.803467 15684 Application.cpp:616] FFmpeg version: 3.3~6
+I1125 17:12:18.803467 15684 Application.cpp:616] Build commit: d0ef621
+I1125 17:12:19.281481 15684 Application.cpp:649] Activation status: Activated
+I1125 17:12:19.413008 15684 WebContent.cpp:65] Load started: mode = activated, action = app_close, url = https://mip2.movavi.com/get_nag.php?app=suite&module=suite&app_ver=17-4-0&partner=&app_mode=activated&lang=ru&app_action=app_close&huid=e997182b00cba388f0c260cdc8685c44ee2521d7&protocol=1&rnd=2983&os=win&act_key=
+I1125 17:12:19.413008 15684 WebContent.cpp:65] Load started: mode = activated, action = app_start, url = https://mip2.movavi.com/get_nag.php?app=suite&module=suite&app_ver=17-4-0&partner=&app_mode=activated&lang=ru&app_action=app_start&huid=e997182b00cba388f0c260cdc8685c44ee2521d7&protocol=1&rnd=2983&os=win&act_key=
+I1125 17:12:19.429042 15684 WebContent.cpp:65] Load started: mode = activated, action = major_update, url = https://mip2.movavi.com/get_nag.php?app=suite&module=suite&app_ver=17-4-0&partner=&app_mode=activated&lang=ru&app_action=major_update&huid=e997182b00cba388f0c260cdc8685c44ee2521d7&protocol=1&rnd=2983&os=win&act_key=
+I1125 17:12:19.429042 15684 LoggingUtils.cpp:16] Current log level set to: 0
+I1125 17:12:19.429042 15684 LoggingUtils.cpp:27] Current logbuf level set to: 0
+I1125 17:12:19.450675 15684 MovaviApplicationTracker.cpp:146] Movavi Application tracker initialized: PID = 68ad985e21342c4d442c0320b7e6025d, UID = 1051-CA70-0666-8CEC-17F7-0000-0000-3309
+I1125 17:12:19.650650 15684 QtLogHandler.cpp:50] undefined:0 QWindowsIntegration::createPlatformOpenGLContext QSurfaceFormat(version 2.0, options QFlags(), depthBufferSize -1, redBufferSize -1, greenBufferSize -1, blueBufferSize -1, alphaBufferSize -1, stencilBufferSize -1, samples -1, swapBehavior 0, swapInterval 1, profile  0)
+I1125 17:12:19.650650 15684 QtLogHandler.cpp:50] undefined:0 Qt: Using WGL and OpenGL from "opengl32.dll"
+I1125 17:12:19.866492 15684 QtLogHandler.cpp:50] undefined:0 QOpenGLStaticContext::create OpenGL: "Intel","Intel(R) HD Graphics 630" default ContextFormat: v4.5 profile: 2 options: QFlags(0x4),SampleBuffers, Extension-API present
+Extensions: 225
+I1125 17:12:19.913355 15684 QtLogHandler.cpp:50] undefined:0 Basic wglCreateContext gives version 4.5
+I1125 17:12:19.913355 15684 QtLogHandler.cpp:50] undefined:0 OpenGL 2.0 entry points available
+I1125 17:12:19.928977 15684 QtLogHandler.cpp:50] undefined:0 GPU features: QSet()
+I1125 17:12:19.928977 15684 QtLogHandler.cpp:50] undefined:0 QWindowsOpenGLTester::supportedRenderers GpuDescription(vendorId=0x8086, deviceId=0x591b, subSysId=0x836b103c, revision=4, driver: "igdumdim32.dll", version=23.20.16.4973, "Intel(R) HD Graphics 630") renderer:  QFlags(0x1|0x2|0x4|0x8|0x20)
+I1125 17:12:19.935482 15684 QtLogHandler.cpp:50] undefined:0 "ARB::choosePixelFormat  Attributes:  0x2003 , 0x2027 , 0x2010 , 0x1 , 0x2001 , 0x1 , 0x2014 , 0x18 , 0x2011 , 0x1 , 0x2013 , 0x202b , 0x201b , 0x8 , 0x2023 , 0x8 , 0x2041 , 0x0 , \n    obtained px # 5  of  1 \n     PIXELFORMATDESCRIPTOR dwFlags=0x8225 PFD_DRAW_TO_WINDOW PFD_SUPPORT_OPENGL PFD_SUPPORT_COMPOSITION PFD_DOUBLEBUFFER iPixelType=0 cColorBits=32 cRedBits=8 cRedShift=16 cGreenBits=8 cGreenShift=8 cBlueBits=8 cBlueShift=0 cDepthBits=24 cStencilBits=8 iLayerType=0 cAlphaBits=8 cAlphaShift=24 cAccumBits=64 cAccumRedBits=16 cAccumGreenBits=16 cAccumBlueBits=16 cAccumAlphaBits=16 "
+I1125 17:12:19.935482 15684 QtLogHandler.cpp:50] undefined:0 ARB::createContext Creating context version 2 . 0 3 attributes
+I1125 17:12:20.013592 15684 QtLogHandler.cpp:50] undefined:0 QWindowsGLContext::QWindowsGLContext 0x54eb088 ARB  requested:  QSurfaceFormat(version 2.0, options QFlags(), depthBufferSize -1, redBufferSize -1, greenBufferSize -1, blueBufferSize -1, alphaBufferSize -1, stencilBufferSize -1, samples -1, swapBehavior 0, swapInterval 1, profile  0) 
+    obtained # 5 ARB QSurfaceFormat(version 4.5, options QFlags(0x4), depthBufferSize 24, redBufferSize 8, greenBufferSize 8, blueBufferSize 8, alphaBufferSize 8, stencilBufferSize 8, samples 0, swapBehavior 2, swapInterval 1, profile  2) 
+     PIXELFORMATDESCRIPTOR dwFlags=0x8225 PFD_DRAW_TO_WINDOW PFD_SUPPORT_OPENGL PFD_SUPPORT_COMPOSITION PFD_DOUBLEBUFFER iPixelType=0 cColorBits=32 cRedBits=8 cRedShift=16 cGreenBits=8 cGreenShift=8 cBlueBits=8 cBlueShift=0 cDepthBits=24 cStencilBits=8 iLayerType=0 cAlphaBits=8 cAlphaShift=24 cAccumBits=64 cAccumRedBits=16 cAccumGreenBits=16 cAccumBlueBits=16 cAccumAlphaBits=16  swap interval:  1 
+    default:  ContextFormat: v4.5 profile: 2 options: QFlags(0x4) 
+    HGLRC= 0x30000
+I1125 17:12:20.013592 15684 OglManager.cpp:16] OglManager::InitOgl() driver info: version=4.5.0 - Build 23.20.16.4973 renderer=Intel(R) HD Graphics 630 vendor=Intel
+I1125 17:12:20.029212 15684 OglManager.cpp:41] OglManager::InitOgl() OglCapability=4
+I1125 17:12:20.314321 15684 OglManager.cpp:138] Videocard supports max texture rectangle size: 16384 x 16384
+W1125 17:12:22.447173 15684 QtLogHandler.cpp:51] qrc:/CoreControls/StyledRectangleButton.qml:47 qrc:/CoreControls/StyledRectangleButton.qml:47: ReferenceError: none is not defined
+W1125 17:12:22.447173 15684 QtLogHandler.cpp:51] qrc:/CoreControls/CustomComboBox.qml:23 qrc:/CoreControls/CustomComboBox.qml:23: TypeError: Cannot read property '-1' of undefined
+I1125 17:12:22.447173 15684 QtLogHandler.cpp:50] undefined:0 QWindowsIntegration::createPlatformOpenGLContext QSurfaceFormat(version 2.0, options QFlags(), depthBufferSize 24, redBufferSize -1, greenBufferSize -1, blueBufferSize -1, alphaBufferSize -1, stencilBufferSize 8, samples -1, swapBehavior 2, swapInterval 1, profile  0)
+I1125 17:12:22.462807 15684 QtLogHandler.cpp:50] undefined:0 "ARB::choosePixelFormat  Attributes:  0x2003 , 0x2027 , 0x2010 , 0x1 , 0x2001 , 0x1 , 0x2014 , 0x18 , 0x2011 , 0x1 , 0x2022 , 0x18 , 0x2013 , 0x202b , 0x201b , 0x8 , 0x2023 , 0x8 , 0x2041 , 0x0 , \n    obtained px # 5  of  1 \n     PIXELFORMATDESCRIPTOR dwFlags=0x8225 PFD_DRAW_TO_WINDOW PFD_SUPPORT_OPENGL PFD_SUPPORT_COMPOSITION PFD_DOUBLEBUFFER iPixelType=0 cColorBits=32 cRedBits=8 cRedShift=16 cGreenBits=8 cGreenShift=8 cBlueBits=8 cBlueShift=0 cDepthBits=24 cStencilBits=8 iLayerType=0 cAlphaBits=8 cAlphaShift=24 cAccumBits=64 cAccumRedBits=16 cAccumGreenBits=16 cAccumBlueBits=16 cAccumAlphaBits=16 "
+I1125 17:12:22.462807 15684 QtLogHandler.cpp:50] undefined:0 ARB::createContext Creating context version 2 . 0 3 attributes
+I1125 17:12:22.580598 15684 QtLogHandler.cpp:50] undefined:0 QWindowsGLContext::QWindowsGLContext 0x10c58068 ARB  requested:  QSurfaceFormat(version 2.0, options QFlags(), depthBufferSize 24, redBufferSize -1, greenBufferSize -1, blueBufferSize -1, alphaBufferSize -1, stencilBufferSize 8, samples -1, swapBehavior 2, swapInterval 1, profile  0) 
+    obtained # 5 ARB QSurfaceFormat(version 4.5, options QFlags(0x4), depthBufferSize 24, redBufferSize 8, greenBufferSize 8, blueBufferSize 8, alphaBufferSize 8, stencilBufferSize 8, samples 0, swapBehavior 2, swapInterval 1, profile  2) 
+     PIXELFORMATDESCRIPTOR dwFlags=0x8225 PFD_DRAW_TO_WINDOW PFD_SUPPORT_OPENGL PFD_SUPPORT_COMPOSITION PFD_DOUBLEBUFFER iPixelType=0 cColorBits=32 cRedBits=8 cRedShift=16 cGreenBits=8 cGreenShift=8 cBlueBits=8 cBlueShift=0 cDepthBits=24 cStencilBits=8 iLayerType=0 cAlphaBits=8 cAlphaShift=24 cAccumBits=64 cAccumRedBits=16 cAccumGreenBits=16 cAccumBlueBits=16 cAccumAlphaBits=16  swap interval:  1 
+    default:  ContextFormat: v4.5 profile: 2 options: QFlags(0x4) 
+    HGLRC= 0x40000
+I1125 17:12:23.006250 15684 WebContent.cpp:86] Load failed: mode = activated, action = app_start
+I1125 17:12:23.013070 15684 WebBrowserImpl.cpp:21] Movavi::App::NativeWebViewWin::ComIE::`anonymous-namespace'::<lambda_a48b09fda9e36eb0be661221d13c242f>::operator (): Running javascript failed 0x80020101
+I1125 17:12:23.090559 15684 Bazaar.cpp:909] Initializing a server on movavi_suite_17.4.0_suite: 0e4326baac646b9e63a178ea729cfa3c049c6d3e
+I1125 17:12:23.107486 15684 Bazaar.cpp:932] A server has been initialized on movavi_suite_17.4.0_suite (0e4326baac646b9e63a178ea729cfa3c049c6d3e)
+I1125 17:12:23.108500 13400 Bazaar.cpp:786] The client movavi_suite_17.4.0_suite has been added into the server client list (0e4326baac646b9e63a178ea729cfa3c049c6d3e)
+I1125 17:12:23.108500 15684 Bazaar.cpp:870] movavi_suite_17.4.0_suite is ready (0e4326baac646b9e63a178ea729cfa3c049c6d3e)
+I1125 17:12:23.355185 15684 WebContent.cpp:86] Load successfull: mode = activated, action = app_close
+I1125 17:12:23.355185 15684 WebBrowserImpl.cpp:21] Movavi::App::NativeWebViewWin::ComIE::`anonymous-namespace'::<lambda_a48b09fda9e36eb0be661221d13c242f>::operator (): Running javascript failed 0x80020101
+I1125 17:12:23.979182 15684 WebContent.cpp:86] Load successfull: mode = activated, action = major_update
+I1125 17:12:23.979182 15684 WebBrowserImpl.cpp:21] Movavi::App::NativeWebViewWin::ComIE::`anonymous-namespace'::<lambda_a48b09fda9e36eb0be661221d13c242f>::operator (): Running javascript failed 0x80020101
+I1125 17:12:27.169715 15684 WebBrowserImpl.cpp:21] Movavi::App::NativeWebViewWin::ComIE::`anonymous-namespace'::<lambda_a48b09fda9e36eb0be661221d13c242f>::operator (): Running javascript failed 0x80020101
+I1125 17:12:27.169715 15684 WebBrowserImpl.cpp:21] Movavi::App::NativeWebViewWin::ComIE::`anonymous-namespace'::<lambda_a48b09fda9e36eb0be661221d13c242f>::operator (): Running javascript failed 0x80020101
+I1125 17:13:44.711122 13400 Bazaar.cpp:786] The client movavi_videoeditorplus_14.5.0_videoeditor has been added into the server client list (0e4326baac646b9e63a178ea729cfa3c049c6d3e)

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="22212" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="22214" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="22210"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="22216" type="Predeclare">
+                    <typeName type="String" value="Effect::BokehBlur"/>
+                    <oid type="ObjectRef" value="22209"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="22210" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{2c810ad4-d0fe-4ba8-aa49-73e4965d72ff}"/>
+        <item type="ObjectRef" value="22209"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_blur"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="22209" type="Effect::BokehBlur">
+        <BaseOfObject objectId="22209" type="Effect::VideoEffect">
+            <BaseOfObject objectId="22209" type="Effect::Object">
+                <id type="String" value="103da8a8-713c-4618-b11e-52cf492e2061"/>
+                <tag type="String" value="BokehBlurBang"/>
+                <uniqueId type="String" value="103da8a8-713c-4618-b11e-52cf492e2061"/>
+                <description type="String" value="Desc BokehBlurBang"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <preset type="int32_t" value="0"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="22210"/>
+</Archive>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="23522" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="23524" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="23520"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="23526" type="Predeclare">
+                    <typeName type="String" value="Effect::Posterize"/>
+                    <oid type="ObjectRef" value="23519"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="23520" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{84bc5d48-dd21-4ad6-b084-8edc8590919b}"/>
+        <item type="ObjectRef" value="23519"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_adjust"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="23519" type="Effect::Posterize">
+        <BaseOfObject objectId="23519" type="Effect::VideoEffect">
+            <BaseOfObject objectId="23519" type="Effect::Object">
+                <id type="String" value="9218c5c2-64b4-4676-b4d3-f861cb80aae4"/>
+                <tag type="String" value="Posterize"/>
+                <uniqueId type="String" value="9218c5c2-64b4-4676-b4d3-f861cb80aae4"/>
+                <description type="String" value="Desc Posterize"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <colorsNumber type="int32_t" value="5"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="23520"/>
+</Archive>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="12876" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="12878" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="12874" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="12880" type="Predeclare">
+                    <typeName value="Effect::AudioRadio" type="String"/>
+                    <oid value="12873" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="12874" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{f03b95f5-2ac4-43ef-a0fa-b7be8ca88dae}"/>
+        <item value="12873" type="ObjectRef"/>
+        <preview ref="empty" type="ImageRef"/>
+        <categories size="0" type="Array"/>
+        <collectionId value="EffectsAudio" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="12873" type="Effect::AudioRadio">
+        <BaseOfObject objectId="12873" type="Effect::AudioFilter">
+            <BaseOfObject objectId="12873" type="Effect::Object">
+                <id value="4c412762-56f7-4703-a840-ea2ccf5f7321" type="String"/>
+                <tag value="Radio" type="String"/>
+                <uniqueId value="820c9391-6388-49f7-83a2-590014abcfa3" type="String"/>
+                <description value="Desc Radio" type="String"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <gainUp value="20" type="int32_t"/>
+        <gainDown value="50" type="int32_t"/>
+        <lBound value="200" type="int32_t"/>
+        <rBound value="8000" type="int32_t"/>
+        <crackleP value="8" type="int32_t"/>
+        <noise value="0.05" type="double" binaryData="P6mZmZmZmZo="/>
+    </RootObject>
+    <RootRef value="12874" type="ObjectRef"/>
+</Archive>

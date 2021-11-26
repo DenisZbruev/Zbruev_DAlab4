@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="12978" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="12980" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Transition::Object"/>
+                    <oid type="ObjectRef" value="12976"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="12982" type="Predeclare">
+                    <typeName type="String" value="Transition::SlidingDoor"/>
+                    <oid type="ObjectRef" value="12975"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="12976" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId type="String" value="{2786419e-0442-49e8-bfe5-c88fee159928}"/>
+        <item type="ObjectRef" value="12975"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_geometric"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Transitions"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="12975" type="Transition::SlidingDoor">
+        <BaseOfObject objectId="12975" type="Transition::Object">
+            <id type="String" value="c379ebc9-2bc2-403a-a7a3-46295601b3c2"/>
+            <tag type="String" value="SlidingDoorVertical"/>
+            <description type="String" value="Desc SlidingDoorVertical"/>
+            <strategy type="int32_t" value="0"/>
+            <type type="int32_t" value="0"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <direction type="int32_t" value="0"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="12976"/>
+</Archive>

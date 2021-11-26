@@ -1,0 +1,17 @@
+<svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 530 190" fill="#ffffff">
+ <defs>
+  <linearGradient id="red_retain">
+   <stop stop-opacity="1" stop-color="#ff0000" offset="0"/>
+   <stop stop-opacity="1" stop-color="#ff0000" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect x="10" y="12" height="148" fill="url(#red_retain)" stroke-width="0" width="500">
+  <animate dur="1000ms" id="back_appear" attributeName="width" to="500" from="0" repeatCount="1" begin="0ms"/>
+  <animate dur="1000ms" attributeName="transform" to="rotate(-1 510 160)" from="rotate(0 510 160)" repeatCount="1" fill="freeze" begin="back_appear.begin"/>
+  <animate dur="1000ms" attributeName="transform" to="translate(560 0) rotate(-1 510 160)" from="translate(0 0) rotate(-1 510 160)" repeatCount="1" fill="freeze" begin="CONCLUSION.begin"/>
+ </rect>
+ <rect x="20" stroke="#FFF" y="10" height="150" fill="#FFF" stroke-width="0" width="500">
+  <animate dur="1000ms" id="fore_appear" attributeName="width" to="500" from="0" repeatCount="1" begin="0ms"/>
+  <animate dur="1000ms" id="CONCLUSION" attributeName="transform" to="translate(560 0)" from="translate(0 0)" repeatCount="1" fill="freeze" begin="fore_appear.end"/>
+ </rect>
+</svg>

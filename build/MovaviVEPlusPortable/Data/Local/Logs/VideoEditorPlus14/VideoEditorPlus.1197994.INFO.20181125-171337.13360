@@ -1,0 +1,240 @@
+Log file created at: 2018/11/25 17:13:37
+Running on machine: LAPTOP-N3R476DK
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1125 17:13:37.995177 15176 Application.cpp:615] Product Version: 14.5.0
+I1125 17:13:37.996537 15176 Application.cpp:618] FFmpeg version: 3.3~6
+I1125 17:13:37.996537 15176 Application.cpp:618] Build commit: 368f523
+I1125 17:13:38.464092 15176 Application.cpp:651] Activation status: Activated
+I1125 17:13:38.803259 15176 WebContent.cpp:65] Load started: mode = activated, action = capture_screencast, url = https://mip2.movavi.com/get_nag.php?app=videoeditorplus&module=videoeditor&app_ver=14-5-0&partner=&app_mode=activated&lang=ru&app_action=capture_screencast&huid=e997182b00cba388f0c260cdc8685c44ee2521d7&protocol=1&rnd=3241&os=win&os_bits=64&platform=32&act_key=
+I1125 17:13:38.813115 15176 WebContent.cpp:65] Load started: mode = activated, action = major_update, url = https://mip2.movavi.com/get_nag.php?app=videoeditorplus&module=videoeditor&app_ver=14-5-0&partner=&app_mode=activated&lang=ru&app_action=major_update&huid=e997182b00cba388f0c260cdc8685c44ee2521d7&protocol=1&rnd=3241&os=win&os_bits=64&platform=32&act_key=
+I1125 17:13:39.963714 14060 ModuleLoader.h:24] Plugins list to load: EffectsIPP, Effects, EffectsFF, EffectsOgl, EffectsStock, 
+I1125 17:13:39.965741 14060 ModuleLoader.h:31] EffectsIPP: 'EffectsIPP.dll' loading FAILED: 'Cannot load module 'EffectsIPP.dll', additional info: Не найден указанный модуль.'
+I1125 17:13:39.973574 14060 ModuleLoader.h:31] Effects: 'Effects.dll' loading succeeded, entry point 'Registrator' found, resources registration started.
+I1125 17:13:39.976342 14060 ModuleLoader.h:58] Effects: resources registration done.
+I1125 17:13:39.992467 14060 ModuleLoader.h:31] EffectsFF: 'EffectsFF.dll' loading succeeded, entry point 'Registrator' found, resources registration started.
+I1125 17:13:39.992467 14060 ModuleLoader.h:58] EffectsFF: resources registration done.
+I1125 17:13:40.007918 14060 ModuleLoader.h:31] EffectsOgl: 'EffectsOgl.dll' loading succeeded, entry point 'Registrator' found, resources registration started.
+I1125 17:13:40.008944 14060 ModuleLoader.h:58] EffectsOgl: resources registration done.
+I1125 17:13:40.008944 14060 ModuleLoader.h:31] EffectsStock: 'EffectsStock.dll' loading FAILED: 'Cannot load module 'EffectsStock.dll', additional info: Не найден указанный модуль.'
+I1125 17:13:40.011979 14060 ModuleLoader.h:24] Plugins list to load: DecodersFF, EncodersFF, EncoderLossless, DecoderCUDA, EncoderCUDA, EncoderNVENC, DecoderIM, EncoderIM, DecoderMF, EncoderMF, DecoderRAW, 
+I1125 17:13:40.022033 14060 ModuleLoader.h:31] DecodersFF: 'DecodersFF.dll' loading succeeded, entry point 'Registrator' found, resources registration started.
+I1125 17:13:40.024029 14060 ModuleLoader.h:58] DecodersFF: resources registration done.
+I1125 17:13:40.058612 14060 ModuleLoader.h:31] EncodersFF: 'EncodersFF.dll' loading succeeded, entry point 'Registrator' found, resources registration started.
+I1125 17:13:40.059640 14060 ModuleLoader.h:58] EncodersFF: resources registration done.
+I1125 17:13:40.082532 14060 ModuleLoader.h:31] EncoderLossless: 'EncoderLossless.dll' loading succeeded, entry point 'Registrator' found, resources registration started.
+I1125 17:13:40.082532 14060 ModuleLoader.h:58] EncoderLossless: resources registration done.
+I1125 17:13:40.082532 14060 ModuleLoader.h:31] DecoderCUDA: 'DecoderCUDA.dll' loading FAILED: 'Cannot load module 'DecoderCUDA.dll', additional info: Не найден указанный модуль.'
+I1125 17:13:40.091337 14060 ModuleLoader.h:31] EncoderCUDA: 'EncoderCUDA.dll' loading succeeded, entry point 'Registrator' found, resources registration started.
+I1125 17:13:40.096884 14060 CudaManager.cpp:93] Successfully initialize NVAPI
+I1125 17:13:40.106982 14060 CudaManager.cpp:208] Load Cuda library: nvcuda.dll
+I1125 17:13:40.246620 14060 CudaManager.cpp:577] Cuda Devices found:
+I1125 17:13:40.246620 14060 CudaManager.cpp:584] 	GeForce GTX 1050	  <<< (max performance device)
+I1125 17:13:40.246620 14060 CudaManager.cpp:208] Load Cuda library: nvcuvid.dll
+I1125 17:13:40.263424 14060 CudaManager.cpp:208] Load Cuda library: nvcuvenc.dll
+I1125 17:13:40.263424 14060 CudaManager.cpp:212] Can't load nvcuvenc.dll
+I1125 17:13:40.263424 14060 CudaManager.cpp:662] Load NVENC library... 
+I1125 17:13:40.275921 14060 CudaManager.cpp:688] Loaded NVENC version 8.1
+I1125 17:13:40.443600 14060 CudaManager.cpp:110] Status of NVidia GPU Acceleration:
+I1125 17:13:40.443600 14060 CudaManager.cpp:111]   Display driver version: 39836
+I1125 17:13:40.443600 14060 CudaManager.cpp:112]   System type: laptop
+I1125 17:13:40.443600 14060 CudaManager.cpp:113]   Driver API version: available, driver API version 9020
+I1125 17:13:40.443600 14060 CudaManager.cpp:114]   GPU Acceleration is enabled in driver options
+I1125 17:13:40.443600 14060 CudaManager.cpp:115]   Device: GeForce GTX 1050
+I1125 17:13:40.443600 14060 CudaManager.cpp:116]   CUDA decoder: available
+I1125 17:13:40.443600 14060 CudaManager.cpp:117]   CUDA encoder: not found
+I1125 17:13:40.443600 14060 CudaManager.cpp:118]   NVENC encoder: available
+I1125 17:13:40.443600 14060 CudaManager.cpp:120]   NVENC encoder support: CODEC_ID_H264
+I1125 17:13:40.443600 14060 CudaManager.cpp:120]   NVENC encoder support: CODEC_ID_H265
+I1125 17:13:40.444607 14060 ModuleLoader.h:58] EncoderCUDA: resources registration done.
+I1125 17:13:40.446518 14060 ModuleLoader.h:31] EncoderNVENC: 'EncoderNVENC.dll' loading succeeded, entry point 'Registrator' found, resources registration started.
+I1125 17:13:40.446518 14060 ModuleLoader.h:58] EncoderNVENC: resources registration done.
+I1125 17:13:40.446950 14060 ModuleLoader.h:31] DecoderIM: 'DecoderIM.dll' loading FAILED: 'Cannot load module 'DecoderIM.dll', additional info: Не найден указанный модуль.'
+I1125 17:13:40.463212 14060 ModuleLoader.h:31] EncoderIM: 'EncoderIM.dll' loading succeeded, entry point 'Registrator' found, resources registration started.
+I1125 17:13:40.954525 14060 CheckImpl.cpp:66] Intel Media session initialisation. Query version 1.0. Query flags [base impl: MFX_IMPL_HARDWARE_ANY, acceleration type: UNDEFINED, binary flags: 4]. Created with version 1.25. Responce flags [base impl: MFX_IMPL_HARDWARE2, acceleration type: MFX_IMPL_VIA_D3D11, binary flags: 773]. SUCCESSFUL.
+I1125 17:13:41.208861 14060 CheckImpl.cpp:219] Intel Media session initialisation. Query version 1.0. Query flags [base impl: MFX_IMPL_HARDWARE_ANY, acceleration type: UNDEFINED, binary flags: 4]. Created with version 1.25. Responce flags [base impl: MFX_IMPL_HARDWARE2, acceleration type: MFX_IMPL_VIA_D3D11, binary flags: 773]. SUCCESSFUL.
+Try to load HEVC plugin. Status: SUCCESS
+Try to init HEVC encoder. Status: SUCCESS
+I1125 17:13:41.445582 14060 CheckImpl.cpp:66] Intel Media session initialisation. Query version 1.0. Query flags [base impl: MFX_IMPL_SOFTWARE, acceleration type: UNDEFINED, binary flags: 1]. Cann't initialize MFXVideoSession. Error description: undeveloped feature(MFX_ERR_UNSUPPORTED). FAILED.
+I1125 17:13:41.445582 14060 CheckImpl.cpp:219] Intel Media session initialisation. Query version 1.0. Query flags [base impl: MFX_IMPL_SOFTWARE, acceleration type: UNDEFINED, binary flags: 1]. Cann't initialize MFXVideoSession. Error description: undeveloped feature(MFX_ERR_UNSUPPORTED). FAILED.
+I1125 17:13:41.445582 14060 ModuleLoader.h:58] EncoderIM: resources registration done.
+I1125 17:13:41.488304 14060 ModuleLoader.h:31] DecoderMF: 'DecoderMF.dll' loading succeeded, entry point 'Registrator' found, resources registration started.
+I1125 17:13:41.613929 14060 CodecHelper.cpp:410] Registered decoder Microsoft AAC Audio Decoder MFT for CODEC_ID_AAC
+I1125 17:13:41.655103 14060 CodecHelper.cpp:410] Registered decoder Microsoft AAC Audio Decoder MFT for CODEC_ID_AAC
+I1125 17:13:41.698870 14060 CodecHelper.cpp:410] Registered decoder IMA ADPCM ACM Wrapper MFT for CODEC_ID_ADPCM_IMA_WAV
+I1125 17:13:41.736675 14060 CodecHelper.cpp:410] Registered decoder ADPCM ACM Wrapper MFT for CODEC_ID_ADPCM_MS
+I1125 17:13:41.773648 14060 CodecHelper.cpp:410] Registered decoder GSM ACM Wrapper MFT for CODEC_ID_GSM_MS
+I1125 17:13:41.808107 14060 CodecHelper.cpp:410] Registered decoder G711 Wrapper MFT for CODEC_ID_PCM_MULAW
+I1125 17:13:41.842326 14060 CodecHelper.cpp:410] Registered decoder A-law Wrapper MFT for CODEC_ID_PCM_ALAW
+I1125 17:13:41.884603 14060 CodecHelper.cpp:410] Registered decoder WMAudio Decoder MFT for CODEC_ID_WMALOSSLESS
+I1125 17:13:41.918370 14060 CodecHelper.cpp:410] Registered decoder WMAudio Decoder MFT for CODEC_ID_WMAPRO
+I1125 17:13:41.952412 14060 CodecHelper.cpp:410] Registered decoder WMAudio Decoder MFT for CODEC_ID_WMAV1
+I1125 17:13:41.986587 14060 CodecHelper.cpp:410] Registered decoder WMAudio Decoder MFT for CODEC_ID_WMAV2
+I1125 17:13:42.030117 14060 CodecHelper.cpp:410] Registered decoder WMSpeech Decoder DMO for CODEC_ID_WMAVOICE
+I1125 17:13:42.071485 14060 CodecHelper.cpp:410] Registered decoder MS AMRNB Decoder MFT for CODEC_ID_AMR_NB
+W1125 17:13:42.110549 14060 CodecHelper.cpp:204] No transform found (MF has returned zero transforms) for {00007362-0000-0010-8000-00aa00389b71}
+I1125 17:13:42.151275 14060 CodecHelper.cpp:410] Registered decoder DV Decoder MFT for CODEC_ID_DVVIDEO
+I1125 17:13:42.205482 14060 CodecHelper.cpp:410] Registered decoder Microsoft H264 Video Decoder MFT for CODEC_ID_H264 with hardware acceleration support
+W1125 17:13:42.243101 14060 CodecHelper.cpp:220] Cannot get MF transform CLSID
+W1125 17:13:42.243101 14060 CodecHelper.cpp:240] No transform found for CODEC_ID_H265 MFT:H265VideoDecoderMFT
+I1125 17:13:42.280078 14060 CodecHelper.cpp:410] Registered decoder MJPEG Decoder MFT for CODEC_ID_MJPEG
+I1125 17:13:42.319864 14060 CodecHelper.cpp:410] Registered decoder Mpeg4s Decoder MFT for CODEC_ID_MPEG4
+I1125 17:13:42.356253 14060 CodecHelper.cpp:410] Registered decoder Mpeg4 Decoder MFT for CODEC_ID_MSMPEG4V1
+I1125 17:13:42.395114 14060 CodecHelper.cpp:410] Registered decoder Mpeg4 Decoder MFT for CODEC_ID_MSMPEG4V2
+I1125 17:13:42.435503 14060 CodecHelper.cpp:410] Registered decoder Mpeg43 Decoder MFT for CODEC_ID_MSMPEG4V3
+I1125 17:13:42.502658 14060 CodecHelper.cpp:410] Registered decoder WMV Screen decoder MFT for CODEC_ID_MSS1
+I1125 17:13:42.557570 14060 CodecHelper.cpp:410] Registered decoder WMV Screen decoder MFT for CODEC_ID_MSS2
+I1125 17:13:42.620241 14060 CodecHelper.cpp:410] Registered decoder WMVideo Decoder MFT for CODEC_ID_WMV1
+I1125 17:13:42.665406 14060 CodecHelper.cpp:410] Registered decoder WMVideo Decoder MFT for CODEC_ID_WMV2
+I1125 17:13:42.707105 14060 CodecHelper.cpp:410] Registered decoder WMVideo Decoder MFT for CODEC_ID_WMV3
+I1125 17:13:42.752946 14060 CodecHelper.cpp:410] Registered decoder Mpeg4s Decoder MFT for CODEC_ID_H263
+I1125 17:13:42.802978 14060 CodecHelper.cpp:445] Registered encoder Microsoft AAC Audio Encoder MFT for CODEC_ID_AAC
+I1125 17:13:42.850841 14060 CodecHelper.cpp:445] Registered encoder WMAudio Encoder MFT for CODEC_ID_WMAV2
+I1125 17:13:42.896611 14060 CodecHelper.cpp:445] Registered encoder Microsoft Dolby Digital Encoder MFT for CODEC_ID_AC3
+I1125 17:13:42.941241 14060 CodecHelper.cpp:445] Registered encoder H264 Encoder MFT for CODEC_ID_H264
+I1125 17:13:43.896461 14060 CodecHelperCheckTransform.cpp:50] Failed to get DXVA(D3D9) attr, hr = 0xc00d36e6
+I1125 17:13:43.906477 14060 CodecHelper.cpp:445] Registered encoder Intel® Hardware H265 Encoder MFT for CODEC_ID_H265 with hardware acceleration support
+I1125 17:13:43.964619 14060 CodecHelper.cpp:445] Registered encoder WMVideo8 Encoder MFT for CODEC_ID_WMV2
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder Microsoft AAC Audio Decoder MFT for CODEC_ID_AAC
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder Microsoft AAC Audio Decoder MFT for CODEC_ID_AAC
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder IMA ADPCM ACM Wrapper MFT for CODEC_ID_ADPCM_IMA_WAV
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder ADPCM ACM Wrapper MFT for CODEC_ID_ADPCM_MS
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder GSM ACM Wrapper MFT for CODEC_ID_GSM_MS
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder G711 Wrapper MFT for CODEC_ID_PCM_MULAW
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder A-law Wrapper MFT for CODEC_ID_PCM_ALAW
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder WMAudio Decoder MFT for CODEC_ID_WMALOSSLESS
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder WMAudio Decoder MFT for CODEC_ID_WMAPRO
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder WMAudio Decoder MFT for CODEC_ID_WMAV1
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder WMAudio Decoder MFT for CODEC_ID_WMAV2
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder WMSpeech Decoder DMO for CODEC_ID_WMAVOICE
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder MS AMRNB Decoder MFT for CODEC_ID_AMR_NB
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder DV Decoder MFT for CODEC_ID_DVVIDEO
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder Microsoft H264 Video Decoder MFT for CODEC_ID_H264
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder MJPEG Decoder MFT for CODEC_ID_MJPEG
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder Mpeg4s Decoder MFT for CODEC_ID_MPEG4
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder Mpeg4 Decoder MFT for CODEC_ID_MSMPEG4V1
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder Mpeg4 Decoder MFT for CODEC_ID_MSMPEG4V2
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder Mpeg43 Decoder MFT for CODEC_ID_MSMPEG4V3
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder WMV Screen decoder MFT for CODEC_ID_MSS1
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder WMV Screen decoder MFT for CODEC_ID_MSS2
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder WMVideo Decoder MFT for CODEC_ID_WMV1
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder WMVideo Decoder MFT for CODEC_ID_WMV2
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder WMVideo Decoder MFT for CODEC_ID_WMV3
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder Mpeg4s Decoder MFT for CODEC_ID_H263
+I1125 17:13:43.964619 14060 CodecHelper.cpp:322] Registered decoder Microsoft H264 Video Decoder MFT for CODEC_ID_H264
+I1125 17:13:43.968339 14060 ModuleLoader.h:58] DecoderMF: resources registration done.
+I1125 17:13:43.974982 14060 ModuleLoader.h:31] EncoderMF: 'EncoderMF.dll' loading succeeded, entry point 'Registrator' found, resources registration started.
+I1125 17:13:43.975731 14060 ModuleLoader.h:58] EncoderMF: resources registration done.
+I1125 17:13:43.987179 14060 ModuleLoader.h:31] DecoderRAW: 'DecoderRAW.dll' loading succeeded, entry point 'Registrator' found, resources registration started.
+I1125 17:13:43.988647 14060 ModuleLoader.h:58] DecoderRAW: resources registration done.
+I1125 17:13:43.991345 14060 ModuleLoader.h:24] Plugins list to load: FiltersFF, 
+I1125 17:13:43.999264 14060 ModuleLoader.h:31] FiltersFF: 'FiltersFF.dll' loading succeeded, entry point 'AlgorithmRegistrator' found, resources registration started.
+I1125 17:13:43.999264 14060 ModuleLoader.h:58] FiltersFF: resources registration done.
+I1125 17:13:43.999264 14060 ModuleLoader.h:24] Plugins list to load: Filters, FiltersFF, FiltersOgl, FiltersSpeex, 
+I1125 17:13:44.016162 14060 ModuleLoader.h:31] Filters: 'Filters.dll' loading succeeded, entry point 'FilterRegistrator' found, resources registration started.
+I1125 17:13:44.021296 14060 ModuleLoader.h:58] Filters: resources registration done.
+I1125 17:13:44.021296 14060 ModuleLoader.h:31] FiltersFF: 'FiltersFF.dll' loading succeeded, entry point 'FilterRegistrator' found, resources registration started.
+I1125 17:13:44.021296 14060 ModuleLoader.h:58] FiltersFF: resources registration done.
+I1125 17:13:44.030227 14060 ModuleLoader.h:31] FiltersOgl: 'FiltersOgl.dll' loading succeeded, entry point 'FilterRegistrator' found, resources registration started.
+I1125 17:13:44.030227 14060 ModuleLoader.h:58] FiltersOgl: resources registration done.
+I1125 17:13:44.037070 14060 ModuleLoader.h:31] FiltersSpeex: 'FiltersSpeex.dll' loading succeeded, entry point 'FilterRegistrator' found, resources registration started.
+I1125 17:13:44.037070 14060 ModuleLoader.h:58] FiltersSpeex: resources registration done.
+I1125 17:13:44.039654 14060 ModuleLoader.h:24] Plugins list to load: Muxers, 
+I1125 17:13:44.045361 14060 ModuleLoader.h:31] Muxers: 'Muxers.dll' loading succeeded, entry point 'Registrator' found, resources registration started.
+I1125 17:13:44.045648 14060 ModuleLoader.h:58] Muxers: resources registration done.
+I1125 17:13:44.046911 14060 ModuleLoader.h:24] Plugins list to load: ParsersFF, ParserRAW, ParsersMF, 
+I1125 17:13:44.067206 14060 ModuleLoader.h:31] ParsersFF: 'ParsersFF.dll' loading succeeded, entry point 'Registrator' found, resources registration started.
+I1125 17:13:44.068202 14060 ModuleLoader.h:58] ParsersFF: resources registration done.
+I1125 17:13:44.076411 14060 ModuleLoader.h:31] ParserRAW: 'ParserRAW.dll' loading succeeded, entry point 'Registrator' found, resources registration started.
+I1125 17:13:44.076411 14060 ModuleLoader.h:58] ParserRAW: resources registration done.
+I1125 17:13:44.077404 14060 ModuleLoader.h:31] ParsersMF: 'ParsersMF.dll' loading FAILED: 'Cannot load module 'ParsersMF.dll', additional info: Не найден указанный модуль.'
+I1125 17:13:44.081934 15176 QtLogHandler.cpp:50] undefined:0 QWindowsIntegration::createPlatformOpenGLContext QSurfaceFormat(version 2.0, options QFlags(), depthBufferSize -1, redBufferSize -1, greenBufferSize -1, blueBufferSize -1, alphaBufferSize -1, stencilBufferSize -1, samples -1, swapBehavior 0, swapInterval 1, profile  0)
+I1125 17:13:44.081934 15176 QtLogHandler.cpp:50] undefined:0 Qt: Using WGL and OpenGL from "opengl32.dll"
+I1125 17:13:44.132232 15176 QtLogHandler.cpp:50] undefined:0 QOpenGLStaticContext::create OpenGL: "VMware, Inc.","Gallium 0.4 on llvmpipe (LLVM 3.4, 256 bits)" default ContextFormat: v3.0 profile: 0 options: QFlags(0x4),SampleBuffers, Extension-API present
+Extensions: 184
+I1125 17:13:44.178510 15176 QtLogHandler.cpp:50] undefined:0 Basic wglCreateContext gives version 3.0
+I1125 17:13:44.178510 15176 QtLogHandler.cpp:50] undefined:0 OpenGL 2.0 entry points available
+I1125 17:13:44.182445 15176 QtLogHandler.cpp:50] undefined:0 GPU features: QSet()
+I1125 17:13:44.182445 15176 QtLogHandler.cpp:50] undefined:0 QWindowsOpenGLTester::supportedRenderers GpuDescription(vendorId=0x10de, deviceId=0x1c8d, subSysId=0x836b103c, revision=161, driver: "nvldumd.dll", version=24.21.13.9836, "NVIDIA GeForce GTX 1050") renderer:  QFlags(0x1|0x2|0x4|0x8|0x20)
+I1125 17:13:44.182998 15176 QtLogHandler.cpp:50] undefined:0 "ARB::choosePixelFormat  Attributes:  0x2003 , 0x2027 , 0x2010 , 0x1 , 0x2001 , 0x1 , 0x2014 , 0x18 , 0x2011 , 0x1 , 0x2013 , 0x202b , 0x201b , 0x8 , 0x2023 , 0x8 , 0x2041 , 0x0 , \n    obtained px # 45  of  1 \n     PIXELFORMATDESCRIPTOR dwFlags=0x8425 PFD_DRAW_TO_WINDOW PFD_SUPPORT_OPENGL PFD_SUPPORT_COMPOSITION PFD_DOUBLEBUFFER iPixelType=0 cColorBits=32 cRedBits=8 cRedShift=16 cGreenBits=8 cGreenShift=8 cBlueBits=8 cBlueShift=0 cDepthBits=24 cStencilBits=8 iLayerType=0 cAlphaBits=8 cAlphaShift=24 "
+I1125 17:13:44.182998 15176 QtLogHandler.cpp:50] undefined:0 ARB::createContext Creating context version 2 . 0 3 attributes
+I1125 17:13:44.184052 15176 QtLogHandler.cpp:50] undefined:0 QWindowsGLContext::QWindowsGLContext 0xe98ecb0 ARB  requested:  QSurfaceFormat(version 2.0, options QFlags(), depthBufferSize -1, redBufferSize -1, greenBufferSize -1, blueBufferSize -1, alphaBufferSize -1, stencilBufferSize -1, samples -1, swapBehavior 0, swapInterval 1, profile  0) 
+    obtained # 45 ARB QSurfaceFormat(version 3.0, options QFlags(0x4), depthBufferSize 24, redBufferSize 8, greenBufferSize 8, blueBufferSize 8, alphaBufferSize 8, stencilBufferSize 8, samples 0, swapBehavior 2, swapInterval 1, profile  0) 
+     PIXELFORMATDESCRIPTOR dwFlags=0x8425 PFD_DRAW_TO_WINDOW PFD_SUPPORT_OPENGL PFD_SUPPORT_COMPOSITION PFD_DOUBLEBUFFER iPixelType=0 cColorBits=32 cRedBits=8 cRedShift=16 cGreenBits=8 cGreenShift=8 cBlueBits=8 cBlueShift=0 cDepthBits=24 cStencilBits=8 iLayerType=0 cAlphaBits=8 cAlphaShift=24  swap interval:  0 
+    default:  ContextFormat: v3.0 profile: 0 options: QFlags(0x4) 
+    HGLRC= 0x1
+I1125 17:13:44.192281 15176 OglManager.cpp:16] OglManager::InitOgl() driver info: version=3.0 Mesa 10.2.8 (git-1e2b412) renderer=Gallium 0.4 on llvmpipe (LLVM 3.4, 256 bits) vendor=VMware, Inc.
+I1125 17:13:44.197383 15176 OglManager.cpp:41] OglManager::InitOgl() OglCapability=3
+I1125 17:13:44.213786 15176 OglManager.cpp:138] Videocard supports max texture rectangle size: 8192 x 8192
+I1125 17:13:44.367635 15176 Module.cpp:36] Launch packageInstaller module
+I1125 17:13:44.389307 15176 Application.cpp:651] Activation status: Activated
+W1125 17:13:44.418537 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 32 Bit 2 Ch)
+I1125 17:13:44.441224 15176 AudioDeviceManagerImpl.cpp:204] Found device : Громкоговоритель и наушники (Realtek High Definition Audio) DeviceID 0 , ItemID 0 , ItemUID {0.0.0.00000000}.{d6f5d7a3-c516-4813-a58b-e18a2d13cdc0}
+W1125 17:13:44.442618 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 32 Bit 2 Ch)
+W1125 17:13:44.456332 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 32 Bit 2 Ch)
+W1125 17:13:44.466022 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 32 Bit 2 Ch)
+W1125 17:13:44.475435 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 32 Bit 2 Ch)
+I1125 17:13:44.483665 15176 AudioDeviceManagerImpl.cpp:204] Found device : Набор микрофонов (Realtek High Definition Audio) DeviceID 0 , ItemID 1 , ItemUID {0.0.1.00000000}.{d0453fcc-0749-4ebd-9606-aa94423c6dd5}
+W1125 17:13:44.484612 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+W1125 17:13:44.495518 15176 CapturerAudioWASAPI.cpp:849] Can't initialize IAudioClient objects with use loopbackError execute FormatMessage
+W1125 17:13:44.497512 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+W1125 17:13:44.610405 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+W1125 17:13:44.623183 15176 CapturerAudioWASAPI.cpp:849] Can't initialize IAudioClient objects with use loopbackError execute FormatMessage
+W1125 17:13:44.624181 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+I1125 17:13:44.942342 15176 DownloadManagerCURL.cpp:72] download: URL= https://links.movavi.com/dlc/?asrc=&app=videoeditorplus&module=videoeditor&app_ver=14-5-0&lang=ru_ru&partner=&istrial=0&huid=e997182b00cba388f0c260cdc8685c44ee2521d7&utm_nooverride=1&os=win10-0-0&platform=32
+I1125 17:13:46.122212 15176 Bazaar.cpp:870] movavi_videoeditorplus_14.5.0_videoeditor is ready (0e4326baac646b9e63a178ea729cfa3c049c6d3e)
+I1125 17:13:46.122212 15176 Bazaar.cpp:909] Initializing a server on master: 328f9185215802fccdc06ca3d1b5ea9d59c183a0
+W1125 17:13:46.137178 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+W1125 17:13:46.146137 15176 CapturerAudioWASAPI.cpp:849] Can't initialize IAudioClient objects with use loopbackError execute FormatMessage
+W1125 17:13:46.147135 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+W1125 17:13:46.238387 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+W1125 17:13:46.246366 15176 CapturerAudioWASAPI.cpp:849] Can't initialize IAudioClient objects with use loopbackError execute FormatMessage
+W1125 17:13:46.247364 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+W1125 17:13:46.308907 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+W1125 17:13:46.317883 15176 CapturerAudioWASAPI.cpp:849] Can't initialize IAudioClient objects with use loopbackError execute FormatMessage
+I1125 17:13:46.324901 15176 CapturerAudioWASAPI.cpp:1072] SessionInstanceIdentifier: {0.0.1.00000000}.{d0453fcc-0749-4ebd-9606-aa94423c6dd5}|#%b{A9EF3FD9-4240-455E-A4D5-F2B3301887B2}|11%b# State: 0 isSystemSession: 0 
+I1125 17:13:46.325865 15176 CapturerAudioWASAPI.cpp:1072] SessionInstanceIdentifier: {0.0.1.00000000}.{d0453fcc-0749-4ebd-9606-aa94423c6dd5}|\Device\HarddiskVolume5\Users\1197994\Desktop\MovaviVEPlusPortable\App\VideoEditorPlus\VideoEditorPlus.exe%b{00000000-0000-0000-0000-000000000000}|11%b13360 State: 1 isSystemSession: 1 
+I1125 17:13:47.914012 15176 Bazaar.cpp:932] A server has been initialized on master (328f9185215802fccdc06ca3d1b5ea9d59c183a0)
+I1125 17:13:47.914942 16912 Bazaar.cpp:786] The client master has been added into the server client list (328f9185215802fccdc06ca3d1b5ea9d59c183a0)
+I1125 17:13:48.004161 19616 ParserFactoryImpl.cpp:61] Parser creation PARSER_FFMPEG_IMPL for png succeeded!
+I1125 17:13:48.006148 16904 ParserFactoryImpl.cpp:61] Parser creation PARSER_FFMPEG_IMPL for png succeeded!
+I1125 17:13:48.009141 16904 CodecFactoryImpl.cpp:98] decoder 'CODEC_ID_PNG', available implementations: DECODER_FFMPEG, 
+trying to create decoder 'CODEC_ID_PNG' with 'DECODER_FFMPEG': successfully created
+I1125 17:13:48.010138 21976 ParserFactoryImpl.cpp:61] Parser creation PARSER_FFMPEG_IMPL for png succeeded!
+I1125 17:13:48.011135 21976 CodecFactoryImpl.cpp:98] decoder 'CODEC_ID_PNG', available implementations: DECODER_FFMPEG, 
+trying to create decoder 'CODEC_ID_PNG' with 'DECODER_FFMPEG': successfully created
+I1125 17:13:48.021121 15532 ParserFactoryImpl.cpp:61] Parser creation PARSER_FFMPEG_IMPL for png succeeded!
+I1125 17:13:48.022106 15532 CodecFactoryImpl.cpp:98] decoder 'CODEC_ID_PNG', available implementations: DECODER_FFMPEG, 
+trying to create decoder 'CODEC_ID_PNG' with 'DECODER_FFMPEG': successfully created
+I1125 17:13:48.030086  1416 ParserFactoryImpl.cpp:61] Parser creation PARSER_FFMPEG_IMPL for png succeeded!
+I1125 17:13:48.030086 14896 ParserFactoryImpl.cpp:61] Parser creation PARSER_FFMPEG_IMPL for png succeeded!
+I1125 17:13:48.031082 14896 CodecFactoryImpl.cpp:98] decoder 'CODEC_ID_PNG', available implementations: DECODER_FFMPEG, 
+trying to create decoder 'CODEC_ID_PNG' with 'DECODER_FFMPEG': successfully created
+I1125 17:13:48.032080  1416 CodecFactoryImpl.cpp:98] decoder 'CODEC_ID_PNG', available implementations: DECODER_FFMPEG, 
+trying to create decoder 'CODEC_ID_PNG' with 'DECODER_FFMPEG': successfully created
+I1125 17:13:48.047039  8292 ParserFactoryImpl.cpp:61] Parser creation PARSER_FFMPEG_IMPL for png succeeded!
+I1125 17:13:48.050031  2560 ParserFactoryImpl.cpp:61] Parser creation PARSER_FFMPEG_IMPL for png succeeded!
+I1125 17:13:48.050031  8292 CodecFactoryImpl.cpp:98] decoder 'CODEC_ID_PNG', available implementations: DECODER_FFMPEG, 
+trying to create decoder 'CODEC_ID_PNG' with 'DECODER_FFMPEG': successfully created
+I1125 17:13:48.051028  2560 CodecFactoryImpl.cpp:98] decoder 'CODEC_ID_PNG', available implementations: DECODER_FFMPEG, 
+trying to create decoder 'CODEC_ID_PNG' with 'DECODER_FFMPEG': successfully created
+I1125 17:13:48.052424 19616 CodecFactoryImpl.cpp:98] decoder 'CODEC_ID_PNG', available implementations: DECODER_FFMPEG, 
+trying to create decoder 'CODEC_ID_PNG' with 'DECODER_FFMPEG': successfully created
+I1125 17:13:48.125989 15176 Worker.cpp:20] Worker::Worker() Opengl command logging (with QOpenGLDebugLogger) is disabled
+I1125 17:13:48.125989 15176 QtLogHandler.cpp:50] undefined:0 QWindowsIntegration::createPlatformOpenGLContext QSurfaceFormat(version 2.0, options QFlags(), depthBufferSize -1, redBufferSize -1, greenBufferSize -1, blueBufferSize -1, alphaBufferSize -1, stencilBufferSize -1, samples -1, swapBehavior 0, swapInterval 1, profile  0)
+I1125 17:13:48.125989 15176 QtLogHandler.cpp:50] undefined:0 "ARB::choosePixelFormat  Attributes:  0x2003 , 0x2027 , 0x2010 , 0x1 , 0x2001 , 0x1 , 0x2014 , 0x18 , 0x2011 , 0x1 , 0x2013 , 0x202b , 0x201b , 0x8 , 0x2023 , 0x8 , 0x2041 , 0x0 , \n    obtained px # 45  of  1 \n     PIXELFORMATDESCRIPTOR dwFlags=0x8425 PFD_DRAW_TO_WINDOW PFD_SUPPORT_OPENGL PFD_SUPPORT_COMPOSITION PFD_DOUBLEBUFFER iPixelType=0 cColorBits=32 cRedBits=8 cRedShift=16 cGreenBits=8 cGreenShift=8 cBlueBits=8 cBlueShift=0 cDepthBits=24 cStencilBits=8 iLayerType=0 cAlphaBits=8 cAlphaShift=24 "
+I1125 17:13:48.125989 15176 QtLogHandler.cpp:50] undefined:0 ARB::createContext Creating context version 2 . 0 3 attributes
+I1125 17:13:48.130064 15176 QtLogHandler.cpp:50] undefined:0 QWindowsGLContext::QWindowsGLContext 0x17bcc4d8 ARB  requested:  QSurfaceFormat(version 2.0, options QFlags(), depthBufferSize -1, redBufferSize -1, greenBufferSize -1, blueBufferSize -1, alphaBufferSize -1, stencilBufferSize -1, samples -1, swapBehavior 0, swapInterval 1, profile  0) 
+    obtained # 45 ARB QSurfaceFormat(version 3.0, options QFlags(0x4), depthBufferSize 24, redBufferSize 8, greenBufferSize 8, blueBufferSize 8, alphaBufferSize 8, stencilBufferSize 8, samples 0, swapBehavior 2, swapInterval 1, profile  0) 
+     PIXELFORMATDESCRIPTOR dwFlags=0x8425 PFD_DRAW_TO_WINDOW PFD_SUPPORT_OPENGL PFD_SUPPORT_COMPOSITION PFD_DOUBLEBUFFER iPixelType=0 cColorBits=32 cRedBits=8 cRedShift=16 cGreenBits=8 cGreenShift=8 cBlueBits=8 cBlueShift=0 cDepthBits=24 cStencilBits=8 iLayerType=0 cAlphaBits=8 cAlphaShift=24  swap interval:  0 
+    default:  ContextFormat: v3.0 profile: 0 options: QFlags(0x4) 
+    HGLRC= 0x1
+I1125 17:13:48.131813 19800 OglManager.cpp:16] OglManager::InitOgl() driver info: version=3.0 Mesa 10.2.8 (git-1e2b412) renderer=Gallium 0.4 on llvmpipe (LLVM 3.4, 256 bits) vendor=VMware, Inc.
+I1125 17:13:48.136806 19800 OglManager.cpp:41] OglManager::InitOgl() OglCapability=3
+I1125 17:13:48.180007 15176 Bazaar.cpp:870] master is ready (328f9185215802fccdc06ca3d1b5ea9d59c183a0)
+I1125 17:13:49.809038 15176 WebContent.cpp:86] Load successfull: mode = activated, action = capture_screencast
+I1125 17:13:49.810063 15176 WebBrowserImpl.cpp:21] Movavi::App::NativeWebViewWin::ComIE::`anonymous-namespace'::<lambda_856696d46ca742c7431d22740dea2b15>::operator (): Running javascript failed 0x80020101
+I1125 17:13:49.912065 20080 cURLWrapper.cpp:194] cURLWrapper::finish with CURL code = 0 Http code = 206 Error = No error
+I1125 17:13:49.913419 15176 DownloadManagerCURL.cpp:104] Download file C:/Users/1197994/AppData/Local/Temp/Video Editor Plus-{f49c5805-2c44-4ff3-bf05-ff2bcd078fa5}/ve_plus.json with 0
+I1125 17:13:50.683537 15176 WebContent.cpp:86] Load successfull: mode = activated, action = major_update
+I1125 17:13:50.683537 15176 WebBrowserImpl.cpp:21] Movavi::App::NativeWebViewWin::ComIE::`anonymous-namespace'::<lambda_856696d46ca742c7431d22740dea2b15>::operator (): Running javascript failed 0x80020101
+I1125 17:29:34.960937 15176 DownloadManagerCURL.cpp:41] DownloadManagerCURL destroyed

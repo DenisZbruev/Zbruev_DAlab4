@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="13278" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="13280" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Transition::Object"/>
+                    <oid type="ObjectRef" value="13276"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="13282" type="Predeclare">
+                    <typeName type="String" value="Transition::Zoom"/>
+                    <oid type="ObjectRef" value="13275"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="13276" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId type="String" value="{931f7e71-cfc8-445f-b4fa-227e47330676}"/>
+        <item type="ObjectRef" value="13275"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_zoom"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Transitions"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="13275" type="Transition::Zoom">
+        <BaseOfObject objectId="13275" type="Transition::Object">
+            <id type="String" value="ab033fab-6eec-4d52-ad49-5016b1c6d1ca"/>
+            <tag type="String" value="Cross Zoom - In - Out"/>
+            <description type="String" value="Desc Cross Zoom - In - Out"/>
+            <strategy type="int32_t" value="0"/>
+            <type type="int32_t" value="0"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <mode type="int32_t" value="2"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="13276"/>
+</Archive>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="13143">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="13145">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="13141"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="13147">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="13140"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="13141">
+        <uniqueId type="String" value="{6cdc0f22-1ff9-4c5f-b50f-f792950918d1}"/>
+        <item type="ObjectRef" value="13140"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="sample_music"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Imports"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="13140">
+        <tag type="String" value="Music_Cartoons"/>
+        <description type="String" value="Desc Cartoons"/>
+        <location type="String" value="#DOWNLOADABLE_PATH#/Music Library/Cartoons.mp3"/>
+        <remoteUrl type="String" value="http://files.movavi.com/dl/stock/music_library/Cartoons.mp3"/>
+        <kind type="int32_t" value="1"/>
+        <category type="String" value="CATEGORY_FAMILY"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="13141"/>
+</Archive>

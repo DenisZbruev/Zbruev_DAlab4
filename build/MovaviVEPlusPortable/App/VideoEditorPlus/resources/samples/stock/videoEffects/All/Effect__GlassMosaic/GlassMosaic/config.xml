@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="23072" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="23074" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="23070"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="23076" type="Predeclare">
+                    <typeName type="String" value="Effect::GlassMosaic"/>
+                    <oid type="ObjectRef" value="23069"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="23070" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{9b8de36a-22a1-4ce1-b2a2-64cecc4c8417}"/>
+        <item type="ObjectRef" value="23069"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_featured"/>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="String" value="category_mosaic"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="23069" type="Effect::GlassMosaic">
+        <BaseOfObject objectId="23069" type="Effect::VideoEffect">
+            <BaseOfObject objectId="23069" type="Effect::Object">
+                <id type="String" value="804fa74a-f079-4538-a588-6cfa4f20ea81"/>
+                <tag type="String" value="GlassMosaic"/>
+                <uniqueId type="String" value="804fa74a-f079-4538-a588-6cfa4f20ea81"/>
+                <description type="String" value="Desc GlassMosaic"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <angle binaryData="P+AAAAAAAAA=" type="double" value="0.5"/>
+        <curve binaryData="P+QAAAAAAAA=" type="double" value="0.625"/>
+        <repeatsh binaryData="P8AAAAAAAAA=" type="double" value="0.125"/>
+        <repeatsv binaryData="P8AAAAAAAAA=" type="double" value="0.125"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="23070"/>
+</Archive>

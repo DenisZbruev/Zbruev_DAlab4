@@ -1,0 +1,8 @@
+<svg stroke="#80ffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 20" fill="#80ffff">
+ <line stroke="#FFF" id="expanding_long_line" y1="10" y2="10" x2="280" stroke-linejoin="round" stroke-linecap="round" fill="#FFF" stroke-width="6" x1="280">
+  <animate dur="1000ms" attributeName="x1" id="long_line_expand" to="10" from="280" repeatCount="1" fill="freeze" begin="0ms"/>
+  <animate dur="1000ms" attributeName="x2" to="550" from="280" repeatCount="1" fill="freeze" begin="0ms"/>
+  <animate dur="1000ms" id="CONCLUSION" attributeName="x1" to="280" from="10" repeatCount="1" fill="freeze" begin="long_line_expand.end"/>
+  <animate dur="1000ms" attributeName="x2" to="280" from="550" repeatCount="1" fill="freeze" begin="CONCLUSION.begin"/>
+ </line>
+</svg>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="23422" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="23424" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="23420"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="23426" type="Predeclare">
+                    <typeName type="String" value="Effect::Mosaic"/>
+                    <oid type="ObjectRef" value="23419"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="23420" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{1627e792-0857-4906-8db3-e8d3404d8937}"/>
+        <item type="ObjectRef" value="23419"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_mosaic"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="23419" type="Effect::Mosaic">
+        <BaseOfObject objectId="23419" type="Effect::VideoEffect">
+            <BaseOfObject objectId="23419" type="Effect::Object">
+                <id type="String" value="7e31a057-3681-47b8-a842-337cb0200d84"/>
+                <tag type="String" value="MosaicMediumIntrpl"/>
+                <uniqueId type="String" value="7e31a057-3681-47b8-a842-337cb0200d84"/>
+                <description type="String" value="Desc MosaicMediumIntrpl"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <type type="int32_t" value="1"/>
+        <amountVer type="int32_t" value="20"/>
+        <amountHor type="int32_t" value="20"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="23420"/>
+</Archive>

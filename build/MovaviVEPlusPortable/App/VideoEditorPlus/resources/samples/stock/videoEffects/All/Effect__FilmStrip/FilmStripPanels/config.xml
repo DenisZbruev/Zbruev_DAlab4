@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="22812" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="22814" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="22810"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="22816" type="Predeclare">
+                    <typeName type="String" value="Effect::FilmStrip"/>
+                    <oid type="ObjectRef" value="22809"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="22810" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{c2893a5a-24c2-4073-ab5a-46f9d285f713}"/>
+        <item type="ObjectRef" value="22809"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_artistic"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="22809" type="Effect::FilmStrip">
+        <BaseOfObject objectId="22809" type="Effect::VideoEffect">
+            <BaseOfObject objectId="22809" type="Effect::Object">
+                <id type="String" value="23426fc3-a681-413a-a9fe-340503101431"/>
+                <tag type="String" value="FilmStripPanels"/>
+                <uniqueId type="String" value="23426fc3-a681-413a-a9fe-340503101431"/>
+                <description type="String" value="Desc FilmStripPanels"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <type type="int32_t" value="2"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="22810"/>
+</Archive>

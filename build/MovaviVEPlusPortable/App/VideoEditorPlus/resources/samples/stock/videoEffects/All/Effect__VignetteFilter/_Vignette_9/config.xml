@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="23772" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="23774" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="23770"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="23776" type="Predeclare">
+                    <typeName type="String" value="Effect::VignetteFilter"/>
+                    <oid type="ObjectRef" value="23769"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="23770" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{fb57eca5-caeb-4cb0-ac18-9674f47578f5}"/>
+        <item type="ObjectRef" value="23769"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="Vignettes"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="23769" type="Effect::VignetteFilter">
+        <BaseOfObject objectId="23769" type="Effect::VideoEffect">
+            <BaseOfObject objectId="23769" type="Effect::Object">
+                <id type="String" value="523d41e0-d692-4e08-817a-cc69788c6ab2"/>
+                <tag type="String" value="_Vignette_9"/>
+                <uniqueId type="String" value="523d41e0-d692-4e08-817a-cc69788c6ab2"/>
+                <description type="String" value="Desc VignetteFilter9"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <preset type="int32_t" value="8"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="23770"/>
+</Archive>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="23372" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="23374" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="23370"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="23376" type="Predeclare">
+                    <typeName type="String" value="Effect::Mirror"/>
+                    <oid type="ObjectRef" value="23369"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="23370" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{3b19d750-9718-4cad-bec1-536139a4ee51}"/>
+        <item type="ObjectRef" value="23369"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_adjust"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="23369" type="Effect::Mirror">
+        <BaseOfObject objectId="23369" type="Effect::VideoEffect">
+            <BaseOfObject objectId="23369" type="Effect::Object">
+                <id type="String" value="ef8bf68b-761a-48c2-8923-6ff4137819f9"/>
+                <tag type="String" value="MirrorKaledoscope"/>
+                <uniqueId type="String" value="ef8bf68b-761a-48c2-8923-6ff4137819f9"/>
+                <description type="String" value="Desc MirrorKaledoscope"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <vertical type="int32_t" value="1"/>
+        <horizontal type="int32_t" value="1"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="23370"/>
+</Archive>

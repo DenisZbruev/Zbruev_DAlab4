@@ -1,0 +1,5 @@
+Log file created at: 2018/11/25 17:12:22
+Running on machine: LAPTOP-N3R476DK
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1125 17:12:22.447173 15684 QtLogHandler.cpp:51] qrc:/CoreControls/StyledRectangleButton.qml:47 qrc:/CoreControls/StyledRectangleButton.qml:47: ReferenceError: none is not defined
+W1125 17:12:22.447173 15684 QtLogHandler.cpp:51] qrc:/CoreControls/CustomComboBox.qml:23 qrc:/CoreControls/CustomComboBox.qml:23: TypeError: Cannot read property '-1' of undefined

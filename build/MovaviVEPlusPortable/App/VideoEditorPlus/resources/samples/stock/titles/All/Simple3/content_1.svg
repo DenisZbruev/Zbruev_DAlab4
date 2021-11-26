@@ -1,0 +1,12 @@
+<svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255 260" stroke-linejoin="round" stroke-linecap="round" fill="#ffffff">
+ <circle cy="130" r="120" id="straight" stroke-dasharray="0 800" cx="127" transform="rotate(-160 127 130)" fill="none" stroke-width="3">
+  <animate dur="1000ms" id="straight_appear" attributeName="stroke-dasharray" to="800 800" from="0 800" repeatCount="1" fill="freeze" begin="0ms"/>
+  <animate dur="1000ms" id="straight_rotation" attributeName="transform" to="rotate(-20 127 130)" from="rotate(-160 127 130)" repeatCount="1" fill="freeze" begin="straight_appear.begin"/>
+  <animate dur="10ms" id="straight_disapper" attributeName="opacity" to="0.0" from="1.0" repeatCount="1" fill="freeze" begin="invert_appear.end"/>
+ </circle>
+ <circle cy="130" opacity="0.0" r="120" id="invert" cx="-127" transform="scale(-1 1) rotate(-170 -127 130)" fill="none" stroke-width="3">
+  <animate dur="1000ms" id="invert_appear" attributeName="opacity" to="1.0" repeatCount="1" from="0.0" fill="freeze" begin="straight_appear.end"/>
+ </circle>
+ <animate dur="1000ms" id="CONCLUSION" attributeName="stroke-dasharray" to="0 800" from="800 800" repeatCount="1" fill="freeze" begin="straight_disapper.end"/>
+ <animate dur="1000ms" attributeName="transform" to="rotate(140 127 130)" from="rotate(-20 127 130)" repeatCount="1" fill="freeze" begin="CONCLUSION.begin"/>
+</svg>

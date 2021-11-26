@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="13083">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="13085">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="13081"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="13087">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="13080"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="13081">
+        <uniqueId type="String" value="{ff63f420-d186-46a4-829a-9272aa081921}"/>
+        <item type="ObjectRef" value="13080"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="sample_music"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Imports"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="13080">
+        <tag type="String" value="Music_Road_Trip"/>
+        <description type="String" value="Desc Road_Trip"/>
+        <location type="String" value="#DOWNLOADABLE_PATH#/Music Library/Road_Trip.mp3"/>
+        <remoteUrl type="String" value="http://files.movavi.com/dl/stock/music_library/Road_Trip.mp3"/>
+        <kind type="int32_t" value="1"/>
+        <category type="String" value="CATEGORY_TRAVEL"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="13081"/>
+</Archive>

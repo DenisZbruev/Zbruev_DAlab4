@@ -1,0 +1,4211 @@
+{
+    "version": 1,
+    "presets": [
+        {
+            "id": "2160p",
+            "tags": [
+                "format_online_youtube",
+                "format_online_googledrive",
+                "format_online_facebook"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": true,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 3840,
+                            "height": 2160,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "high",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 25016000,
+                            "quality": 12,
+                            "bitrateMode": "VBR",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR",
+                                "VBR"
+                            ]
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                12000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "aac_low"
+                                }
+                            },
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 256000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1440p",
+            "tags": [
+                "format_online_youtube",
+                "format_online_googledrive",
+                "format_online_facebook"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": true,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 2560,
+                            "height": 1440,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "high",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 11814000,
+                            "quality": 12,
+                            "bitrateMode": "VBR",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR",
+                                "VBR"
+                            ]
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                12000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "aac_low"
+                                }
+                            },
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 256000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1080p",
+            "tags": [
+                "format_online_youtube",
+                "format_online_googledrive",
+                "format_online_facebook"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": true,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "high",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 9026000,
+                            "quality": 12,
+                            "bitrateMode": "VBR",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR",
+                                "VBR"
+                            ]
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                12000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "aac_low"
+                                }
+                            },
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 256000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "720p",
+            "tags": [
+                "format_online_youtube",
+                "format_online_googledrive",
+                "format_online_facebook"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": true,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 1280,
+                            "height": 720,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 4240000,
+                            "quality": 12,
+                            "bitrateMode": "VBR",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR",
+                                "VBR"
+                            ]
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                12000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "aac_low"
+                                }
+                            },
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 224000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "480p",
+            "tags": [
+                "format_online_youtube",
+                "format_online_googledrive",
+                "format_online_facebook"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": true,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 854,
+                            "height": 480,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 2026000,
+                            "quality": 12,
+                            "bitrateMode": "VBR",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR",
+                                "VBR"
+                            ]
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                12000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "aac_low"
+                                }
+                            },
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "360p",
+            "tags": [
+                "format_online_youtube",
+                "format_online_googledrive",
+                "format_online_facebook"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": true,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 640,
+                            "height": 360,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 1224000,
+                            "quality": 12,
+                            "bitrateMode": "VBR",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR",
+                                "VBR"
+                            ]
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                12000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "aac_low"
+                                }
+                            },
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 160000
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "mp4",
+            "tags": [
+                "format_general_video"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": false,
+                            "maxWidth": 4096,
+                            "maxHeight": 2160,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 9026000,
+                            "quality": 12,
+                            "bitrateMode": "VBR",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR",
+                                "VBR"
+                            ]
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                12000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 320000
+                        }
+                    }
+                },
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": false,
+                            "maxWidth": 4096,
+                            "maxHeight": 2160,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25,
+                                "two_pass_encoding": "one_pass"
+                            },
+                            "id": "CODEC_ID_H265",
+                            "bitrate": 6318000,
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR"
+                            ]
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                12000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 320000
+                        }
+                    }
+                },
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": false,
+                            "maxWidth": 4096,
+                            "maxHeight": 2160,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "advanced_simple",
+                                    "preset": "faster"
+                                },
+                                "maxIFrameInterval": 25,
+                                "maxBFrameSequence": 0
+                            },
+                            "id": "CODEC_ID_MPEG4",
+                            "bitrate": 8191000,
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR"
+                            ],
+                            "quality": 12
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                12000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "avi",
+            "tags": [
+                "format_general_video"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 0
+                    }
+                },
+                "id": "avi"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": false,
+                            "maxWidth": 4096,
+                            "maxHeight": 2160,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 9026000,
+                            "quality": 12,
+                            "bitrateMode": "VBR",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR",
+                                "VBR"
+                            ]
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                12000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_MP3",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 320000
+                        }
+                    }
+                },
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": false,
+                            "maxWidth": 4096,
+                            "maxHeight": 2160,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "advanced_simple",
+                                    "preset": "faster"
+                                },
+                                "maxIFrameInterval": 25,
+                                "maxBFrameSequence": 0
+                            },
+                            "id": "CODEC_ID_MPEG4",
+                            "bitrate": 8191000,
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR"
+                            ],
+                            "quality": 12
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                12000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_MP3",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 320000
+                        }
+                    }
+                },
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": false,
+                            "maxWidth": 4096,
+                            "maxHeight": 2160,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {},
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_MJPEG",
+                            "bitrate": 12508000,
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR"
+                            ]
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                16000,
+                                22050,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_PCM_S16LE",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "mov",
+            "tags": [
+                "format_general_video"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    }
+                },
+                "id": "mov"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": false,
+                            "maxWidth": 4096,
+                            "maxHeight": 2160,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 9026000,
+                            "quality": 12,
+                            "bitrateMode": "VBR",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR",
+                                "VBR"
+                            ]
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                12000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "mpeg_1",
+            "tags": [
+                "format_general_video"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 0
+                    }
+                },
+                "id": "mpeg"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": false,
+                            "maxWidth": 4096,
+                            "maxHeight": 2160,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {}
+                            },
+                            "id": "CODEC_ID_MPEG1VIDEO",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 20489000,
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR"
+                            ],
+                            "quality": 12
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_MP2",
+                            "bitrateMode": "CBR",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "mpeg_2",
+            "tags": [
+                "format_general_video"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 0
+                    }
+                },
+                "id": "vob"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": false,
+                            "maxWidth": 4096,
+                            "maxHeight": 2160,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "maxIFrameInterval": 15,
+                                "maxBFrameSequence": 2,
+                                "codec.options.encode": {}
+                            },
+                            "id": "CODEC_ID_MPEG2VIDEO",
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 20479000,
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR"
+                            ]
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {}
+                            },
+                            "id": "CODEC_ID_MP2",
+                            "bitrateMode": "CBR",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "wmv",
+            "tags": [
+                "format_general_video"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 16,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    }
+                },
+                "id": "wmv"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": false,
+                            "maxWidth": 4096,
+                            "maxHeight": 2160,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {}
+                            },
+                            "id": "CODEC_ID_WMV2",
+                            "bitrate": 11263000,
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR"
+                            ],
+                            "quality": 12
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                16000,
+                                22050,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "quality": 1,
+                                "codec.options.encode": {}
+                            },
+                            "id": "CODEC_ID_WMAV2",
+                            "bitrateMode": "CBR",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "mkv",
+            "tags": [
+                "format_general_video"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 64,
+                        "limits_audio": 64,
+                        "limits_subtitle": 64,
+                        "limits_other": 64
+                    }
+                },
+                "id": "matroska"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": false,
+                            "maxWidth": 4096,
+                            "maxHeight": 2160,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 9026000,
+                            "quality": 12,
+                            "bitrateMode": "VBR",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR",
+                                "VBR"
+                            ]
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                12000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 320000
+                        }
+                    }
+                },
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": false,
+                            "maxWidth": 4096,
+                            "maxHeight": 2160,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {},
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_MJPEG",
+                            "bitrate": 12508000,
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR"
+                            ]
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                16000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_VORBIS",
+                            "bitrateMode": "CBR",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "flv",
+            "tags": [
+                "format_general_video"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 1,
+                        "limits_subtitle": 0,
+                        "limits_other": 0
+                    }
+                },
+                "id": "flv"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": false,
+                            "maxWidth": 4096,
+                            "maxHeight": 2160,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 9026000,
+                            "quality": 12,
+                            "bitrateMode": "VBR",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR",
+                                "VBR"
+                            ]
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                22050,
+                                44100
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "quality": 1
+                            },
+                            "id": "CODEC_ID_MP3",
+                            "bitrateMode": "CBR",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "m2ts_h_264",
+            "tags": [
+                "format_general_video"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 64,
+                        "limits_audio": 64,
+                        "limits_subtitle": 64,
+                        "limits_other": 64
+                    }
+                },
+                "id": "mpeg2ts"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": false,
+                            "maxWidth": 4096,
+                            "maxHeight": 2160,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 15
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 9026000,
+                            "quality": 12,
+                            "bitrateMode": "VBR",
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR",
+                                "VBR"
+                            ]
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                12000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "webm",
+            "tags": [
+                "format_general_video"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 16,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    }
+                },
+                "id": "webm"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": false,
+                            "maxWidth": 4096,
+                            "maxHeight": 2160,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {}
+                            },
+                            "id": "CODEC_ID_VP8",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 9026000,
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR"
+                            ],
+                            "quality": 12
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                16000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "quality": 1,
+                                "codec.options.encode": {}
+                            },
+                            "id": "CODEC_ID_VORBIS",
+                            "bitrateMode": "CBR",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ogv",
+            "tags": [
+                "format_general_video"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 16,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    }
+                },
+                "id": "ogv"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": false,
+                            "maxWidth": 4096,
+                            "maxHeight": 2160,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {}
+                            },
+                            "id": "CODEC_ID_THEORA",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 9026000,
+                            "quality": 10,
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR"
+                            ]
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                12000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "quality": 1,
+                                "codec.options.encode": {}
+                            },
+                            "id": "CODEC_ID_VORBIS",
+                            "bitrateMode": "CBR",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "swf",
+            "tags": [
+                "format_general_video"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 1,
+                        "limits_subtitle": 0,
+                        "limits_other": 0
+                    }
+                },
+                "id": "swf"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "8/1",
+                                "10/1",
+                                "12/1",
+                                "15/1",
+                                "20/1",
+                                "24000/1001",
+                                "24/1",
+                                "25/1",
+                                "30000/1001",
+                                "30/1",
+                                "50/1",
+                                "60000/1001",
+                                "60/1",
+                                "100/1",
+                                "120/1"
+                            ],
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": false,
+                            "maxWidth": 4096,
+                            "maxHeight": 2160,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "name": "flv",
+                                "codec.options.encode": {},
+                                "motionSrchRng": 7
+                            },
+                            "id": "CODEC_ID_FLV1",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 9026000,
+                            "bitrateModes": [
+                                "CBR_AUTO",
+                                "CBR"
+                            ],
+                            "quality": 12
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                22050,
+                                44100
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "quality": 1,
+                                "codec.options.encode": {}
+                            },
+                            "id": "CODEC_ID_MP3",
+                            "bitrateMode": "CBR",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "dvd_ntsc",
+            "tags": [
+                "format_general_video"
+            ],
+            "muxer": {
+                "data": {
+                    "dvd_standard": "dvd_ntsc",
+                    "diskSize": 4700000000,
+                    "limits": {
+                        "limits_video": 9,
+                        "limits_audio": 8,
+                        "limits_subtitle": 32,
+                        "limits_other": 0
+                    }
+                },
+                "id": "dvd"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 720,
+                            "height": 480,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 32,
+                            "aspect_y": 27
+                        },
+                        "encoder": {
+                            "data": {
+                                "maxIFrameInterval": 15,
+                                "maxBFrameSequence": 2,
+                                "codec.options.encode": {},
+                                "peakBitrate": 8000000
+                            },
+                            "id": "CODEC_ID_MPEG2VIDEO",
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 7000000
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {}
+                            },
+                            "id": "CODEC_ID_MP2",
+                            "bitrateMode": "CBR",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "dvd_pal",
+            "tags": [
+                "format_general_video"
+            ],
+            "muxer": {
+                "data": {
+                    "dvd_standard": "dvd_pal",
+                    "diskSize": 4700000000,
+                    "limits": {
+                        "limits_video": 9,
+                        "limits_audio": 8,
+                        "limits_subtitle": 32,
+                        "limits_other": 0
+                    }
+                },
+                "id": "dvd"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "25/1"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 720,
+                            "height": 576,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 64,
+                            "aspect_y": 45
+                        },
+                        "encoder": {
+                            "data": {
+                                "maxIFrameInterval": 15,
+                                "maxBFrameSequence": 2,
+                                "codec.options.encode": {},
+                                "peakBitrate": 8000000
+                            },
+                            "id": "CODEC_ID_MPEG2VIDEO",
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 7000000
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {}
+                            },
+                            "id": "CODEC_ID_MP2",
+                            "bitrateMode": "CBR",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "medium_gif",
+            "tags": [
+                "format_general_video"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 0,
+                        "limits_subtitle": 0,
+                        "limits_other": 0
+                    }
+                },
+                "id": "gif"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "values": [
+                                "15/1"
+                            ],
+                            "value": "15/1"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 544,
+                            "height": 306,
+                            "resizeMode": "upToSize",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_GIF",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 320000,
+                            "quality": 12
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "samsung_tv_1080p",
+            "tags": [
+                "device_tvs"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25,
+                                "two_pass_encoding": "one_pass"
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 1028000,
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO"
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "sony_tv_1080p",
+            "tags": [
+                "device_tvs"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "advanced_simple",
+                                    "preset": "faster"
+                                },
+                                "maxIFrameInterval": 25,
+                                "maxBFrameSequence": 0
+                            },
+                            "id": "CODEC_ID_MPEG4",
+                            "bitrate": 9039000,
+                            "bitrateMode": "CBR_AUTO",
+                            "quality": 12
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_MP3",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lg_tv_1080p",
+            "tags": [
+                "device_tvs"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "advanced_simple",
+                                    "preset": "faster"
+                                },
+                                "maxIFrameInterval": 25,
+                                "maxBFrameSequence": 0
+                            },
+                            "id": "CODEC_ID_MPEG4",
+                            "bitrate": 9039000,
+                            "bitrateMode": "CBR_AUTO",
+                            "quality": 12
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "panasonic_tv_1080p",
+            "tags": [
+                "device_tvs"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "advanced_simple",
+                                    "preset": "faster"
+                                },
+                                "maxIFrameInterval": 25,
+                                "maxBFrameSequence": 0
+                            },
+                            "id": "CODEC_ID_MPEG4",
+                            "bitrate": 9039000,
+                            "bitrateMode": "CBR_AUTO",
+                            "quality": 12
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "philips_tv_1080p",
+            "tags": [
+                "device_tvs"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "advanced_simple",
+                                    "preset": "faster"
+                                },
+                                "maxIFrameInterval": 25,
+                                "maxBFrameSequence": 0
+                            },
+                            "id": "CODEC_ID_MPEG4",
+                            "bitrate": 9039000,
+                            "bitrateMode": "CBR_AUTO",
+                            "quality": 12
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "apple_tv_1080p",
+            "tags": [
+                "device_tvs"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25,
+                                "two_pass_encoding": "one_pass"
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 5679000,
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO"
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "aac_low"
+                                }
+                            },
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 128000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "other_tv_1080p",
+            "tags": [
+                "device_tvs"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25,
+                                "two_pass_encoding": "one_pass"
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 1028000,
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO"
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "samsung_4k",
+            "tags": [
+                "device_tvs"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 3840,
+                            "height": 2160,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25,
+                                "two_pass_encoding": "one_pass"
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 1028000,
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO"
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "sony_4k",
+            "tags": [
+                "device_tvs"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 3840,
+                            "height": 2160,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "advanced_simple",
+                                    "preset": "faster"
+                                },
+                                "maxIFrameInterval": 25,
+                                "maxBFrameSequence": 0
+                            },
+                            "id": "CODEC_ID_MPEG4",
+                            "bitrate": 9039000,
+                            "bitrateMode": "CBR_AUTO",
+                            "quality": 12
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_MP3",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lg_4k",
+            "tags": [
+                "device_tvs"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 3840,
+                            "height": 2160,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "advanced_simple",
+                                    "preset": "faster"
+                                },
+                                "maxIFrameInterval": 25,
+                                "maxBFrameSequence": 0
+                            },
+                            "id": "CODEC_ID_MPEG4",
+                            "bitrate": 9039000,
+                            "bitrateMode": "CBR_AUTO",
+                            "quality": 12
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "panasonic_4k",
+            "tags": [
+                "device_tvs"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 3840,
+                            "height": 2160,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "advanced_simple",
+                                    "preset": "faster"
+                                },
+                                "maxIFrameInterval": 25,
+                                "maxBFrameSequence": 0
+                            },
+                            "id": "CODEC_ID_MPEG4",
+                            "bitrate": 9039000,
+                            "bitrateMode": "CBR_AUTO",
+                            "quality": 12
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "philips_4k",
+            "tags": [
+                "device_tvs"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 3840,
+                            "height": 2160,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "advanced_simple",
+                                    "preset": "faster"
+                                },
+                                "maxIFrameInterval": 25,
+                                "maxBFrameSequence": 0
+                            },
+                            "id": "CODEC_ID_MPEG4",
+                            "bitrate": 9039000,
+                            "bitrateMode": "CBR_AUTO",
+                            "quality": 12
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "apple_tv_4k",
+            "tags": [
+                "device_tvs"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 3840,
+                            "height": 2160,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25,
+                                "two_pass_encoding": "one_pass"
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 5679000,
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO"
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "aac_low"
+                                }
+                            },
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 128000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "other_tv_4k",
+            "tags": [
+                "device_tvs"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 3840,
+                            "height": 2160,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25,
+                                "two_pass_encoding": "one_pass"
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 1028000,
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO"
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {},
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "mp3",
+            "tags": [
+                "format_general_audio"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 0,
+                        "limits_audio": 1,
+                        "limits_subtitle": 0,
+                        "limits_other": 1
+                    }
+                },
+                "id": "mp3"
+            },
+            "configurations": [
+                {
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                12000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "quality": 1,
+                                "codec.options.encode": {}
+                            },
+                            "id": "CODEC_ID_MP3",
+                            "bitrateMode": "CBR",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "wav",
+            "tags": [
+                "format_general_audio"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 0,
+                        "limits_audio": 1,
+                        "limits_subtitle": 0,
+                        "limits_other": 0
+                    }
+                },
+                "id": "wav"
+            },
+            "configurations": [
+                {
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                16000,
+                                22050,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {}
+                            },
+                            "id": "CODEC_ID_PCM_S16LE",
+                            "bitrateMode": "CBR",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "aac",
+            "tags": [
+                "format_general_audio"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 0,
+                        "limits_audio": 1,
+                        "limits_subtitle": 0,
+                        "limits_other": 0
+                    }
+                },
+                "id": "adts"
+            },
+            "configurations": [
+                {
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                12000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "aac_low"
+                                }
+                            },
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "flac",
+            "tags": [
+                "format_general_audio"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 0,
+                        "limits_audio": 1,
+                        "limits_subtitle": 0,
+                        "limits_other": 0
+                    }
+                },
+                "id": "flac"
+            },
+            "configurations": [
+                {
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                8000,
+                                16000,
+                                22050,
+                                24000,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {}
+                            },
+                            "id": "CODEC_ID_FLAC",
+                            "bitrate": 128000,
+                            "bitrateMode": "VBR"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ogg",
+            "tags": [
+                "format_general_audio"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 0,
+                        "limits_audio": 1,
+                        "limits_subtitle": 0,
+                        "limits_other": 0
+                    }
+                },
+                "id": "ogg"
+            },
+            "configurations": [
+                {
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "quality": 1,
+                                "codec.options.encode": {}
+                            },
+                            "id": "CODEC_ID_VORBIS",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "wma",
+            "tags": [
+                "format_general_audio"
+            ],
+            "muxer": {
+                "data": {
+                    "limits": {
+                        "limits_video": 0,
+                        "limits_audio": 1,
+                        "limits_subtitle": 0,
+                        "limits_other": 0
+                    }
+                },
+                "id": "wma"
+            },
+            "configurations": [
+                {
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100,
+                            "values": [
+                                11025,
+                                16000,
+                                22050,
+                                32000,
+                                44100,
+                                48000
+                            ]
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "MONO",
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "quality": 1,
+                                "codec.options.encode": {}
+                            },
+                            "id": "CODEC_ID_WMAV2",
+                            "bitrateMode": "CBR",
+                            "bitrate": 128000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "iphone",
+            "tags": [
+                "device_mobile"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30/1"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "upToSize",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 4874000,
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO"
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "aac_low"
+                                }
+                            },
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ipad",
+            "tags": [
+                "device_mobile"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30/1"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "upToSize",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 5185000,
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO"
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "aac_low"
+                                }
+                            },
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "android",
+            "tags": [
+                "device_mobile"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30/1"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "upToSize",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "baseline",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 5842000,
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO"
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "aac_low"
+                                }
+                            },
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR_AUTO",
+                            "bitrate": 128000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "galaxy_s7_s6",
+            "tags": [
+                "device_mobile"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30/1"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "upToSize",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 4874000,
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO"
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO",
+                            "values": [
+                                "STEREO"
+                            ]
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "aac_low"
+                                }
+                            },
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nexus_6_pixel",
+            "tags": [
+                "device_mobile"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30/1"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "upToSize",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 4874000,
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO"
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "aac_low"
+                                }
+                            },
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ps3_ps4",
+            "tags": [
+                "device_mobile"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30000/1001"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 5842000,
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO"
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "aac_low"
+                                }
+                            },
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "xbox360",
+            "tags": [
+                "device_mobile"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "25/1"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 1280,
+                            "height": 720,
+                            "resizeMode": "letterbox",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "advanced_simple",
+                                    "preset": "faster"
+                                },
+                                "maxIFrameInterval": 25,
+                                "maxBFrameSequence": 0
+                            },
+                            "id": "CODEC_ID_MPEG4",
+                            "bitrate": 9039000,
+                            "bitrateMode": "CBR_AUTO",
+                            "quality": 12
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "aac_low"
+                                }
+                            },
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "other_devices",
+            "tags": [
+                "device_mobile"
+            ],
+            "muxer": {
+                "data": {
+                    "progressiveRead": false,
+                    "limits": {
+                        "limits_video": 1,
+                        "limits_audio": 16,
+                        "limits_subtitle": 16,
+                        "limits_other": 16
+                    },
+                    "maxPayloadSize": 1460
+                },
+                "id": "mp4"
+            },
+            "configurations": [
+                {
+                    "video": {
+                        "frameRate": {
+                            "value": "30/1"
+                        },
+                        "resize": {
+                            "fixed": true,
+                            "maxWidth": -1,
+                            "maxHeight": -1,
+                            "width": 1920,
+                            "height": 1080,
+                            "resizeMode": "upToSize",
+                            "aspect_x": 1,
+                            "aspect_y": 1
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "preset": "faster",
+                                    "profile": "main",
+                                    "tune": "film"
+                                },
+                                "maxBFrameSequence": 0,
+                                "maxIFrameInterval": 25
+                            },
+                            "id": "CODEC_ID_H264",
+                            "bitrate": 4874000,
+                            "quality": 12,
+                            "bitrateMode": "CBR_AUTO"
+                        }
+                    },
+                    "audio": {
+                        "sampleRate": {
+                            "value": 44100
+                        },
+                        "channelLayout": {
+                            "value": "STEREO"
+                        },
+                        "encoder": {
+                            "data": {
+                                "codec.options.encode": {
+                                    "profile": "aac_low"
+                                }
+                            },
+                            "id": "CODEC_ID_AAC",
+                            "bitrateMode": "CBR",
+                            "bitrate": 192000
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "tags": [
+        "format_general_video",
+        "format_general_audio",
+        "device_mobile",
+        "device_tvs",
+        "format_online_youtube",
+        "format_online_googledrive",
+        "format_online_facebook"
+    ],
+    "defaults": {
+        "format_online_youtube":     "1080p",
+        "format_online_googledrive": "1080p",
+        "format_online_facebook":    "1080p"
+    }
+}

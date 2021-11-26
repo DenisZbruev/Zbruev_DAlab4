@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="13633">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="13635">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="13631"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="13637">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="13630"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="13631">
+        <uniqueId type="String" value="{262145dc-858a-4629-82f3-4c98499d7156}"/>
+        <item type="ObjectRef" value="13630"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="sample_audio"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Imports"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="13630">
+        <tag type="String" value="Audio_Whip"/>
+        <description type="String" value="Desc Whip"/>
+        <location type="String" value="#DOWNLOADABLE_PATH#/Audio/Whip.mp3"/>
+        <remoteUrl type="String" value="http://files.movavi.com/dl/stock/audio_samples/Whip.mp3"/>
+        <kind type="int32_t" value="0"/>
+        <category type="String" value=""/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="13631"/>
+</Archive>

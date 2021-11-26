@@ -1,0 +1,6 @@
+<svg stroke="#80ffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 20" fill="#80ffff">
+ <line stroke="#FFF" id="expanding_long_line" y1="10" y2="10" x2="110" stroke-linejoin="round" stroke-linecap="round" fill="#FFF" stroke-width="4" x1="10">
+  <animate dur="1000ms" id="expadning" attributeName="x2" to="120" from="10" repeatCount="1" fill="freeze" begin="0ms"/>
+  <animate dur="1000ms" id="CONCLUSION" attributeName="x1" to="120" from="10" repeatCount="1" fill="freeze" begin="expadning.end"/>
+ </line>
+</svg>

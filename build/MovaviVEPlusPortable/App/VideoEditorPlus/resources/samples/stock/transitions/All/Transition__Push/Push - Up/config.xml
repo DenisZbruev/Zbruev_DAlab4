@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="12708" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="12710" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Transition::Object"/>
+                    <oid type="ObjectRef" value="12706"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="12712" type="Predeclare">
+                    <typeName type="String" value="Transition::Push"/>
+                    <oid type="ObjectRef" value="12705"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="12706" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId type="String" value="{3d9956c1-f7f1-4b87-847e-afe9519a1e0c}"/>
+        <item type="ObjectRef" value="12705"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_geometric"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Transitions"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="12705" type="Transition::Push">
+        <BaseOfObject objectId="12705" type="Transition::Object">
+            <id type="String" value="3c6984e5-8659-423f-abdf-0e2c8f1a75a2"/>
+            <tag type="String" value="Push - Up"/>
+            <description type="String" value="Desc Push - Up"/>
+            <strategy type="int32_t" value="0"/>
+            <type type="int32_t" value="0"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <mode type="int32_t" value="3"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="12706"/>
+</Archive>

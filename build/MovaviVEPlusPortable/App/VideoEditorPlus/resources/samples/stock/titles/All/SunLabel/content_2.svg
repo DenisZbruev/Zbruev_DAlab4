@@ -1,0 +1,57 @@
+<svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255 260" fill="#ffffff">
+ <defs>
+  <path id="heart" fill="#1E1E1C" d="M208.6,156c-1.4-1.4-3.8-1.4-5.2,0l-0.9,0.9l-0.9-0.9c-1.4-1.4-3.8-1.4-5.2,0c-1.4,1.4-1.4,3.8,0,5.2 l0.9,0.9l5.2,5.2l5.2-5.2l0.9-0.9C210.1,159.8,210.1,157.5,208.6,156z"/>
+  <clipPath id="clipMovavi">
+   <polygon stroke="red" points="0,400 400,400 400,95 203,295 0,95" transform="scale(1.568 1.538) translate(-122,-110)"/>
+  </clipPath>
+  <path id="arrow" fill="#1E1E1C" d="M251.8,162.2c0.4-5.8,2.8-13.3,5.4-18.8c-5.5,2.5-13,5-18.8,5.4l8.2,3.8l-81.1,81.1l-9.4-2.5l-1.6,1.6&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;l9.4,2.5l-1.6,1.6l-9.4-2.5l-1.6,1.6l9.4,2.5l-1.6,1.6l-9.4-2.5l-1.6,1.6l9.4,2.5l-1.6,1.6l1.4,1.4l1.6-1.6l2.5,9.4l1.6-1.6&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;l-2.5-9.4l1.6-1.6l2.5,9.4l1.6-1.6l-2.5-9.4l1.6-1.6l2.5,9.4l1.6-1.6l-2.5-9.4l81.1-81.1L251.8,162.2z"/>
+  <path id="arrow2" fill="#1E1E1C" d="M 166.9,148.8 C 161.1,148.4 153.6,146 148.1,143.4 C 150.6,148.9 153.1,156.4 153.5,162.2 L 157.3,154 L 238.4,235.1&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;L 235.9,244.5 L 237.5,246.1 L 240,236.7 L 241.6,238.3 L 239.1,247.7 L 240.7,249.3 L 243.2,239.9 L 244.8,241.5 L 242.3,250.9&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;L 243.9,252.5 L 246.4,243.1 L 248,244.7 L 249.4,243.3 L 247.8,241.7 L 257.2,239.2 L 255.6,237.6 L 246.2,240.1 L 244.6,238.5&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;L 254,236 L 252.4,234.4 L 243,236.9 L 241.4,235.3 L 250.8,232.8 L 249.2,231.2 L 239.8,233.7 L 158.7,152.6 L 166.9,148.8 Z"/>
+ </defs>
+ <g transform="scale(1.568 1.538) translate(-122,-110)">
+  <g clip-path="url(#clipMovavi)">
+   <g>
+    <use xlink:href="#arrow"/>
+    <animate dur="750ms" id="arrow_left_move" attributeName="transform" to="translate(0 0)" additive="replace" from="translate(-104 104)" repeatCount="1" fill="freeze" begin="0ms"/>
+   </g>
+   <g>
+    <use xlink:href="#arrow2"/>
+    <animate dur="750ms" id="arrow_right_move" attributeName="transform" to="translate(0 0)" additive="replace" from="translate(104 104)" repeatCount="1" fill="freeze" begin="0ms"/>
+   </g>
+  </g>
+  <g visibility="hidden">
+   <g transform="translate(203,162)">
+    <g>
+     <g>
+      <use xlink:href="#heart" transform="translate(-195.35, -155)"/>
+      <animate dur="375ms" attributeName="transform" to="scale(1)" additive="replace" from="scale(0)" repeatCount="1" fill="freeze" begin="arrow_left_move.end"/>
+     </g>
+     <animate dur="375ms" attributeName="transform" to="translate(-7.1875 -6.175)" additive="replace" from="translate(0 0)" repeatCount="1" fill="freeze" begin="arrow_left_move.end"/>
+    </g>
+   </g>
+   <g transform="rotate(180, 203, 232) translate(203,232)">
+    <g>
+     <g>
+      <use xlink:href="#heart" transform="translate(-195.35, -155)"/>
+      <animate dur="375ms" attributeName="transform" to="scale(1)" additive="replace" from="scale(0)" repeatCount="1" fill="freeze" begin="arrow_left_move.end"/>
+     </g>
+     <animate dur="375ms" attributeName="transform" to="translate(-7.1875 -6.175)" additive="replace" from="translate(0 0)" repeatCount="1" fill="freeze" begin="arrow_left_move.end"/>
+    </g>
+   </g>
+   <line stroke="#1E1E1C" y1="181" stroke-miterlimit="10" y2="181" x2="278" fill="none" stroke-width="2" x1="229">
+    <animate dur="375ms" attributeName="x2" to="278" from="229" repeatCount="1" fill="freeze" begin="arrow_left_move.end"/>
+   </line>
+   <line stroke="#1E1E1C" y1="208" stroke-miterlimit="10" y2="208" x2="278" fill="none" stroke-width="2" x1="229">
+    <animate dur="375ms" attributeName="x2" to="278" from="229" repeatCount="1" fill="freeze" begin="arrow_left_move.end"/>
+   </line>
+   <line stroke="#1E1E1C" y1="181" stroke-miterlimit="10" y2="181" x2="177" fill="none" stroke-width="2" x1="128">
+    <animate dur="375ms" attributeName="x1" to="128" from="177" repeatCount="1" fill="freeze" begin="arrow_left_move.end"/>
+   </line>
+   <line stroke="#1E1E1C" y1="208" stroke-miterlimit="10" y2="208" x2="177" fill="none" stroke-width="2" x1="128">
+    <animate dur="375ms" id="line_expanding" attributeName="x1" to="128" from="177" repeatCount="1" fill="freeze" begin="arrow_left_move.end"/>
+   </line>
+   <animate dur="1500ms" attributeName="visibility" to="visible" from="hidden" repeatCount="1" fill="freeze" begin="0ms"/>
+  </g>
+ </g>
+ <animate dur="1000ms" id="CONCLUSION" attributeName="stroke-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="line_expanding.end"/>
+ <animate dur="1000ms" attributeName="fill-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="CONCLUSION.begin"/>
+</svg>

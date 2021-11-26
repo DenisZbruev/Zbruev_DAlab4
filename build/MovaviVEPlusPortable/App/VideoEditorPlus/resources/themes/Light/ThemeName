@@ -1,0 +1,15 @@
+{
+	"themeName" : {
+		"en_US":"Light",
+		"ru_RU":"Светлая",
+		"de_DE":"Hell",
+		"es_ES":"Claro",
+		"fr_FR":"Clair",
+		"it_IT":"Chiaro",
+		"ja_JP":"淡い",
+		"nl_NL":"Licht",
+		"pl_PL":"Jasny",
+		"pt_BR":"Claro",
+		"tr_TR":"Açık"
+	}
+}

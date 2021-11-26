@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="22692" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="22694" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="22690"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="22696" type="Predeclare">
+                    <typeName type="String" value="Effect::ColorMixBurn"/>
+                    <oid type="ObjectRef" value="22689"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="22690" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{4aa21ed2-27ed-4049-ae09-bcda1c4c2d87}"/>
+        <item type="ObjectRef" value="22689"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_artistic"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="22689" type="Effect::ColorMixBurn">
+        <BaseOfObject objectId="22689" type="Effect::VideoEffect">
+            <BaseOfObject objectId="22689" type="Effect::Object">
+                <id type="String" value="e738de79-e6e1-4d25-9ae2-6bec3b427525"/>
+                <tag type="String" value="ColorMixBurn"/>
+                <uniqueId type="String" value="e738de79-e6e1-4d25-9ae2-6bec3b427525"/>
+                <description type="String" value="Desc ColorMixBurn"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <strength binaryData="P/AAAAAAAAA=" type="double" value="1"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="22690"/>
+</Archive>

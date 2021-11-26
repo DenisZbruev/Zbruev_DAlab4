@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="13051" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="13053" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="13049" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="13055" type="Predeclare">
+                    <typeName value="Effect::AudioPitch" type="String"/>
+                    <oid value="13048" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="13049" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{ed654ba2-146c-4185-940e-b7e7ab4ee728}"/>
+        <item value="13048" type="ObjectRef"/>
+        <preview ref="empty" type="ImageRef"/>
+        <categories size="0" type="Array"/>
+        <collectionId value="EffectsAudio" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="13048" type="Effect::AudioPitch">
+        <BaseOfObject objectId="13048" type="Effect::AudioFilter">
+            <BaseOfObject objectId="13048" type="Effect::Object">
+                <id value="6282435b-aef6-47fd-a234-9eb95a83ea58" type="String"/>
+                <tag value="PitchVeryLow" type="String"/>
+                <uniqueId value="820c9391-6388-49f7-83a2-590014abcfa3" type="String"/>
+                <description value="Desc PitchVeryLow" type="String"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <pitch value="1.5" type="double" binaryData="P/gAAAAAAAA="/>
+    </RootObject>
+    <RootRef value="13049" type="ObjectRef"/>
+</Archive>

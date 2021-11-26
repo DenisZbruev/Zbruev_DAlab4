@@ -1,0 +1,13 @@
+<svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 445 50" fill="#ffffff">
+ <defs>
+  <path stroke="#FFF" id="big" transform="translate(10 10)" fill="#FFF" stroke-width="0" d="M  0,30  2,21, 52,21 50,30 z"/>
+  <path stroke="#FFF" id="mid" transform="translate(10 10)" fill="#FFF" stroke-width="0" d="M 14,20 16,11, 54,11 52,20 z"/>
+  <path stroke="#FFF" id="low" transform="translate(10 10)" fill="#FFF" stroke-width="0" d="M 27,10 29,1   56,1  54,10 z"/>
+ </defs>
+ <use xlink:href="#big"/>
+ <use xlink:href="#mid"/>
+ <use xlink:href="#low"/>
+ <use xlink:href="#big" transform="scale(-1 1) translate(-445)"/>
+ <use xlink:href="#mid" transform="scale(-1 1) translate(-445)"/>
+ <use xlink:href="#low" transform="scale(-1 1) translate(-445)"/>
+</svg>

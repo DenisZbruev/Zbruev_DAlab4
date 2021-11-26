@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="12528" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="12530" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Transition::Object"/>
+                    <oid type="ObjectRef" value="12526"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="12532" type="Predeclare">
+                    <typeName type="String" value="Transition::Matrix"/>
+                    <oid type="ObjectRef" value="12525"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="12526" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId type="String" value="{3487beed-56db-41c4-a3e8-e900767325f5}"/>
+        <item type="ObjectRef" value="12525"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_blocks"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Transitions"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="12525" type="Transition::Matrix">
+        <BaseOfObject objectId="12525" type="Transition::Object">
+            <id type="String" value="7876b484-a122-4935-b99e-874e8021709a"/>
+            <tag type="String" value="MatrixMediumBlocksSmooth"/>
+            <description type="String" value="Desc MatrixMediumBlocksSmooth"/>
+            <strategy type="int32_t" value="0"/>
+            <type type="int32_t" value="0"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <blockCount type="uint32_t" value="3"/>
+        <smoothness type="uint32_t" value="0"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="12526"/>
+</Archive>

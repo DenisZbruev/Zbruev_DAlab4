@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="13193">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="13195">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="13191"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="13197">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="13190"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="13191">
+        <uniqueId type="String" value="{35fada6d-b20a-4da2-b2e5-5a57afc5b4ce}"/>
+        <item type="ObjectRef" value="13190"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="sample_music"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Imports"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="13190">
+        <tag type="String" value="Music_Pursuit"/>
+        <description type="String" value="Desc Pursuit"/>
+        <location type="String" value="#DOWNLOADABLE_PATH#/Music Library/Pursuit.mp3"/>
+        <remoteUrl type="String" value="http://files.movavi.com/dl/stock/music_library/Pursuit.mp3"/>
+        <kind type="int32_t" value="1"/>
+        <category type="String" value="CATEGORY_ACTION"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="13191"/>
+</Archive>

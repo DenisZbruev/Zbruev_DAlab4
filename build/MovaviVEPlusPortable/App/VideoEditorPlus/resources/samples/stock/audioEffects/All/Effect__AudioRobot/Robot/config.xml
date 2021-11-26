@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="13061" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="13063" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="13059" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="13065" type="Predeclare">
+                    <typeName value="Effect::AudioRobot" type="String"/>
+                    <oid value="13058" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="13059" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{9f0e6fc2-8f55-440d-b831-affa7ff8be13}"/>
+        <item value="13058" type="ObjectRef"/>
+        <preview ref="empty" type="ImageRef"/>
+        <categories size="0" type="Array"/>
+        <collectionId value="EffectsAudio" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="13058" type="Effect::AudioRobot">
+        <BaseOfObject objectId="13058" type="Effect::AudioFilter">
+            <BaseOfObject objectId="13058" type="Effect::Object">
+                <id value="a10632bf-c9ad-4399-ab6b-cf2fd39b93f6" type="String"/>
+                <tag value="Robot" type="String"/>
+                <uniqueId value="820c9391-6388-49f7-83a2-590014abcfa3" type="String"/>
+                <description value="Desc Robot" type="String"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <level value="1" type="double" binaryData="P/AAAAAAAAA="/>
+        <pitch value="1.1" type="double" binaryData="P/GZmZmZmZo="/>
+    </RootObject>
+    <RootRef value="13059" type="ObjectRef"/>
+</Archive>

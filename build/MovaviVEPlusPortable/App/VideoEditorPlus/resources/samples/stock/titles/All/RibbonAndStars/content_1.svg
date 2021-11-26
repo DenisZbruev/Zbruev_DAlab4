@@ -1,0 +1,60 @@
+<svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525 525" stroke-linecap="round" fill="#ffffff">
+ <defs>
+  <polygon points="272.8,194.5 252.9,205 256.7,182.8 240.6,167.1 262.8,163.9 272.8,143.7 282.7,163.9 305,167.1 288.9,182.8 292.7,205" id="star" transform="translate(-240.6,-143.7)"/>
+ </defs>
+ <g transform="translate(-160,25)">
+  <path transform="translate(10.46535,-17.89109)">
+   <animate dur="995ms" attributeName="d" values="&#xa;&#x9;&#x9;&#x9;&#x9;M 371.6,399.8 L 369.48673,398.82655 L 361.34513,405.47168 &#x9;L 363.8,406.3 L 350.1,417.6 L 344,415.4 L 344,424.7 L 350.1,426.9 L 363.8,448.1 L 361.52212,447.27168 &#x9;L 369.13274,459.32655 &#x9;L 371.6,460.3 L 387.2,484.6 L 384.17699,483.76726 &#x9;L 389.13274,491.19735 &#x9;L 407.4,501.2 L 358.5,425.2 L 407.4,384.8 L 392.14159,379.14513 L 383.82301,385.61327 &#x9;L 387.3,386.9 Z;&#xa;&#x9;&#x9;&#x9;&#x9;M 371.6,399.8 L 184,340.8 &#x9;&#x9;&#x9;L 184,350.1 &#x9;&#x9;&#x9;L 363.8,406.3 L 350.1,417.6 L 184,366.4 L 184,375.7 L 350.1,426.9 L 363.8,448.1 L 184,391.9 &#x9;&#x9;&#x9;L 184,401.3 &#x9;&#x9;&#x9;L 371.6,460.3 L 387.2,484.6 L 184,419.9 &#x9;&#x9;&#x9;L 184,429.1 &#x9;&#x9;&#x9;L 407.4,501.2 L 358.5,425.2 L 407.4,384.8 L 184,312.8 &#x9;&#x9;&#x9;L 184,322.1 &#x9;&#x9;&#x9;L 387.3,386.9 Z" repeatCount="1" fill="freeze" begin="5ms"/>
+  </path>
+  <path transform="translate(18.46535,-14.89109)">
+   <animate dur="1000ms" attributeName="d" values="&#xa;&#x9;&#x9;&#x9;&#x9;M 174.33333,425.76667 L 181.61613,421.87936 L 181.61613,305.47936 L 174.35088,308.85263 Z;&#xa;&#x9;&#x9;&#x9;&#x9;M 174.33333,425.76667 L 656.08421,224.00702 L 656.08421,107.60702 L 174.35088,308.85263 Z" repeatCount="1" fill="freeze" begin="1000ms"/>
+  </path>
+  <path transform="translate(62,-65)">
+   <animate dur="1000ms" attributeName="d" values="&#xa;&#x9;&#x9;&#x9;&#x9;M 600.62109 269.10156 L 613 273.59961&#x9;L 613 157.19922 L 600.62109 152.70117&#x9;L 600.62109 162.33203 L 603 163.19922 &#x9;L 603 181.80078 L 600.62109 180.93359 &#x9;L 600.62109 190.13477 L 603 191 L 603 207.30078 L 600.62109 206.43359 L 600.62109 215.93359 L 603 216.80078 L 603 233 L 600.62109 232.13477 L 600.62109 241.43359 &#x9;L 603 242.30078 L 603 260.90039 L 600.62109 260.0332 z ;&#xa;&#x9;&#x9;&#x9;&#x9;M 316.69252,174.01227 L 613,273.59961 &#x9;L 613,157.19922 L 316.69252,57.611884 &#x9;L 316.69252,67.242744 L 603,163.19922 &#x9;L 603,181.80078 L 338.79073,94.326447 &#x9;L 338.79073,103.52763 L 603,191 L 603,207.30078 L 349.50502,123.17466 L 349.50502,133.14831 L 603,216.80078 L 603,233 L 336.11216,144.85798 L 336.11216,154.1568 &#x9;L 603,242.30078 L 603,260.90039 L 316.69252,164.94391 Z" repeatCount="1" begin="2000ms"/>
+  </path>
+  <path transform="translate(62,-65)">
+   <animate dur="1000ms" id="last_part_grow" attributeName="d" values="&#xa;&#x9;&#x9;&#x9;&#x9;M 316.69336,57.611328 L 350.66528,128.71521 L 310.93945,171.54688 L 613,273.59961 L 613,157.19922 Z M 330.25391,71.351562 L 603,163.19922 L 603,181.80078 L 342.21875,95.460938 Z M 347.68359,106.4707 L 603,191 L 603,207.30078 L 356.78516,125.58984 L 357.10352,125.45117 Z M 354.38086,134.75781 L 603,216.80078 L 603,233 L 342.75977,147.05273 Z M 336.11133,154.08594 L 336.11133,154.15625 L 603,242.30078 L 604.1875,262.10742 L 323.13086,167.82031 Z" repeatCount="1" fill="freeze" begin="3000ms"/>
+  </path>
+ </g>
+ <g transform="scale(0.7)">
+  <g transform="translate(150,275)">
+   <g>
+    <g>
+     <g visibility="hidden">
+      <use xlink:href="#star"/>
+      <animate dur="1000ms" attributeName="transform" to="rotate(215 32.2 30.65)" additive="replace" from="rotate(0 32.2 30.65)" repeatCount="1" fill="freeze" begin="2000ms"/>
+      <animate dur="4000ms" attributeName="visibility" to="visible" from="hidden" repeatCount="1" fill="freeze" begin="0ms"/>
+     </g>
+     <animate dur="1000ms" attributeName="transform" to="scale(2)" additive="replace" from="scale(0)" repeatCount="1" fill="freeze" begin="2000ms"/>
+    </g>
+    <animate dur="1000ms" attributeName="transform" to="translate(-64.4 -61.3)" additive="replace" from="translate(0 0)" repeatCount="1" fill="freeze" begin="2000ms"/>
+   </g>
+  </g>
+  <g transform="translate(500,575)">
+   <g>
+    <g>
+     <g>
+      <use xlink:href="#star" stroke-miterlimit="10" fill="none" stroke-width="4"/>
+      <animate dur="1000ms" attributeName="transform" to="rotate(215 32.2 30.65)" additive="replace" from="rotate(0 32.2 30.65)" repeatCount="1" fill="freeze" begin="0ms"/>
+     </g>
+     <animate dur="1000ms" attributeName="transform" to="scale(2.5)" additive="replace" from="scale(0)" repeatCount="1" fill="freeze" begin="0ms"/>
+    </g>
+    <animate dur="1000ms" attributeName="transform" to="translate(-80.5 -76.625)" additive="replace" from="translate(0 0)" repeatCount="1" fill="freeze" begin="0ms"/>
+   </g>
+  </g>
+  <g transform="translate(650,450)">
+   <g>
+    <g>
+     <g>
+      <use xlink:href="#star"/>
+      <animate dur="1000ms" attributeName="transform" to="rotate(215 32.2 30.65)" additive="replace" from="rotate(0 32.2 30.65)" repeatCount="1" fill="freeze" begin="0ms"/>
+     </g>
+     <animate dur="1000ms" attributeName="transform" to="scale(1)" additive="replace" from="scale(0)" repeatCount="1" fill="freeze" begin="0ms"/>
+    </g>
+    <animate dur="1000ms" attributeName="transform" to="translate(-32.2 -30.65)" additive="replace" from="translate(0 0)" repeatCount="1" fill="freeze" begin="0ms"/>
+   </g>
+  </g>
+ </g>
+ <animate dur="1000ms" id="CONCLUSION" attributeName="stroke-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="last_part_grow.end"/>
+ <animate dur="1000ms" attributeName="fill-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="CONCLUSION.begin"/>
+</svg>

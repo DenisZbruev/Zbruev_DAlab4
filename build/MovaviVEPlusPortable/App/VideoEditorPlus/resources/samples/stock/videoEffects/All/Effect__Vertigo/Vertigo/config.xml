@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="23672" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="23674" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="23670"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="23676" type="Predeclare">
+                    <typeName type="String" value="Effect::Vertigo"/>
+                    <oid type="ObjectRef" value="23669"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="23670" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{17230f4e-a94d-492a-a9cf-43b7db9c81a2}"/>
+        <item type="ObjectRef" value="23669"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_artistic"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="23669" type="Effect::Vertigo">
+        <BaseOfObject objectId="23669" type="Effect::VideoEffect">
+            <BaseOfObject objectId="23669" type="Effect::Object">
+                <id type="String" value="d01a98be-9a59-4217-95f5-06a955782b8a"/>
+                <tag type="String" value="Vertigo"/>
+                <uniqueId type="String" value="d01a98be-9a59-4217-95f5-06a955782b8a"/>
+                <description type="String" value="Desc Vertigo"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <scale binaryData="P9ZmZmZmZmY=" type="double" value="0.35"/>
+        <speed binaryData="P5R64UeuFHs=" type="double" value="0.02"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="23670"/>
+</Archive>

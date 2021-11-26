@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="12448" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="12450" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Transition::Object"/>
+                    <oid type="ObjectRef" value="12446"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="12452" type="Predeclare">
+                    <typeName type="String" value="Transition::FadeInFadeOut"/>
+                    <oid type="ObjectRef" value="12445"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="12446" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId type="String" value="{27dc090d-2ec9-47fe-abdc-fe08bf00afd1}"/>
+        <item type="ObjectRef" value="12445"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_fade"/>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="String" value="category_featured"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Transitions"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="12445" type="Transition::FadeInFadeOut">
+        <BaseOfObject objectId="12445" type="Transition::Object">
+            <id type="String" value="a0476d04-6c9e-4e8f-a0d7-b8365c8fad40"/>
+            <tag type="String" value="FadeInFadeOut"/>
+            <description type="String" value="Desc FadeInFadeOut"/>
+            <strategy type="int32_t" value="0"/>
+            <type type="int32_t" value="0"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+    </RootObject>
+    <RootRef type="ObjectRef" value="12446"/>
+</Archive>

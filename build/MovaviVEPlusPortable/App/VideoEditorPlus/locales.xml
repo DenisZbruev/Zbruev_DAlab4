@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locales>
+	<locale prefix="du" name="Nederlands" language="30" country="151"/>
+	<locale prefix="br" name="Portugues Brasileiro" language="91" country="30"/>
+	<locale prefix="de" name="Deutsch" language="42" country="82"/>
+	<locale prefix="es" name="Espanol" language="111" country="197"/>
+	<locale prefix="fr" name="Francais" language="37" country="74"/>
+	<locale prefix="it" name="Italiano" language="58" country="106"/>
+	<locale prefix="ja" name="日本語" language="59" country="108"/>
+	<locale prefix="ru" name="Русский" language="96" country="178"/>
+	<locale prefix="pl" name="Polska" language="90" country="172"/>
+	<locale prefix="tr" name="Türkçe" language="125" country="217"/>
+</locales>

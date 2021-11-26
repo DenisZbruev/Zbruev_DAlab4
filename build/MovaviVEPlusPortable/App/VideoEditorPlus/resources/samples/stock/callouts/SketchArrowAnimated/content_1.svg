@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 420 240" fill="#FF0000" stroke="#FF0000" stroke-width="0" stroke-opacity="1.0" fill-opacity="1.0" >
+
+	<defs>
+		<clipPath id="clipMovavi">
+			
+			<polygon fill="blue" >
+				<animate id="leftStroke" attributeName="points" begin="0ms" dur="1000ms" repeatCount="1" fill="freeze"
+							from="10,65  374,95  374,127  10,145"
+							to="374,95  374,95  374,127  374,127" />
+			</polygon>
+			
+			<polygon fill="blue" points="240,30		250,0		501,113		270,240		255,220		381,113" >
+				<animate attributeName="points" begin="leftStroke.end" dur="1000ms" fill="freeze" repeatCount="1" values="
+						240,30		250,0		501,113		270,240		255,220		381,113;
+						381,113		501,113		501,113		270,240		255,220		381,113;
+						255,220		270,240		270,240		270,240		255,220		255,220" />
+			</polygon>
+		</clipPath>
+	</defs>
+
+	<g clip-path="url(#clipMovavi)">
+		<g transform="translate(-95,-80) scale(1.2)" >
+		
+			<path d="	M97,164
+						C197,145 329,137 381,155
+						A4,3 0 0 1 375,169
+						C300,153 195,165 103,178
+						A4,3 0 0 1 97,164" />
+					
+					
+			<path transform="translate(55,-5)" 
+						d="	M241,83
+							C313,104 365,140 362,159
+							C359,191 317,228 259,260
+							A4,4 0 0 1 251,247
+							C279,229 347,188 346,161
+							C349,150 312,118 236,96
+							A4,4 0 0 1 241,83" />
+		</g>
+	</g>
+	
+</svg>

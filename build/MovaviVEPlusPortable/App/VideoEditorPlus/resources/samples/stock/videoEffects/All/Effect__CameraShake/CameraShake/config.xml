@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="22302" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="22304" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="22300"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="22306" type="Predeclare">
+                    <typeName type="String" value="Effect::CameraShake"/>
+                    <oid type="ObjectRef" value="22299"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="22300" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{90e1269d-c8d2-4856-8b22-0929f9e8f27b}"/>
+        <item type="ObjectRef" value="22299"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_artistic"/>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="String" value="category_featured"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="22299" type="Effect::CameraShake">
+        <BaseOfObject objectId="22299" type="Effect::VideoEffect">
+            <BaseOfObject objectId="22299" type="Effect::Object">
+                <id type="String" value="49faba34-ebef-42cd-a315-efb43d76cbb0"/>
+                <tag type="String" value="CameraShake"/>
+                <uniqueId type="String" value="49faba34-ebef-42cd-a315-efb43d76cbb0"/>
+                <description type="String" value="Desc CameraShake"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <shuft_x binaryData="P9zMzMzMzM0=" type="double" value="0.45"/>
+        <shuft_y binaryData="P9zMzMzMzM0=" type="double" value="0.45"/>
+        <rotate binaryData="P8mZmZmZmZo=" type="double" value="0.2"/>
+        <frequency binaryData="P8mZmZmZmZo=" type="double" value="0.2"/>
+        <persistence binaryData="P+mZmZmZmZo=" type="double" value="0.8"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="22300"/>
+</Archive>

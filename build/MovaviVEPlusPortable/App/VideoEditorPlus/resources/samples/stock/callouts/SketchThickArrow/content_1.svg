@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 420 240" fill="#FF0000" stroke="#FF0000" stroke-width="0" stroke-opacity="1.0" fill-opacity="1.0" >
+
+	<defs>
+		<clipPath id="clipMovavi">
+			<path fill="blue" stroke="none" 
+					d="	M27,92
+						L247,92
+						A10,10 0 0 0 257,83
+						L257,35
+						L390,120
+						L257,205
+						L257,157
+						A10,10 0 0 0 247,148
+						L27,148
+						Z" />
+		</clipPath>
+	</defs>
+	
+	<g clip-path="url(#clipMovavi)">
+	
+		<path 
+				d="	M10,85
+					A10,10 0 0 1 20,75
+					L240,75
+					L240,21
+					A10,10 0 0 1 254,13
+					
+					L408,112
+					A10,10 0 0 1 408,128
+					
+					L254,227
+					A10,10 0 0 1 240,221
+					L240,165
+					
+					L20,165
+					A10,10 0 0 1 10,155
+					Z" />
+	</g>
+				
+</svg>

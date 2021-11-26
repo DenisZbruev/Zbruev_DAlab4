@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="22312" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="22314" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="22310"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="22316" type="Predeclare">
+                    <typeName type="String" value="Effect::ColorBrush"/>
+                    <oid type="ObjectRef" value="22309"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="22310" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{ff38b70b-663b-49d7-8c75-d4e926d00fcb}"/>
+        <item type="ObjectRef" value="22309"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_artistic"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="22309" type="Effect::ColorBrush">
+        <BaseOfObject objectId="22309" type="Effect::VideoEffect">
+            <BaseOfObject objectId="22309" type="Effect::Object">
+                <id type="String" value="342d639d-1182-4b70-b071-1831d484cb85"/>
+                <tag type="String" value="ColorBrushSketch"/>
+                <uniqueId type="String" value="342d639d-1182-4b70-b071-1831d484cb85"/>
+                <description type="String" value="Desc ColorBrushSketch"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <pType type="int32_t" value="0"/>
+        <angle type="int32_t" value="-45"/>
+        <size type="int32_t" value="45"/>
+        <rough type="int32_t" value="30"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="22310"/>
+</Archive>

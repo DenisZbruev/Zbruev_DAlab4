@@ -1,0 +1,14 @@
+
+<event name="LINK_CLICK">
+    <param name="APP_LANGUAGE" type="text" value="ru_RU"/>
+    <param name="CLICK_TYPE" type="text" value="TAB"/>
+    <param name="DATE_TIME" type="text" value="2018-11-25T17:13:08"/>
+    <param name="HUID" type="text" value="e997182b00cba388f0c260cdc8685c44ee2521d7"/>
+    <param name="MODULE_NAME" type="text" value="suite"/>
+    <param name="PREVIOUS_EVENT" type="text" value="APP_FIRST_START"/>
+    <param name="PRODUCT_NAME" type="text" value="Video Suite"/>
+    <param name="PRODUCT_VERSION" type="text" value="17.4.0.0"/>
+    <param name="SID" type="text" value="181125-171218-102487"/>
+    <param name="TAB_NAME" type="text" value="AUDIO"/>
+    <param name="TRIAL" type="text" value="NO"/>
+</event>

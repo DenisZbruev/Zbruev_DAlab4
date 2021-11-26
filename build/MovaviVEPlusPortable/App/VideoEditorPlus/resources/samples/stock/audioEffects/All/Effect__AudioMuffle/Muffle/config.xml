@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="13001" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="13003" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="12999" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="13005" type="Predeclare">
+                    <typeName value="Effect::AudioMuffle" type="String"/>
+                    <oid value="12998" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="12999" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{753625c3-c8fe-4d8c-b21d-5db929d8cb4a}"/>
+        <item value="12998" type="ObjectRef"/>
+        <preview ref="empty" type="ImageRef"/>
+        <categories size="0" type="Array"/>
+        <collectionId value="EffectsAudio" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="12998" type="Effect::AudioMuffle">
+        <BaseOfObject objectId="12998" type="Effect::AudioFilter">
+            <BaseOfObject objectId="12998" type="Effect::Object">
+                <id value="4e96f14f-3abe-46e7-9600-6b7cba9702c2" type="String"/>
+                <tag value="Muffle" type="String"/>
+                <uniqueId value="820c9391-6388-49f7-83a2-590014abcfa3" type="String"/>
+                <description value="Desc Muffle" type="String"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <gainUp value="10" type="int32_t"/>
+        <gainDown value="50" type="int32_t"/>
+        <mean value="500" type="int32_t"/>
+        <dispersion value="3" type="double" binaryData="QAgAAAAAAAA="/>
+    </RootObject>
+    <RootRef value="12999" type="ObjectRef"/>
+</Archive>

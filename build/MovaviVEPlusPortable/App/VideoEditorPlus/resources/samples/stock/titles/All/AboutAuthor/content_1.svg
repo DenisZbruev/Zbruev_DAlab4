@@ -1,0 +1,17 @@
+<svg stroke="#2975aa" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 745 190" fill="#2975aa">
+ <defs>
+  <linearGradient id="stroke_retain">
+   <stop stop-opacity="1" id="stop8400" stop-color="#00c8f8" offset="0"/>
+   <stop stop-opacity="1" id="stop8402" stop-color="#00c8f8" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g stroke="url(#stroke_retain)" transform="translate(10 10)" stroke-opacity="0.8" fill-opacity="0.60" fill="#fff" stroke-width="4">
+  <rect x="0" y="155" height="15" width="725"/>
+  <rect x="0" y="45" height="100" width="725"/>
+  <path d="M 0,35 250,35 200,0, 0,0 z"/>
+  <g transform="translate(-250 0)">
+   <path d="M 515,0 545,0 595,35, 565,35 515,0 z"/>
+   <path d="M 565,0 580,0 630,35, 615,35  565,0 z"/>
+  </g>
+ </g>
+</svg>

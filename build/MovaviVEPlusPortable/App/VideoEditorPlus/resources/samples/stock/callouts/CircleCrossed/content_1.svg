@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200" fill="#D76344" stroke="#D76344" stroke-width="0" stroke-opacity="1.0" fill-opacity="1.0" >
+
+	<defs>
+		<clipPath id="clipMovavi">
+			<path transform="rotate(-53,100,100)" stroke="red" d="	M116,38
+																	A 63,63 0 0 1 116,162
+																	Z" />
+			<path transform="rotate(-53,100,100)" stroke="red" d="	M84,38
+																	A 63,63 0 0 0 84,162
+																	Z" />
+        </clipPath>
+	</defs>
+	
+	<g clip-path="url(#clipMovavi)">
+		<circle cx="100" cy="100" r="95" />
+	</g>
+				
+</svg>

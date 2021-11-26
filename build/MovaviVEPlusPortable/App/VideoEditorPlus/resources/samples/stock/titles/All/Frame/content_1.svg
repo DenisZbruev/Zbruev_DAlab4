@@ -1,0 +1,27 @@
+<svg stroke="#ffffff" stroke-dasharray="10, 10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 106" stroke-linecap="round" fill="#ffffff">
+ <g transform="translate(300,53)" fill="none" stroke-width="5">
+  <path>
+   <animate dur="1000ms" id="lineExpandRight" attributeName="d" values="M0,0 l0,0 l0,0; M0,0 l200,0 l100,0" repeatCount="1" fill="freeze" begin="0ms"/>
+   <animate dur="1000ms" id="lineExpandRightBack" attributeName="d" values="M0,0 l200,0 l100,0; M0,0 l0,0 l0,0" repeatCount="1" fill="freeze" begin="CONCLUSION.end"/>
+   <animate dur="1000ms" id="upperRightFrame" attributeName="d" values="M0,0 l200,0 l100,0; M0,-50 l200,0 l100,50" repeatCount="1" fill="freeze" begin="lineExpandRight.end"/>
+   <animate dur="1000ms" id="CONCLUSION" attributeName="d" values="M0,-50 l200,0 l100,50; M0,0 l200,0 l100,0" repeatCount="1" fill="freeze" begin="upperRightFrame.end"/>
+  </path>
+  <path stroke-dashoffset="10">
+   <animate dur="1000ms" id="lineExpandLeft" attributeName="d" values="M0,0 l0,0 l0,0; M0,0 l-200,0 l-100,0" repeatCount="1" fill="freeze" begin="0ms"/>
+   <animate dur="1000ms" id="lineExpandLeftBack" attributeName="d" values="M0,0 l-200,0 l-100,0; M0,0 l0,0 l0,0" repeatCount="1" fill="freeze" begin="upperLeftFrameBack.end"/>
+   <animate dur="1000ms" id="upperLeftFrame" attributeName="d" values="M0,0 l-200,0 l-100,0; M0,-50 l-200,0 l-100,50" repeatCount="1" fill="freeze" begin="lineExpandLeft.end"/>
+   <animate dur="1000ms" id="upperLeftFrameBack" attributeName="d" values="M0,-50 l-200,0 l-100,50; M0,0 l-200,0 l-100,0" repeatCount="1" fill="freeze" begin="CONCLUSION.begin"/>
+  </path>
+  <g display="inline">
+   <path>
+    <animate dur="1000ms" id="lowerRightFrame" attributeName="d" values="M0,0 l200,0 l100,0; M0,50 l200,0 l100,-50" repeatCount="1" fill="freeze" begin="lineExpandRight.end"/>
+    <animate dur="1000ms" id="lowerRightFrameBack" attributeName="d" values="M0,50 l200,0 l100,-50; M0,0 l200,0 l100,0" repeatCount="1" fill="freeze" begin="CONCLUSION.begin"/>
+   </path>
+   <path stroke-dashoffset="10">
+    <animate dur="1000ms" id="lowerLeftFrame" attributeName="d" values="M0,0 l-200,0 l-100,0; M0,50 l-200,0 l-100,-50" repeatCount="1" fill="freeze" begin="lineExpandLeft.end"/>
+    <animate dur="1000ms" id="lowerLeftFrameBack" attributeName="d" values="M0,50 l-200,0 l-100,-50; M0,0 l-200,0 l-100,0" repeatCount="1" fill="freeze" begin="CONCLUSION.begin"/>
+   </path>
+   <animate dur="100ms" attributeName="display" values="none" repeatCount="1" fill="freeze" begin="lowerLeftFrameBack.end"/>
+  </g>
+ </g>
+</svg>

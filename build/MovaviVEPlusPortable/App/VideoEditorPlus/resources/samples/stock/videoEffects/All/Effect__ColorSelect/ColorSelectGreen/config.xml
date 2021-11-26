@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="22742" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="22744" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="22740"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="22746" type="Predeclare">
+                    <typeName type="String" value="Effect::ColorSelect"/>
+                    <oid type="ObjectRef" value="22739"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="22740" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{3953c315-84ac-4ef6-9c6e-b645b05c97f7}"/>
+        <item type="ObjectRef" value="22739"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_artistic"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="22739" type="Effect::ColorSelect">
+        <BaseOfObject objectId="22739" type="Effect::VideoEffect">
+            <BaseOfObject objectId="22739" type="Effect::Object">
+                <id type="String" value="5899d84f-ec6c-4896-b9b9-8c2556468536"/>
+                <tag type="String" value="ColorSelectGreen"/>
+                <uniqueId type="String" value="5899d84f-ec6c-4896-b9b9-8c2556468536"/>
+                <description type="String" value="Desc ColorSelectGreen"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <color type="uint32_t" value="65280"/>
+        <hueTolerance type="int32_t" value="60"/>
+        <noiseLevel type="int32_t" value="0"/>
+        <harshness type="int32_t" value="0"/>
+        <transparency type="int32_t" value="0"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="22740"/>
+</Archive>

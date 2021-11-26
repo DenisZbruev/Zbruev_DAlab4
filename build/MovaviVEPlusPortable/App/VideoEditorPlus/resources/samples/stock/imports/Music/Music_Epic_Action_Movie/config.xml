@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="13153">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="13155">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="13151"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="13157">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="13150"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="13151">
+        <uniqueId type="String" value="{82775f2c-57e3-4046-9961-c3f8f0b6e522}"/>
+        <item type="ObjectRef" value="13150"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="sample_music"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Imports"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="13150">
+        <tag type="String" value="Music_Epic_Action_Movie"/>
+        <description type="String" value="Desc Epic_Action_Movie"/>
+        <location type="String" value="#DOWNLOADABLE_PATH#/Music Library/Epic_Action_Movie.mp3"/>
+        <remoteUrl type="String" value="http://files.movavi.com/dl/stock/music_library/Epic_Action_Movie.mp3"/>
+        <kind type="int32_t" value="1"/>
+        <category type="String" value="CATEGORY_ACTION"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="13151"/>
+</Archive>

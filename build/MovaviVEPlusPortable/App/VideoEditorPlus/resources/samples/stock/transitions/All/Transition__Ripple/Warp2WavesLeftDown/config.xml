@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="12828" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="12830" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Transition::Object"/>
+                    <oid type="ObjectRef" value="12826"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="12832" type="Predeclare">
+                    <typeName type="String" value="Transition::Ripple"/>
+                    <oid type="ObjectRef" value="12825"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="12826" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId type="String" value="{d3981b14-b4de-46a5-bccc-3f7233a5f637}"/>
+        <item type="ObjectRef" value="12825"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_featured"/>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="String" value="category_warp"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Transitions"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="12825" type="Transition::Ripple">
+        <BaseOfObject objectId="12825" type="Transition::Object">
+            <id type="String" value="b923cbf1-47d2-42af-a470-286ac05b9887"/>
+            <tag type="String" value="Warp2WavesLeftDown"/>
+            <description type="String" value="Desc Warp2WavesLeftDown"/>
+            <strategy type="int32_t" value="0"/>
+            <type type="int32_t" value="0"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <ampMode type="uint32_t" value="48"/>
+        <amplitude type="uint32_t" value="48"/>
+        <period type="uint32_t" value="24"/>
+        <waveCount type="uint32_t" value="2"/>
+        <center type="int32_t" value="1"/>
+        <mode type="int32_t" value="1"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="12826"/>
+</Archive>

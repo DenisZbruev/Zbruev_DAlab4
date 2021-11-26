@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 420 240" fill="#FF0000" stroke="#FF0000" stroke-width="0" stroke-opacity="1.0" fill-opacity="1.0" >
+
+	<defs>
+		<clipPath id="clipMovavi">
+			<path fill="yellow" stroke="none" >
+				<animate id="first_stroke" attributeName="d" begin="0ms" dur="500ms" fill="freeze" repeatCount="1" values="
+					M0,125    L22,90    L152,184  L152,240 Z;
+					M152,240  L152,184  L152,184  L152,240 Z "/>
+			</path>
+			
+			<path d="M365,-30  L420,20   L152,240  L152,184 Z" fill="yellow" stroke="none" >
+				<animate attributeName="d" begin="first_stroke.end" dur="700ms" fill="freeze" repeatCount="1" values="
+					M365,-30  L420,20   L152,240  L152,184 Z;
+					M365,-30  L420,20   L420,20   L365,-30 Z "/>
+			</path>
+		</clipPath>
+	</defs>
+	
+	<g clip-path="url(#clipMovavi)">
+		<path transform="translate(-15,-100) scale(1.2)"
+				d="	M29,188
+					C87,212 106,232 136,270
+					A5,5 0 0 0 142,270
+					C208,186 268,131 345,107
+					A6,5 0 0 0 338,96
+					C257,119 193,181 140,249
+					C108,215 71,191 35,177
+					A5,5 0 0 0 29,188
+					Z " />
+	</g>
+
+</svg>

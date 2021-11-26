@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="22702" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="22704" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="22700"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="22706" type="Predeclare">
+                    <typeName type="String" value="Effect::ColorMixExchange"/>
+                    <oid type="ObjectRef" value="22699"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="22700" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{96f8d59c-a625-4ea0-833e-f0cf96ceaca6}"/>
+        <item type="ObjectRef" value="22699"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_artistic"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="22699" type="Effect::ColorMixExchange">
+        <BaseOfObject objectId="22699" type="Effect::VideoEffect">
+            <BaseOfObject objectId="22699" type="Effect::Object">
+                <id type="String" value="72edac99-e300-45d8-8e57-0f7bfef3bf54"/>
+                <tag type="String" value="ColorMixExchangeBlue"/>
+                <uniqueId type="String" value="72edac99-e300-45d8-8e57-0f7bfef3bf54"/>
+                <description type="String" value="Desc ColorMixExchangeBlue"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <color type="uint32_t" value="255"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="22700"/>
+</Archive>

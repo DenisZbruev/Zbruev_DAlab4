@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 250 180" fill="#4BABC5" stroke="#357D90" stroke-width="0" stroke-opacity="1.0" fill-opacity="1.0" >
+
+	<path d="	M40,10
+				L210,10
+				A30,30 0 0 1 240,40
+				L240,140
+				A30,30 0 0 1 210,170
+				L40,170
+				A30,30 0 0 1 10,140
+				L10,40
+				A30,30 0 0 1 40,10
+				Z" />
+	
+</svg>

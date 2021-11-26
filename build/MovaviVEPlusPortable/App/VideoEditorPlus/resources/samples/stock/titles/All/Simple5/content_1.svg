@@ -1,0 +1,17 @@
+<svg stroke="#80ffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 885 133" fill="#80ffff" stroke-width="4">
+ <adjustablePoint maxX="815" posX="345" id="mid" minX="50" posY="58" minY="58" maxY="58"/>
+ <g transform="translate(10 10)">
+  <polygon stroke="#fff" opacity="0" points="0,0 mid.posX,0 mid.posX,113, 0,113" fill="none">
+   <animate dur="500ms" id="frame_appear" attributeName="points" to="0,0 mid.posX,0 mid.posX,113, 0,113" repeatCount="1" from="mid.posX,0 mid.posX,0 mid.posX,113 mid.posX,113" fill="freeze" begin="rect_appear.begin + 400ms"/>
+   <animate dur="1ms" attributeName="opacity" to="1" repeatCount="1" from="0" fill="freeze" begin="frame_appear.begin"/>
+   <animate dur="600ms" id="CONCLUSION" attributeName="points" to="mid.posX,0 mid.posX,0 mid.posX,113 mid.posX,113" from="0,0 mid.posX,0 mid.posX,113, 0,113" repeatCount="1" fill="freeze" begin="frame_appear.end"/>
+   <animate dur="1ms" attributeName="opacity" to="0" repeatCount="1" from="1" fill="freeze" begin="CONCLUSION.begin + 590ms"/>
+  </polygon>
+  <polygon stroke="#fff" opacity="0" points="mid.posX,0 865,0 865,113, mid.posX,113" fill="#fff">
+   <animate dur="700ms" id="rect_appear" attributeName="points" to="mid.posX,0 865,0 865,113, mid.posX,113" repeatCount="1" from="mid.posX,0 mid.posX,0 mid.posX,113 mid.posX,113" fill="freeze" begin="0ms"/>
+   <animate dur="1ms" attributeName="opacity" to="1" repeatCount="1" from="0" fill="freeze" begin="rect_appear.begin"/>
+   <animate dur="400ms" id="rect_disappear" attributeName="points" to="mid.posX,0 mid.posX,0 mid.posX,113 mid.posX,113" repeatCount="1" from="mid.posX,0 865,0 865,113, mid.posX,113" fill="freeze" begin="CONCLUSION.begin + 400ms"/>
+   <animate dur="1ms" attributeName="opacity" to="0" repeatCount="1" from="1" fill="freeze" begin="CONCLUSION.begin + 790ms"/>
+  </polygon>
+ </g>
+</svg>

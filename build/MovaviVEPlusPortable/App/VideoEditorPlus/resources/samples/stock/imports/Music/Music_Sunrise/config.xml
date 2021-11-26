@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="13133">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="13135">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="13131"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="13137">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="13130"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="13131">
+        <uniqueId type="String" value="{33609cf2-ec15-496c-908c-991686de7915}"/>
+        <item type="ObjectRef" value="13130"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="sample_music"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Imports"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="13130">
+        <tag type="String" value="Music_Sunrise"/>
+        <description type="String" value="Desc Sunrise"/>
+        <location type="String" value="#DOWNLOADABLE_PATH#/Music Library/Sunrise.mp3"/>
+        <remoteUrl type="String" value="http://files.movavi.com/dl/stock/music_library/Sunrise.mp3"/>
+        <kind type="int32_t" value="1"/>
+        <category type="String" value="CATEGORY_FAMILY"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="13131"/>
+</Archive>

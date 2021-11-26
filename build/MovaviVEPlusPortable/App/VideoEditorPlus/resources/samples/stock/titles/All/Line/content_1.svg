@@ -1,0 +1,7 @@
+<svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 30" fill="#ffffff">
+ <line stroke="#111" id="expanding_long_line" y1="15" y2="15" x2="210" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" x1="210">
+  <animate dur="1500ms" attributeName="x1" id="long_line_expand" to="14" from="210" repeatCount="1" fill="freeze" begin="0ms"/>
+  <animate dur="1500ms" attributeName="x2" to="405" from="210" repeatCount="1" fill="freeze" begin="0ms"/>
+ </line>
+ <animate dur="1000ms" id="CONCLUSION" attributeName="stroke-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="long_line_expand.end"/>
+</svg>

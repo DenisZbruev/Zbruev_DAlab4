@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="23502" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="23504" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="23500"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="23506" type="Predeclare">
+                    <typeName type="String" value="Effect::PopArt"/>
+                    <oid type="ObjectRef" value="23499"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="23500" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{7fb37751-2d09-4bfa-8f41-f6babdf554aa}"/>
+        <item type="ObjectRef" value="23499"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_featured"/>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="String" value="category_retro_movie"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="23499" type="Effect::PopArt">
+        <BaseOfObject objectId="23499" type="Effect::VideoEffect">
+            <BaseOfObject objectId="23499" type="Effect::Object">
+                <id type="String" value="2647e4b8-5689-4bf1-b45f-7f4b3b35e49b"/>
+                <tag type="String" value="PopArt4Tiles"/>
+                <uniqueId type="String" value="2647e4b8-5689-4bf1-b45f-7f4b3b35e49b"/>
+                <description type="String" value="Desc PopArt4Tiles"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <preset type="int32_t" value="0"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="23500"/>
+</Archive>

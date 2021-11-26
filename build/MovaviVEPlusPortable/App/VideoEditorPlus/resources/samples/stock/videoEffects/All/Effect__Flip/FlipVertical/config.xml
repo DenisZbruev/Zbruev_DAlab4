@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="22902" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="22904" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="22900"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="22906" type="Predeclare">
+                    <typeName type="String" value="Effect::Flip"/>
+                    <oid type="ObjectRef" value="22899"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="22900" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{2c5baa01-bd96-4f5c-ac53-abcc8f44b3e4}"/>
+        <item type="ObjectRef" value="22899"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_adjust"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="22899" type="Effect::Flip">
+        <BaseOfObject objectId="22899" type="Effect::VideoEffect">
+            <BaseOfObject objectId="22899" type="Effect::Object">
+                <id type="String" value="45fc4a8b-2261-452e-90e2-fb882118a392"/>
+                <tag type="String" value="FlipVertical"/>
+                <uniqueId type="String" value="45fc4a8b-2261-452e-90e2-fb882118a392"/>
+                <description type="String" value="Desc FlipVertical"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <vertical type="bool" value="1"/>
+        <horizontal type="bool" value="0"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="22900"/>
+</Archive>

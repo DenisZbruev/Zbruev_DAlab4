@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="22202" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="22204" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="22200"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="22206" type="Predeclare">
+                    <typeName type="String" value="Effect::Blur"/>
+                    <oid type="ObjectRef" value="22199"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="22200" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{1c1849b8-de89-4a3c-850a-051ddb98546a}"/>
+        <item type="ObjectRef" value="22199"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_blur"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="22199" type="Effect::Blur">
+        <BaseOfObject objectId="22199" type="Effect::VideoEffect">
+            <BaseOfObject objectId="22199" type="Effect::Object">
+                <id type="String" value="5cd3b609-1357-4f98-86c7-1302c9dea530"/>
+                <tag type="String" value="BlurMild"/>
+                <uniqueId type="String" value="5cd3b609-1357-4f98-86c7-1302c9dea530"/>
+                <description type="String" value="Desc BlurMild"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <scale binaryData="P3qfvnbItDk=" type="double" value="0.0065"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="22200"/>
+</Archive>

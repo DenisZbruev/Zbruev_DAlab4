@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="13173">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="13175">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="13171"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="13177">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="13170"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="13171">
+        <uniqueId type="String" value="{969f461a-988e-4be6-bc76-9de1149b4cd6}"/>
+        <item type="ObjectRef" value="13170"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="sample_music"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Imports"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="13170">
+        <tag type="String" value="Music_Free_Spirit"/>
+        <description type="String" value="Desc Free_Spirit"/>
+        <location type="String" value="#DOWNLOADABLE_PATH#/Music Library/Free_Spirit.mp3"/>
+        <remoteUrl type="String" value="http://files.movavi.com/dl/stock/music_library/Free_Spirit.mp3"/>
+        <kind type="int32_t" value="1"/>
+        <category type="String" value="CATEGORY_ACTION"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="13171"/>
+</Archive>

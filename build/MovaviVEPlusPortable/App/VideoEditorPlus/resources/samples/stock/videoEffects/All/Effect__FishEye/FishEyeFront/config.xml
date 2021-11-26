@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="22862" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="22864" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="22860"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="22866" type="Predeclare">
+                    <typeName type="String" value="Effect::FishEye"/>
+                    <oid type="ObjectRef" value="22859"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="22860" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{316d4208-616d-4664-bcbb-8a4394881bb0}"/>
+        <item type="ObjectRef" value="22859"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_adjust"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="22859" type="Effect::FishEye">
+        <BaseOfObject objectId="22859" type="Effect::VideoEffect">
+            <BaseOfObject objectId="22859" type="Effect::Object">
+                <id type="String" value="7f10aa3a-79c9-4bdf-9a5c-7005690a961a"/>
+                <tag type="String" value="FishEyeFront"/>
+                <uniqueId type="String" value="7f10aa3a-79c9-4bdf-9a5c-7005690a961a"/>
+                <description type="String" value="Desc FishEyeFront"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <deviation binaryData="P9MzMzMzMzM=" type="double" value="0.3"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="22860"/>
+</Archive>

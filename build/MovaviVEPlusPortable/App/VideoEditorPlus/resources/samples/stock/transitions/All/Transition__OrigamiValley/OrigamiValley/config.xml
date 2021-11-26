@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="12578" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="12580" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Transition::Object"/>
+                    <oid type="ObjectRef" value="12576"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="12582" type="Predeclare">
+                    <typeName type="String" value="Transition::OrigamiValley"/>
+                    <oid type="ObjectRef" value="12575"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="12576" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId type="String" value="{29010d7a-69f0-4326-bc13-444e28b6858d}"/>
+        <item type="ObjectRef" value="12575"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_geometric"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Transitions"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="12575" type="Transition::OrigamiValley">
+        <BaseOfObject objectId="12575" type="Transition::Object">
+            <id type="String" value="544a34ae-9957-442f-8ac2-e77c01fc8f81"/>
+            <tag type="String" value="OrigamiValley"/>
+            <description type="String" value="Desc OrigamiValley"/>
+            <strategy type="int32_t" value="0"/>
+            <type type="int32_t" value="0"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+    </RootObject>
+    <RootRef type="ObjectRef" value="12576"/>
+</Archive>

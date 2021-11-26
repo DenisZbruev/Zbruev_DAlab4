@@ -1,0 +1,25 @@
+Log file created at: 2018/11/25 17:13:42
+Running on machine: LAPTOP-N3R476DK
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1125 17:13:42.110549 14060 CodecHelper.cpp:204] No transform found (MF has returned zero transforms) for {00007362-0000-0010-8000-00aa00389b71}
+W1125 17:13:42.243101 14060 CodecHelper.cpp:220] Cannot get MF transform CLSID
+W1125 17:13:42.243101 14060 CodecHelper.cpp:240] No transform found for CODEC_ID_H265 MFT:H265VideoDecoderMFT
+W1125 17:13:44.418537 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 32 Bit 2 Ch)
+W1125 17:13:44.442618 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 32 Bit 2 Ch)
+W1125 17:13:44.456332 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 32 Bit 2 Ch)
+W1125 17:13:44.466022 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 32 Bit 2 Ch)
+W1125 17:13:44.475435 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 32 Bit 2 Ch)
+W1125 17:13:44.484612 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+W1125 17:13:44.495518 15176 CapturerAudioWASAPI.cpp:849] Can't initialize IAudioClient objects with use loopbackError execute FormatMessage
+W1125 17:13:44.497512 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+W1125 17:13:44.610405 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+W1125 17:13:44.623183 15176 CapturerAudioWASAPI.cpp:849] Can't initialize IAudioClient objects with use loopbackError execute FormatMessage
+W1125 17:13:44.624181 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+W1125 17:13:46.137178 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+W1125 17:13:46.146137 15176 CapturerAudioWASAPI.cpp:849] Can't initialize IAudioClient objects with use loopbackError execute FormatMessage
+W1125 17:13:46.147135 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+W1125 17:13:46.238387 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+W1125 17:13:46.246366 15176 CapturerAudioWASAPI.cpp:849] Can't initialize IAudioClient objects with use loopbackError execute FormatMessage
+W1125 17:13:46.247364 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+W1125 17:13:46.308907 15176 CapturerAudioWASAPI.cpp:765] Format is (48000 Hz 16 Bit 2 Ch)
+W1125 17:13:46.317883 15176 CapturerAudioWASAPI.cpp:849] Can't initialize IAudioClient objects with use loopbackError execute FormatMessage

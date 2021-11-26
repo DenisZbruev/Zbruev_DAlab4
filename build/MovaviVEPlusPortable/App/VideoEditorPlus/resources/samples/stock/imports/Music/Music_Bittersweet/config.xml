@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="13253">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="13255">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="13251"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="13257">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="13250"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="13251">
+        <uniqueId type="String" value="{3f7d49c5-5f43-4950-bce7-9c2f78bf1a41}"/>
+        <item type="ObjectRef" value="13250"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="sample_music"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Imports"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="13250">
+        <tag type="String" value="Music_Bittersweet"/>
+        <description type="String" value="Desc Bittersweet"/>
+        <location type="String" value="#DOWNLOADABLE_PATH#/Music Library/Bittersweet.mp3"/>
+        <remoteUrl type="String" value="http://files.movavi.com/dl/stock/music_library/Bittersweet.mp3"/>
+        <kind type="int32_t" value="1"/>
+        <category type="String" value=""/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="13251"/>
+</Archive>

@@ -1,0 +1,6 @@
+C:/Users/1197994/Новая папка (2)/3 семестр прога/Lab4/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/1197994/Новая папка (2)/3 семестр прога/Lab4/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/1197994/Новая папка (2)/3 семестр прога/Lab4/build/src/CMakeFiles/system.dir
+C:/Users/1197994/Новая папка (2)/3 семестр прога/Lab4/build/samples/CMakeFiles/sample_system.dir
+C:/Users/1197994/Новая папка (2)/3 семестр прога/Lab4/build/gtest/CMakeFiles/gtest.dir
+C:/Users/1197994/Новая папка (2)/3 семестр прога/Lab4/build/test/CMakeFiles/test_system.dir

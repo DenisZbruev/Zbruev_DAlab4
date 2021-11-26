@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="12468" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="12470" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Transition::Object"/>
+                    <oid type="ObjectRef" value="12466"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="12472" type="Predeclare">
+                    <typeName type="String" value="Transition::KenBurns"/>
+                    <oid type="ObjectRef" value="12465"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="12466" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId type="String" value="{a2860553-be1b-49a8-a791-0ea8cc5dc07a}"/>
+        <item type="ObjectRef" value="12465"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_fade"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Transitions"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="12465" type="Transition::KenBurns">
+        <BaseOfObject objectId="12465" type="Transition::Object">
+            <id type="String" value="2fca13ac-caff-4c69-adf6-999c03dab5b1"/>
+            <tag type="String" value="KenBurnsIntense"/>
+            <description type="String" value="Desc KenBurnsIntense"/>
+            <strategy type="int32_t" value="0"/>
+            <type type="int32_t" value="0"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <direction type="int32_t" value="5"/>
+        <fade type="int32_t" value="90"/>
+        <zoom type="int32_t" value="50"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="12466"/>
+</Archive>

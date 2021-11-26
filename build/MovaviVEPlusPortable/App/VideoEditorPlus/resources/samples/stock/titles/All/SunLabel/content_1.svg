@@ -1,0 +1,45 @@
+<svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255 260" fill="#ffffff">
+ <defs>
+  <line stroke="#1E1E1C" id="beam2" y1="115" y2="115" x2="135.7" fill="none" stroke-width="3" x1="135.7">
+   <animate dur="375ms" id="beam_expansion" attributeName="x2" to="122.2" from="135.7" repeatCount="1" fill="freeze" begin="2250ms"/>
+   <animate dur="375ms" attributeName="y2" to="98.9" from="115" repeatCount="1" fill="freeze" begin="2250ms"/>
+  </line>
+ </defs>
+ <g transform="translate(-75,-65)">
+  <circle cy="194.7" stroke="#1E1E1C" r="92.1" cx="202.5" stroke-miterlimit="10" fill="none" stroke-width="3">
+   <animate dur="750ms" id="full_circle_expand" attributeName="r" to="92.1" from="0.0" repeatCount="1" fill="freeze" begin="0ms"/>
+  </circle>
+  <path stroke-dashoffset="384" stroke="#1E1E1C" stroke-dasharray="12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 384" fill="none" stroke-width="3" d="M103 194.7 A 99.5 99.5, 0, 1, 1, 302 194.7 ">
+   <animate dur="375ms" calcMode="discrete" id="upper_arch_draw" attributeName="stroke-dashoffset" values="384; 360; 336; 312; 288; 264; 240; 216; 192; 168; 144; 120; 96; 72" repeatCount="1" fill="freeze" begin="full_circle_expand.end"/>
+   <animate dur="750ms" id="dash_circle_rotate" attributeName="stroke-dashoffset" to="0" repeatCount="1" from="48" fill="freeze" begin="lower_arch_draw.end"/>
+  </path>
+  <path stroke="#1E1E1C" visibility="hidden" stroke-dasharray="12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 384" fill="none" stroke-width="3" d="M302 194.7 A 99.5 99.5, 0, 1, 1, 103 194.7 ">
+   <animate dur="375ms" calcMode="discrete" id="lower_arch_draw" attributeName="stroke-dashoffset" values="384; 360; 336; 312; 288; 264; 240; 216; 192; 168; 144; 120; 96; 72" repeatCount="1" fill="freeze" begin="upper_arch_draw.end"/>
+   <animate dur="1500ms" attributeName="visibility" values="hidden; visible; visible; visible" repeatCount="1" fill="freeze" begin="full_circle_expand.end"/>
+   <animate dur="750ms" attributeName="stroke-dashoffset" to="0" repeatCount="1" from="48" fill="freeze" begin="lower_arch_draw.end"/>
+  </path>
+  <g visibility="hidden">
+   <use xlink:href="#beam2"/>
+   <use xlink:href="#beam2" transform="rotate(20 202.5 194.7)"/>
+   <use xlink:href="#beam2" transform="rotate(40 202.5 194.7)"/>
+   <use xlink:href="#beam2" transform="rotate(60 202.5 194.7)"/>
+   <use xlink:href="#beam2" transform="rotate(80 202.5 194.7)"/>
+   <use xlink:href="#beam2" transform="rotate(100 202.5 194.7)"/>
+   <use xlink:href="#beam2" transform="rotate(120 202.5 194.7)"/>
+   <use xlink:href="#beam2" transform="rotate(140 202.5 194.7)"/>
+   <use xlink:href="#beam2" transform="rotate(160 202.5 194.7)"/>
+   <use xlink:href="#beam2" transform="rotate(180 202.5 194.7)"/>
+   <use xlink:href="#beam2" transform="rotate(200 202.5 194.7)"/>
+   <use xlink:href="#beam2" transform="rotate(220 202.5 194.7)"/>
+   <use xlink:href="#beam2" transform="rotate(240 202.5 194.7)"/>
+   <use xlink:href="#beam2" transform="rotate(260 202.5 194.7)"/>
+   <use xlink:href="#beam2" transform="rotate(280 202.5 194.7)"/>
+   <use xlink:href="#beam2" transform="rotate(300 202.5 194.7)"/>
+   <use xlink:href="#beam2" transform="rotate(320 202.5 194.7)"/>
+   <use xlink:href="#beam2" transform="rotate(340 202.5 194.7)"/>
+   <animate dur="2812ms" attributeName="visibility" values="hidden; hidden; hidden; hidden; hidden; hidden; visible" repeatCount="1" fill="freeze" begin="0ms"/>
+  </g>
+ </g>
+ <animate dur="750ms" id="CONCLUSION" attributeName="stroke-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="3750ms"/>
+ <animate dur="750ms" attributeName="fill-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="CONCLUSION.begin"/>
+</svg>

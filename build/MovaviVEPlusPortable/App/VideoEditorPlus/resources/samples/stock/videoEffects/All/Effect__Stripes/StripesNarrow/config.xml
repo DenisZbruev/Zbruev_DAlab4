@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="23612" type="Predeclarator">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data objectId="23614" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="23610"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="23616" type="Predeclare">
+                    <typeName type="String" value="Effect::Stripes"/>
+                    <oid type="ObjectRef" value="23609"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="23610" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{15b5f431-b165-46a8-9ac0-70fe3b7bee4d}"/>
+        <item type="ObjectRef" value="23609"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_artistic"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject objectId="23609" type="Effect::Stripes">
+        <BaseOfObject objectId="23609" type="Effect::VideoEffect">
+            <BaseOfObject objectId="23609" type="Effect::Object">
+                <id type="String" value="4ddc3604-027d-433b-9837-1c4870fb32e0"/>
+                <tag type="String" value="StripesNarrow"/>
+                <uniqueId type="String" value="4ddc3604-027d-433b-9837-1c4870fb32e0"/>
+                <description type="String" value="Desc StripesNarrow"/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <count type="int32_t" value="64"/>
+        <deep binaryData="P+/3ztkWhys=" type="double" value="0.999"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="23610"/>
+</Archive>

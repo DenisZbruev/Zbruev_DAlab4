@@ -1,0 +1,159 @@
+<svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 370" fill="#ffffff">
+ <defs>
+  <path id="top_frame" transform="translate(10 10)" stroke-linecap="butt" fill="none" stroke-width="3" d="M 0,125 0,25, 80,25 Q 132 -20 185 25 L 265,25 265,125"/>
+  <path id="mid_frame" transform="translate(10 10)" stroke-linecap="butt" fill="none" stroke-width="1" d="M 3,125 3,28, 82,28 Q 132 -16 183 28 L 262,28 262,125"/>
+  <path id="bot_frame" stroke-dasharray="6.5,5" transform="translate(10 10)" stroke-linecap="butt" fill="none" stroke-width="1" d="M 6,125 6,31, 83,31 Q 132 -14 182 31 L 259,31 259,125"/>
+ </defs>
+ <defs>
+  <path id="top_frame_part1" transform="translate(10 10)" stroke-linecap="butt" fill="none" stroke-width="3" d="M 185,25 Q 132 -20 80,25 L 0,25 0,125"/>
+  <path id="mid_frame_part1" transform="translate(10 10)" stroke-linecap="butt" fill="none" stroke-width="1" d="M 183,28 Q 132 -16  82,28 L 3,28, 3,125"/>
+  <path id="top_frame_part2" transform="translate(10 10)" stroke-linecap="butt" fill="none" stroke-width="3" d="M 265,125 265,25 184,25"/>
+  <path id="mid_frame_part2" transform="translate(10 10)" stroke-linecap="butt" fill="none" stroke-width="1" d="M 262,125 262,28 183,28"/>
+ </defs>
+ <defs>
+  <path id="top_circle" transform="translate(10 10)" stroke-linecap="butt" fill="none" stroke-width="1" d="M 33,140 a 105,105 0 0,1 199,0"/>
+  <path id="bot_circle" transform="translate(10 10)" stroke-linecap="butt" fill="none" stroke-width="1" d="M 46,140 a 93,93 0 0,1 173,0"/>
+  <path id="mid_circle" stroke-dasharray="1,20" transform="translate(10 10)" stroke-linecap="round" fill="none" stroke-width="4" d="M 39,140 a 100.1,100.1 0 0,1 187,0"/>
+ </defs>
+ <defs>
+  <path id="shit" transform="translate(10 10)" fill="#FFFFFF" stroke-width="1" d="M 125,111 132,109 139,111 137,118 132,124 127,119 z"/>
+ </defs>
+ <defs>
+  <g id="ppc_circle" transform="translate(10 10) rotate(90 132 175)" stroke-opacity="0.3" fill="none">
+   <line y1="230.15" y2="119.85" x2="76.85 " x1="187.15"/>
+   <line y1="228.12" y2="117.88" x2="78.88 " x1="189.12"/>
+   <line y1="226.01" y2="115.99" x2="80.99 " x1="191.01"/>
+   <line y1="223.83" y2="114.17" x2="83.17 " x1="192.83"/>
+   <line y1="221.57" y2="112.43" x2="85.43 " x1="194.57"/>
+   <line y1="219.24" y2="110.76" x2="87.76 " x1="196.24"/>
+   <line y1="216.83" y2="109.17" x2="90.17 " x1="197.83"/>
+   <line y1="214.35" y2="107.65" x2="92.65 " x1="199.35"/>
+   <line y1="211.78" y2="106.22" x2="95.22 " x1="200.78"/>
+   <line y1="209.13" y2="104.87" x2="97.87 " x1="202.13"/>
+   <line y1="206.4 " y2="103.6" x2="100.6 " x1="203.4 "/>
+   <line y1="203.58" y2="102.42" x2="103.42" x1="204.58"/>
+   <line y1="200.66" y2="101.34" x2="106.34" x1="205.66"/>
+   <line y1="197.64" y2="100.36" x2="109.36" x1="206.64"/>
+   <line y1="194.52" y2="99.48" x2="112.48" x1="207.52"/>
+   <line y1="191.28" y2="98.72" x2="115.72" x1="208.28"/>
+   <line y1="187.92" y2="98.08" x2="119.08" x1="208.92"/>
+   <line y1="184.43" y2="97.57" x2="122.57" x1="209.43"/>
+   <line y1="180.79" y2="97.21" x2="126.21" x1="209.79"/>
+   <line y1="176.97" y2="97.03" x2="130.03" x1="209.97"/>
+   <line y1="172.97" y2="97.03" x2="134.03" x1="209.97"/>
+   <line y1="168.75" y2="97.25" x2="138.25" x1="209.75"/>
+   <line y1="164.26" y2="97.74" x2="142.74" x1="209.26"/>
+   <line y1="159.43" y2="98.57" x2="147.57" x1="208.43"/>
+   <line y1="154.17" y2="99.83" x2="152.83" x1="207.17"/>
+   <line y1="148.28" y2="101.72" x2="158.72" x1="205.28"/>
+   <line y1="141.38" y2="104.62" x2="165.62" x1="202.38"/>
+   <line y1="132.22" y2="109.78" x2="174.78" x1="197.22"/>
+   <line y1="232.12" y2="121.88" x2="74.88" x1="185.12"/>
+   <line y1="234.01" y2="123.99" x2="72.99" x1="183.01"/>
+   <line y1="235.83" y2="126.17" x2="71.17" x1="180.83"/>
+   <line y1="237.57" y2="128.43" x2="69.43" x1="178.57"/>
+   <line y1="239.24" y2="130.76" x2="67.76" x1="176.24"/>
+   <line y1="240.83" y2="133.17" x2="66.17" x1="173.83"/>
+   <line y1="242.35" y2="135.65" x2="64.65" x1="171.35"/>
+   <line y1="243.78" y2="138.22" x2="63.22" x1="168.78"/>
+   <line y1="245.13" y2="140.87" x2="61.87" x1="166.13"/>
+   <line y1="246.4 " y2="143.6" x2="60.6 " x1="163.4 "/>
+   <line y1="247.58" y2="146.42" x2="59.42" x1="160.58"/>
+   <line y1="248.66" y2="149.34" x2="58.34" x1="157.66"/>
+   <line y1="249.64" y2="152.36" x2="57.36" x1="154.64"/>
+   <line y1="250.52" y2="155.48" x2="56.48" x1="151.52"/>
+   <line y1="251.28" y2="158.72" x2="55.72" x1="148.28"/>
+   <line y1="251.92" y2="162.08" x2="55.08" x1="144.92"/>
+   <line y1="252.43" y2="165.57" x2="54.57" x1="141.43"/>
+   <line y1="252.79" y2="169.21" x2="54.21" x1="137.79"/>
+   <line y1="252.97" y2="173.03" x2="54.03" x1="133.97"/>
+   <line y1="252.97" y2="177.03" x2="54.03" x1="129.97"/>
+   <line y1="252.75" y2="181.25" x2="54.25" x1="125.75"/>
+   <line y1="252.26" y2="185.74" x2="54.74" x1="121.26"/>
+   <line y1="251.43" y2="190.57" x2="55.57" x1="116.43"/>
+   <line y1="250.17" y2="195.83" x2="56.83" x1="111.17"/>
+   <line y1="248.28" y2="201.72" x2="58.72" x1="105.28"/>
+   <line y1="245.38" y2="208.62" x2="61.62" x1="98.38 "/>
+   <line y1="240.22" y2="217.78" x2="66.78" x1="89.22 "/>
+  </g>
+ </defs>
+ <g>
+  <use xlink:href="#top_frame_part1" stroke-width="4">
+   <animate dur="900ms" id="top_frame_part1_appear" attributeName="stroke-dasharray" to="400 400" repeatCount="1" from="0 400" fill="freeze" begin="0ms"/>
+  </use>
+  <use xlink:href="#mid_frame_part1" visibility="hidden">
+   <animate dur="900ms" id="mid_frame_part1_appear" attributeName="stroke-dasharray" to="400 400" repeatCount="1" from="0 400" fill="freeze" begin="300ms"/>
+   <animate dur="900ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="mid_frame_part1_appear.begin"/>
+  </use>
+  <use xlink:href="#top_frame_part2" visibility="hidden">
+   <animate dur="450ms" id="top_frame_part2_appear" attributeName="stroke-dasharray" to="200 200" repeatCount="1" from="0 200" fill="freeze" begin="top_frame_appear.end"/>
+   <animate dur="450ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="top_frame_part2_appear.begin"/>
+  </use>
+  <use xlink:href="#mid_frame_part2" visibility="hidden">
+   <animate dur="450ms" id="mid_frame_part2_appear" attributeName="stroke-dasharray" to="200 200" repeatCount="1" from="0 200" fill="freeze" begin="mid_frame_appear.end"/>
+   <animate dur="450ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="mid_frame_part2_appear.begin"/>
+  </use>
+ </g>
+ <g transform="scale(1 -1) translate(0 -370)">
+  <use xlink:href="#top_frame" visibility="hidden">
+   <animate dur="450ms" id="top_frame_appear" attributeName="stroke-dasharray" to="500 500" repeatCount="1" from="0 500" fill="freeze" begin="top_frame_part1_appear.end"/>
+   <animate dur="900ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="top_frame_appear.begin"/>
+  </use>
+  <use xlink:href="#mid_frame" visibility="hidden">
+   <animate dur="450ms" id="mid_frame_appear" attributeName="stroke-dasharray" to="500 500" repeatCount="1" from="0 500" fill="freeze" begin="mid_frame_part1_appear.end"/>
+   <animate dur="900ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="mid_frame_appear.begin"/>
+  </use>
+ </g>
+ <g>
+  <use xlink:href="#mid_circle" visibility="hidden" stroke-width="4">
+   <animate dur="150ms" id="mid_circle_appear" attributeName="opacity" to="1.0" repeatCount="1" from="0.0" fill="freeze" begin="top_frame_appear.end"/>
+   <animate dur="150ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="mid_circle_appear.begin"/>
+  </use>
+  <use xlink:href="#shit" visibility="hidden">
+   <animate dur="400ms" id="shit_appear" attributeName="opacity" to="1.0" repeatCount="1" from="0.0" fill="freeze" begin="mid_frame_appear.begin"/>
+   <animate dur="400ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="shit_appear.begin"/>
+  </use>
+  <use xlink:href="#mid_circle" visibility="hidden" transform="scale(1 -1) translate(0 -370)">
+   <animate dur="150ms" attributeName="opacity" to="1.0" repeatCount="1" from="0.0" fill="freeze" begin="top_frame_appear.end"/>
+   <animate dur="150ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="mid_circle_appear.begin"/>
+  </use>
+  <use xlink:href="#shit" visibility="hidden" transform="scale(1 -1) translate(0 -370)">
+   <animate dur="400ms" attributeName="opacity" to="1.0" repeatCount="1" from="0.0" fill="freeze" begin="mid_frame_appear.begin"/>
+   <animate dur="4000ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="shit_appear.begin"/>
+  </use>
+ </g>
+ <g>
+  <use xlink:href="#top_circle" visibility="hidden" transform="scale(-1 1) translate(-285 0)">
+   <animate dur="266ms" id="top_circle_appear_part1" attributeName="stroke-dasharray" to="150 300" repeatCount="1" from="0 300" fill="freeze" begin="shit_appear.end"/>
+   <animate dur="134ms" id="top_circle_appear_part2" attributeName="stroke-dasharray" to="300 300" repeatCount="1" from="150 300" fill="freeze" begin="top_circle_appear_part1.end"/>
+   <animate dur="400ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="top_circle_appear_part1.begin"/>
+  </use>
+  <use xlink:href="#bot_circle" visibility="hidden" transform="scale(-1 1) translate(-285 0)">
+   <animate dur="400ms" id="bot_circle_appear" attributeName="stroke-dasharray" to="250 250" repeatCount="1" from="0 250" fill="freeze" begin="top_circle_appear_part2.end"/>
+   <animate dur="400ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="bot_circle_appear.begin"/>
+  </use>
+  <use xlink:href="#top_circle" visibility="hidden" transform="scale(1 -1) translate(0 -370)">
+   <animate dur="450ms" id="top_circle_appear_back" attributeName="stroke-dasharray" to="300 300" repeatCount="1" from="0 300" fill="freeze" begin="top_circle_appear_part2.end"/>
+   <animate dur="400ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="top_circle_appear_back.begin"/>
+  </use>
+  <use xlink:href="#bot_circle" visibility="hidden" transform="scale(1 -1) translate(0 -370)">
+   <animate dur="266ms" id="bot_circle_appear_part1" attributeName="stroke-dasharray" to="150 300" repeatCount="1" from="0 300" fill="freeze" begin="bot_circle_appear.end"/>
+   <animate dur="134ms" id="bot_circle_appear_part2" attributeName="stroke-dasharray" to="300 300" repeatCount="1" from="150 300" fill="freeze" begin="bot_circle_appear_part1.end"/>
+   <animate dur="400ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="bot_circle_appear_part1.begin"/>
+  </use>
+ </g>
+ <g>
+  <use xlink:href="#ppc_circle" visibility="hidden">
+   <animate dur="500ms" attributeName="opacity" to="0.5" repeatCount="1" from="0.0" fill="freeze" begin="bot_circle_appear_part1.end"/>
+   <animate dur="500ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="bot_circle_appear_part1.end"/>
+  </use>
+  <use xlink:href="#bot_frame" visibility="hidden">
+   <animate dur="400ms" attributeName="opacity" to="1.0" repeatCount="1" from="0.0" fill="freeze" begin="bot_circle_appear_part1.end"/>
+   <animate dur="400ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="bot_circle_appear_part1.end"/>
+  </use>
+  <use xlink:href="#bot_frame" visibility="hidden" transform="scale(1 -1) translate(0 -370)">
+   <animate dur="400ms" attributeName="opacity" to="1.0" repeatCount="1" from="0.0" fill="freeze" begin="bot_circle_appear_part1.end"/>
+   <animate dur="400ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="bot_circle_appear_part1.end"/>
+  </use>
+ </g>
+</svg>

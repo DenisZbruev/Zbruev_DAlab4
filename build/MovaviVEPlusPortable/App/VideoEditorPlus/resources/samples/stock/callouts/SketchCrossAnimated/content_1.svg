@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 420 240" fill="#FF0000" stroke="#FF0000" stroke-width="0" stroke-opacity="1.0" fill-opacity="1.0" >
+
+	<path>
+		<animate id="endOfStroke2" attributeName="d" begin="1ms" dur="1000ms" fill="freeze" repeatCount="1" values="
+			M31,17		L31,17			A5,5 0 0 1 23,30			L23,30			A5,5 0 0 1 31,17		Z;
+			M31,17		L394,212		A5,5 0 0 1 384,225			L23,30			A5,5 0 0 1 31,17		Z
+			" />
+	</path>
+	
+	<path transform="scale(-1,1) translate(-420,0)" >
+		<animate id="endOfStroke2" attributeName="d" begin="1000ms" dur="1000ms" fill="freeze" repeatCount="1" values="
+			M31,17		L31,17			A5,5 0 0 1 23,30			L23,30			A5,5 0 0 1 31,17		Z;
+			M31,17		L394,212		A5,5 0 0 1 384,225			L23,30			A5,5 0 0 1 31,17		Z
+			" />
+	</path>
+
+</svg>

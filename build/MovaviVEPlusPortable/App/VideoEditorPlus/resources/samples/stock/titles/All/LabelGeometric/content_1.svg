@@ -1,0 +1,27 @@
+<svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 330" fill="#ffffff">
+ <defs>
+  <path stroke="#1E1E1C" id="zigzag" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="1.5" d="M 67,160 L 94,180 L 121,160 L 148,180 L 175,160 L 202,180 L 229,160"/>
+ </defs>
+ <polygon stroke="#1E1E1C" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="4">
+  <animate dur="1000ms" id="outer_bound" attributeName="points" to="145,13  279,89  279,243  145,319  13,243  13,89" repeatCount="1" from="145,166  145,166  145,166  145,166  145,166  145,166" fill="freeze" begin="0ms"/>
+ </polygon>
+ <polygon stroke="#1E1E1C" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="1.5">
+  <animate dur="1000ms" id="inner_bound" attributeName="points" to="145,21  270,93  270,238  145,309  20,238  20,93" repeatCount="1" from="145,166  145,166  145,166  145,166  145,166  145,166" fill="freeze" begin="outer_bound.end"/>
+ </polygon>
+ <path stroke="#1E1E1C" stroke-opacity="0" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="1.5" d="M 67,160 L 94,180 L 121,160 L 148,180 L 175,160 L 202,180 L 229,160">
+  <animate dur="500ms" id="zigzag_appear" attributeName="stroke-opacity" to="1" repeatCount="1" from="0" begin="inner_bound.end"/>
+ </path>
+ <g visibility="hidden">
+  <g>
+   <use xlink:href="#zigzag"/>
+   <animate dur="1000ms" id="zigzag_move" attributeName="transform" to="translate(0 10)" additive="replace" from="translate(0 0)" repeatCount="1" fill="freeze" begin="zigzag_appear.end"/>
+  </g>
+  <g>
+   <use xlink:href="#zigzag"/>
+   <animate dur="1000ms" attributeName="transform" to="translate(0 -10)" additive="replace" from="translate(0 0)" repeatCount="1" fill="freeze" begin="zigzag_appear.end"/>
+  </g>
+  <animate dur="1000ms" id="zigzag_lower_move" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="zigzag_appear.end"/>
+ </g>
+ <animate dur="1000ms" id="CONCLUSION" attributeName="stroke-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="zigzag_move.end"/>
+ <animate dur="1000ms" attributeName="fill-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="CONCLUSION.begin"/>
+</svg>

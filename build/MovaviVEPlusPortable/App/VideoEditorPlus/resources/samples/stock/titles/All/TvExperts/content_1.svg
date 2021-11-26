@@ -1,0 +1,18 @@
+<svg stroke="#ff0000" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 150" fill="#ff0000">
+ <defs>
+  <linearGradient id="gradient_solid_white_retain">
+   <stop stop-opacity="1" id="stop8400" stop-color="#ffffff" offset="0"/>
+   <stop stop-opacity="1" id="stop8402" stop-color="#ffffff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect x="10" stroke="#000" y="10" height="40" fill="#f00" width="940">
+  <animate dur="1000ms" id="box_appear" attributeName="stroke-opacity" to="1" from="0" repeatCount="1" begin="0ms"/>
+  <animate dur="1000ms" attributeName="fill-opacity" to="1" from="0" repeatCount="1" begin="0ms"/>
+ </rect>
+ <rect x="10" stroke="#000" y="50" height="90" fill="url(#gradient_solid_white_retain)" width="940">
+  <animate dur="1000ms" id="box_appear2" attributeName="stroke-opacity" to="1" from="0" repeatCount="1" begin="0ms"/>
+  <animate dur="1000ms" attributeName="fill-opacity" to="1" from="0" repeatCount="1" begin="0ms"/>
+ </rect>
+ <animate dur="1000ms" id="CONCLUSION" attributeName="stroke-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="box_appear.end"/>
+ <animate dur="1000ms" attributeName="fill-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="CONCLUSION.begin"/>
+</svg>

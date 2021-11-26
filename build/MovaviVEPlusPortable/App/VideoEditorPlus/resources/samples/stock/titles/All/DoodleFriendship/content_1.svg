@@ -1,0 +1,65 @@
+<svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 180" fill="#ffffff" stroke-width="2">
+ <defs>
+  <line visibility="hidden" id="long_line" y1="90" y2="90" x2="405" x1="14">
+   <animate dur="500ms" attributeName="y1" id="long_line_move" to="51" from="90" repeatCount="1" fill="freeze" begin="long_line_expand.end"/>
+   <animate dur="500ms" attributeName="y2" to="51" from="90" repeatCount="1" fill="freeze" begin="long_line_expand.end"/>
+   <animate dur="500ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="long_line_expand.end"/>
+  </line>
+  <line stroke="#111" visibility="hidden" id="medium_line" y1="51" y2="51" x2="308" x1="109">
+   <animate dur="500ms" attributeName="y1" id="medium_line_move" to="43" from="51" repeatCount="1" fill="freeze" begin="last_feather_grow.end"/>
+   <animate dur="500ms" attributeName="y2" to="43" from="51" repeatCount="1" fill="freeze" begin="last_feather_grow.end"/>
+   <animate dur="500ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="last_feather_grow.end"/>
+  </line>
+  <line stroke="#111" visibility="hidden" id="short_line" y1="43" y2="43" x2="281" x1="136">
+   <animate dur="500ms" attributeName="y1" id="short_line_move" to="35" from="43" repeatCount="1" fill="freeze" begin="medium_line_move.end"/>
+   <animate dur="500ms" attributeName="y2" to="35" from="43" repeatCount="1" fill="freeze" begin="medium_line_move.end"/>
+   <animate dur="500ms" attributeName="visibility" values="visible" repeatCount="1" fill="freeze" begin="medium_line_move.end"/>
+  </line>
+  <line id="feather_grow1" y1="0" y2="0" x2="0" x1="0">
+   <animate dur="500ms" attributeName="y2" to="-11" from="0" repeatCount="1" fill="freeze" begin="long_line_move.end"/>
+  </line>
+  <line id="feather_grow2" y1="0" y2="0" x2="0" x1="0">
+   <animate dur="500ms" attributeName="y2" to="-11" from="0" repeatCount="1" fill="freeze" begin="long_line_move.end+250ms"/>
+  </line>
+  <line id="feather_grow3" y1="0" y2="0" x2="0" x1="0">
+   <animate dur="500ms" id="last_feather_grow" attributeName="y2" to="-11" from="0" repeatCount="1" fill="freeze" begin="long_line_move.end+500ms"/>
+  </line>
+  <g id="feather_set_grow">
+   <use xlink:href="#feather_grow1" transform="translate(12, 0) skewX(30)"/>
+   <use xlink:href="#feather_grow1" transform="rotate(180 12 0) translate(12, 0) skewX(150) "/>
+   <use xlink:href="#feather_grow2" transform="translate(6, 0) skewX(30)"/>
+   <use xlink:href="#feather_grow2" transform="rotate(180 6 0) translate(6, 0) skewX(150) "/>
+   <use xlink:href="#feather_grow3" transform="translate(0, 0) skewX(30)"/>
+   <use xlink:href="#feather_grow3" transform="rotate(180 0 0) translate(0, 0) skewX(150) "/>
+  </g>
+  <path id="cross" stroke-opacity="0" fill="none" d="M 0,0 L 15,15 M 15,0 L 0,15">
+   <animate dur="500ms" id="cross_appear" attributeName="stroke-opacity" to="1" repeatCount="1" from="0" fill="freeze" begin="triangle_appear.end"/>
+   <animate dur="1000ms" attributeName="stroke-opacity" to="0" repeatCount="1" from="1" fill="freeze" begin="CONCLUSION.begin"/>
+  </path>
+  <polygon points="200,28 219,28 209.5,11" id="triangle" stroke-opacity="0" fill="none">
+   <animate dur="500ms" id="triangle_appear" attributeName="stroke-opacity" to="1" repeatCount="1" from="0" fill="freeze" begin="short_line_move.end"/>
+   <animate dur="1000ms" attributeName="stroke-opacity" to="0" repeatCount="1" from="1" fill="freeze" begin="CONCLUSION.begin"/>
+  </polygon>
+  <g id="lines_and_figures">
+   <use xlink:href="#medium_line"/>
+   <use xlink:href="#short_line"/>
+   <use xlink:href="#triangle"/>
+   <use x="161" xlink:href="#cross" y="13"/>
+   <use x="242" xlink:href="#cross" y="13"/>
+  </g>
+ </defs>
+ <line id="expanding_long_line" y1="90" y2="90" x2="210" x1="210">
+  <animate dur="500ms" attributeName="x1" id="long_line_expand" to="14" from="210" repeatCount="1" begin="0ms"/>
+  <animate dur="500ms" attributeName="x2" to="405" from="210" repeatCount="1" begin="0ms"/>
+ </line>
+ <use xlink:href="#long_line"/>
+ <use xlink:href="#long_line" transform="rotate(180 209.5 90)"/>
+ <use x="16" xlink:href="#feather_set_grow" y="51"/>
+ <use x="16" xlink:href="#feather_set_grow" y="129"/>
+ <use x="16" xlink:href="#feather_set_grow" y="51" transform="rotate(180 209.5 51)"/>
+ <use x="16" xlink:href="#feather_set_grow" y="129" transform="rotate(180 209.5 129)"/>
+ <use xlink:href="#lines_and_figures"/>
+ <use xlink:href="#lines_and_figures" transform="rotate(180 209.5 90)"/>
+ <animate dur="1000ms" id="CONCLUSION" attributeName="stroke-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="cross_appear.end"/>
+ <animate dur="1000ms" attributeName="fill-opacity" to="0" from="1" repeatCount="1" fill="freeze" begin="CONCLUSION.begin"/>
+</svg>

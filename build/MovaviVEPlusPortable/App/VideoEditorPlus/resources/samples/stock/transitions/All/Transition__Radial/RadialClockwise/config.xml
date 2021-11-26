@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="12758" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="12760" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Transition::Object"/>
+                    <oid type="ObjectRef" value="12756"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="12762" type="Predeclare">
+                    <typeName type="String" value="Transition::Radial"/>
+                    <oid type="ObjectRef" value="12755"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="12756" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId type="String" value="{23fe8c77-6355-4464-9367-3f7dccc1a452}"/>
+        <item type="ObjectRef" value="12755"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_featured"/>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="String" value="category_geometric"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Transitions"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="12755" type="Transition::Radial">
+        <BaseOfObject objectId="12755" type="Transition::Object">
+            <id type="String" value="b95596a6-823c-4810-ac9a-8865952a21df"/>
+            <tag type="String" value="RadialClockwise"/>
+            <description type="String" value="Desc RadialClockwise"/>
+            <strategy type="int32_t" value="0"/>
+            <type type="int32_t" value="0"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <direction type="int32_t" value="0"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="12756"/>
+</Archive>

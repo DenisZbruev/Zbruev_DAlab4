@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 110 180" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" stroke-opacity="1.0" fill-opacity="1.0" >
+
+	<g transform="translate(-50,-15)">
+		<circle cx="100" cy="174" r="16" />
+	</g>
+	
+	<g transform="translate(-137,-170)">
+		<path d="	M145,200
+					C163,170 250,171 238,239
+					C232,270 196,271 201,306
+					L167,306
+					C155,269 197,254 201,238
+					C211,199 161,206 145,232
+					Z" />
+	</g>
+
+</svg>
